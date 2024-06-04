@@ -1,0 +1,14 @@
+C:\Users\PERCOIDITT\source\repos\FIrstDay\StaticMethods&Variables\bin\Debug\net6.0\StaticMethods&Variables.exe
+C:\Users\PERCOIDITT\source\repos\FIrstDay\StaticMethods&Variables\bin\Debug\net6.0\StaticMethods&Variables.deps.json
+C:\Users\PERCOIDITT\source\repos\FIrstDay\StaticMethods&Variables\bin\Debug\net6.0\StaticMethods&Variables.runtimeconfig.json
+C:\Users\PERCOIDITT\source\repos\FIrstDay\StaticMethods&Variables\bin\Debug\net6.0\StaticMethods&Variables.dll
+C:\Users\PERCOIDITT\source\repos\FIrstDay\StaticMethods&Variables\bin\Debug\net6.0\StaticMethods&Variables.pdb
+C:\Users\PERCOIDITT\source\repos\FIrstDay\StaticMethods&Variables\obj\Debug\net6.0\StaticMethods&Variables.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PERCOIDITT\source\repos\FIrstDay\StaticMethods&Variables\obj\Debug\net6.0\StaticMethods&Variables.AssemblyInfoInputs.cache
+C:\Users\PERCOIDITT\source\repos\FIrstDay\StaticMethods&Variables\obj\Debug\net6.0\StaticMethods&Variables.AssemblyInfo.cs
+C:\Users\PERCOIDITT\source\repos\FIrstDay\StaticMethods&Variables\obj\Debug\net6.0\StaticMethods&Variables.csproj.CoreCompileInputs.cache
+C:\Users\PERCOIDITT\source\repos\FIrstDay\StaticMethods&Variables\obj\Debug\net6.0\StaticMethods&Variables.dll
+C:\Users\PERCOIDITT\source\repos\FIrstDay\StaticMethods&Variables\obj\Debug\net6.0\refint\StaticMethods&Variables.dll
+C:\Users\PERCOIDITT\source\repos\FIrstDay\StaticMethods&Variables\obj\Debug\net6.0\StaticMethods&Variables.pdb
+C:\Users\PERCOIDITT\source\repos\FIrstDay\StaticMethods&Variables\obj\Debug\net6.0\StaticMethods&Variables.genruntimeconfig.cache
+C:\Users\PERCOIDITT\source\repos\FIrstDay\StaticMethods&Variables\obj\Debug\net6.0\ref\StaticMethods&Variables.dll

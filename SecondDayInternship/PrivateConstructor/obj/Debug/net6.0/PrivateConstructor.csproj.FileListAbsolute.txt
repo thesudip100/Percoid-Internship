@@ -1,0 +1,14 @@
+C:\Users\PERCOIDITT\source\repos\FIrstDay\PrivateConstructor\bin\Debug\net6.0\PrivateConstructor.exe
+C:\Users\PERCOIDITT\source\repos\FIrstDay\PrivateConstructor\bin\Debug\net6.0\PrivateConstructor.deps.json
+C:\Users\PERCOIDITT\source\repos\FIrstDay\PrivateConstructor\bin\Debug\net6.0\PrivateConstructor.runtimeconfig.json
+C:\Users\PERCOIDITT\source\repos\FIrstDay\PrivateConstructor\bin\Debug\net6.0\PrivateConstructor.dll
+C:\Users\PERCOIDITT\source\repos\FIrstDay\PrivateConstructor\bin\Debug\net6.0\PrivateConstructor.pdb
+C:\Users\PERCOIDITT\source\repos\FIrstDay\PrivateConstructor\obj\Debug\net6.0\PrivateConstructor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PERCOIDITT\source\repos\FIrstDay\PrivateConstructor\obj\Debug\net6.0\PrivateConstructor.AssemblyInfoInputs.cache
+C:\Users\PERCOIDITT\source\repos\FIrstDay\PrivateConstructor\obj\Debug\net6.0\PrivateConstructor.AssemblyInfo.cs
+C:\Users\PERCOIDITT\source\repos\FIrstDay\PrivateConstructor\obj\Debug\net6.0\PrivateConstructor.csproj.CoreCompileInputs.cache
+C:\Users\PERCOIDITT\source\repos\FIrstDay\PrivateConstructor\obj\Debug\net6.0\PrivateConstructor.dll
+C:\Users\PERCOIDITT\source\repos\FIrstDay\PrivateConstructor\obj\Debug\net6.0\refint\PrivateConstructor.dll
+C:\Users\PERCOIDITT\source\repos\FIrstDay\PrivateConstructor\obj\Debug\net6.0\PrivateConstructor.pdb
+C:\Users\PERCOIDITT\source\repos\FIrstDay\PrivateConstructor\obj\Debug\net6.0\PrivateConstructor.genruntimeconfig.cache
+C:\Users\PERCOIDITT\source\repos\FIrstDay\PrivateConstructor\obj\Debug\net6.0\ref\PrivateConstructor.dll

@@ -1,0 +1,14 @@
+C:\Users\PERCOIDITT\source\repos\FIrstDay\FIrstDay\obj\Debug\net6.0\FIrstDay.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PERCOIDITT\source\repos\FIrstDay\FIrstDay\obj\Debug\net6.0\FIrstDay.AssemblyInfoInputs.cache
+C:\Users\PERCOIDITT\source\repos\FIrstDay\FIrstDay\obj\Debug\net6.0\FIrstDay.AssemblyInfo.cs
+C:\Users\PERCOIDITT\source\repos\FIrstDay\FIrstDay\obj\Debug\net6.0\FIrstDay.csproj.CoreCompileInputs.cache
+C:\Users\PERCOIDITT\source\repos\FIrstDay\FIrstDay\bin\Debug\net6.0\FIrstDay.exe
+C:\Users\PERCOIDITT\source\repos\FIrstDay\FIrstDay\bin\Debug\net6.0\FIrstDay.deps.json
+C:\Users\PERCOIDITT\source\repos\FIrstDay\FIrstDay\bin\Debug\net6.0\FIrstDay.runtimeconfig.json
+C:\Users\PERCOIDITT\source\repos\FIrstDay\FIrstDay\bin\Debug\net6.0\FIrstDay.dll
+C:\Users\PERCOIDITT\source\repos\FIrstDay\FIrstDay\bin\Debug\net6.0\FIrstDay.pdb
+C:\Users\PERCOIDITT\source\repos\FIrstDay\FIrstDay\obj\Debug\net6.0\FIrstDay.dll
+C:\Users\PERCOIDITT\source\repos\FIrstDay\FIrstDay\obj\Debug\net6.0\refint\FIrstDay.dll
+C:\Users\PERCOIDITT\source\repos\FIrstDay\FIrstDay\obj\Debug\net6.0\FIrstDay.pdb
+C:\Users\PERCOIDITT\source\repos\FIrstDay\FIrstDay\obj\Debug\net6.0\FIrstDay.genruntimeconfig.cache
+C:\Users\PERCOIDITT\source\repos\FIrstDay\FIrstDay\obj\Debug\net6.0\ref\FIrstDay.dll
