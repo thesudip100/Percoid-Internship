@@ -3,7 +3,7 @@
 }
 
 <h2>Add Employee</h2>
-<form method="post" action="Add" class="mt-5">
+@* <form method="post" action="Add" class="mt-5">
     <div class="mb-3">
         <label for="" class="form-label">Name</label>
         <input type="text" class="form-control" asp-for="Name">
@@ -25,6 +25,22 @@
         <label for="" class="form-label">Department</label>
         <input type="text" class="form-control" asp-for="Department">
     </div>
-  
+
     <button type="submit" class="btn btn-primary">Submit</button>
+</form> *@
+
+
+<form method="post" action="Add" class="mt-5">
+    <!--basic info-->
+    <fieldset class="width">
+        <label> Name <input class="width" type="text" placeholder="Enter your name" asp-for="Name" required></label>
+        <label>Email <input class="width" type="email" placeholder="example@gmail.com" asp-for="Email" required></label>
+        <label>Salary <input class="width" type="number" placeholder="Salary" asp-for="Salary" required></label>
+        <label>Date Of Birth <input class="width" type="date"  asp-for="DateofBirth" required></label>
+        <label>Department <input class="width" type="text" placeholder="Department" asp-for="Department" required></label>
+    </fieldset>
+
+    <button id="submit" type="submit" class="width" />Submit</button>
 </form>
+
+<link rel="stylesheet" href="~/css/form.css" asp-append-version="true" />

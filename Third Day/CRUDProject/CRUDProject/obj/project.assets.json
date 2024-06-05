@@ -2017,11 +2017,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PERCOIDITT\\source\\repos\\CRUDProject\\CRUDProject\\CRUDProject.csproj",
+      "projectUniqueName": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Third Day\\CRUDProject\\CRUDProject\\CRUDProject.csproj",
       "projectName": "CRUDProject",
-      "projectPath": "C:\\Users\\PERCOIDITT\\source\\repos\\CRUDProject\\CRUDProject\\CRUDProject.csproj",
+      "projectPath": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Third Day\\CRUDProject\\CRUDProject\\CRUDProject.csproj",
       "packagesPath": "C:\\Users\\PERCOIDITT\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PERCOIDITT\\source\\repos\\CRUDProject\\CRUDProject\\obj\\",
+      "outputPath": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Third Day\\CRUDProject\\CRUDProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
