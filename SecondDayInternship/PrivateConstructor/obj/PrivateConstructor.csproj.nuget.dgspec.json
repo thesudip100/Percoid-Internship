@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PERCOIDITT\\source\\repos\\FIrstDay\\PrivateConstructor\\PrivateConstructor.csproj": {}
+    "C:\\Users\\PERCOIDITT\\source\\repos\\FIrstDay\\SecondDayInternship\\PrivateConstructor\\PrivateConstructor.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PERCOIDITT\\source\\repos\\FIrstDay\\PrivateConstructor\\PrivateConstructor.csproj": {
+    "C:\\Users\\PERCOIDITT\\source\\repos\\FIrstDay\\SecondDayInternship\\PrivateConstructor\\PrivateConstructor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PERCOIDITT\\source\\repos\\FIrstDay\\PrivateConstructor\\PrivateConstructor.csproj",
+        "projectUniqueName": "C:\\Users\\PERCOIDITT\\source\\repos\\FIrstDay\\SecondDayInternship\\PrivateConstructor\\PrivateConstructor.csproj",
         "projectName": "PrivateConstructor",
-        "projectPath": "C:\\Users\\PERCOIDITT\\source\\repos\\FIrstDay\\PrivateConstructor\\PrivateConstructor.csproj",
+        "projectPath": "C:\\Users\\PERCOIDITT\\source\\repos\\FIrstDay\\SecondDayInternship\\PrivateConstructor\\PrivateConstructor.csproj",
         "packagesPath": "C:\\Users\\PERCOIDITT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PERCOIDITT\\source\\repos\\FIrstDay\\PrivateConstructor\\obj\\",
+        "outputPath": "C:\\Users\\PERCOIDITT\\source\\repos\\FIrstDay\\SecondDayInternship\\PrivateConstructor\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

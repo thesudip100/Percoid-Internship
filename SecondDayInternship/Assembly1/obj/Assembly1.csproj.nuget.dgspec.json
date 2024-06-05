@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PERCOIDITT\\source\\repos\\FIrstDay\\Assembly1\\Assembly1.csproj": {}
+    "C:\\Users\\PERCOIDITT\\source\\repos\\FIrstDay\\SecondDayInternship\\Assembly1\\Assembly1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PERCOIDITT\\source\\repos\\FIrstDay\\Assembly1\\Assembly1.csproj": {
+    "C:\\Users\\PERCOIDITT\\source\\repos\\FIrstDay\\SecondDayInternship\\Assembly1\\Assembly1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PERCOIDITT\\source\\repos\\FIrstDay\\Assembly1\\Assembly1.csproj",
+        "projectUniqueName": "C:\\Users\\PERCOIDITT\\source\\repos\\FIrstDay\\SecondDayInternship\\Assembly1\\Assembly1.csproj",
         "projectName": "Assembly1",
-        "projectPath": "C:\\Users\\PERCOIDITT\\source\\repos\\FIrstDay\\Assembly1\\Assembly1.csproj",
+        "projectPath": "C:\\Users\\PERCOIDITT\\source\\repos\\FIrstDay\\SecondDayInternship\\Assembly1\\Assembly1.csproj",
         "packagesPath": "C:\\Users\\PERCOIDITT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PERCOIDITT\\source\\repos\\FIrstDay\\Assembly1\\obj\\",
+        "outputPath": "C:\\Users\\PERCOIDITT\\source\\repos\\FIrstDay\\SecondDayInternship\\Assembly1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -32,8 +32,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\PERCOIDITT\\source\\repos\\FIrstDay\\FIrstDay\\FIrstDay.csproj": {
-                "projectPath": "C:\\Users\\PERCOIDITT\\source\\repos\\FIrstDay\\FIrstDay\\FIrstDay.csproj"
+              "C:\\Users\\PERCOIDITT\\source\\repos\\FIrstDay\\SecondDayInternship\\FIrstDay\\FIrstDay.csproj": {
+                "projectPath": "C:\\Users\\PERCOIDITT\\source\\repos\\FIrstDay\\SecondDayInternship\\FIrstDay\\FIrstDay.csproj"
               }
             }
           }
@@ -90,14 +90,14 @@
         }
       }
     },
-    "C:\\Users\\PERCOIDITT\\source\\repos\\FIrstDay\\FIrstDay\\FIrstDay.csproj": {
+    "C:\\Users\\PERCOIDITT\\source\\repos\\FIrstDay\\SecondDayInternship\\FIrstDay\\FIrstDay.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PERCOIDITT\\source\\repos\\FIrstDay\\FIrstDay\\FIrstDay.csproj",
+        "projectUniqueName": "C:\\Users\\PERCOIDITT\\source\\repos\\FIrstDay\\SecondDayInternship\\FIrstDay\\FIrstDay.csproj",
         "projectName": "FIrstDay",
-        "projectPath": "C:\\Users\\PERCOIDITT\\source\\repos\\FIrstDay\\FIrstDay\\FIrstDay.csproj",
+        "projectPath": "C:\\Users\\PERCOIDITT\\source\\repos\\FIrstDay\\SecondDayInternship\\FIrstDay\\FIrstDay.csproj",
         "packagesPath": "C:\\Users\\PERCOIDITT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PERCOIDITT\\source\\repos\\FIrstDay\\FIrstDay\\obj\\",
+        "outputPath": "C:\\Users\\PERCOIDITT\\source\\repos\\FIrstDay\\SecondDayInternship\\FIrstDay\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PERCOIDITT\\source\\repos\\FIrstDay\\StaticMethods&Variables\\StaticMethods&Variables.csproj",
+      "projectUniqueName": "C:\\Users\\PERCOIDITT\\source\\repos\\FIrstDay\\SecondDayInternship\\StaticMethods&Variables\\StaticMethods&Variables.csproj",
       "projectName": "StaticMethods&Variables",
-      "projectPath": "C:\\Users\\PERCOIDITT\\source\\repos\\FIrstDay\\StaticMethods&Variables\\StaticMethods&Variables.csproj",
+      "projectPath": "C:\\Users\\PERCOIDITT\\source\\repos\\FIrstDay\\SecondDayInternship\\StaticMethods&Variables\\StaticMethods&Variables.csproj",
       "packagesPath": "C:\\Users\\PERCOIDITT\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PERCOIDITT\\source\\repos\\FIrstDay\\StaticMethods&Variables\\obj\\",
+      "outputPath": "C:\\Users\\PERCOIDITT\\source\\repos\\FIrstDay\\SecondDayInternship\\StaticMethods&Variables\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PERCOIDITT\\source\\repos\\FIrstDay\\FIrstDay\\FIrstDay.csproj",
+      "projectUniqueName": "C:\\Users\\PERCOIDITT\\source\\repos\\FIrstDay\\SecondDayInternship\\FIrstDay\\FIrstDay.csproj",
       "projectName": "FIrstDay",
-      "projectPath": "C:\\Users\\PERCOIDITT\\source\\repos\\FIrstDay\\FIrstDay\\FIrstDay.csproj",
+      "projectPath": "C:\\Users\\PERCOIDITT\\source\\repos\\FIrstDay\\SecondDayInternship\\FIrstDay\\FIrstDay.csproj",
       "packagesPath": "C:\\Users\\PERCOIDITT\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PERCOIDITT\\source\\repos\\FIrstDay\\FIrstDay\\obj\\",
+      "outputPath": "C:\\Users\\PERCOIDITT\\source\\repos\\FIrstDay\\SecondDayInternship\\FIrstDay\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
