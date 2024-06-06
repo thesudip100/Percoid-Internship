@@ -1,0 +1,26 @@
+﻿@model PercoidCRUD.Models.Intern;
+
+@{
+}
+
+<link rel="stylesheet" href="~/css/addform.css" asp-append-version="true" />
+<form method="post" action="Add">
+    <fieldset >
+        <legend>Personal Information</legend>
+
+        <label for="first-name">First Name:</label>
+        <input type="text" class="form-control" asp-for="Name">
+
+        <label for="first-name">Address:</label>
+        <input type="text" class="form-control" asp-for="Address">
+
+        <label for="first-name">Joining Date:</label>
+        <input type="date" class="form-control" asp-for="JoiningDate">
+
+        <label for="first-name">Salary:</label>
+        <input type="text" class="form-control" asp-for="Salary">
+
+    </fieldset>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
