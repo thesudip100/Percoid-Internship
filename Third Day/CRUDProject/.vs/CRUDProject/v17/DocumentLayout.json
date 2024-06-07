@@ -1,12 +1,88 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Third Day\\CRUDProject\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D8F3390C-E118-40B1-A170-8EDA722CFBF5}|CRUDProject\\CRUDProject.csproj|c:\\users\\percoiditt\\source\\repos\\internship\\third day\\crudproject\\crudproject\\views\\employees\\view.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D8F3390C-E118-40B1-A170-8EDA722CFBF5}|CRUDProject\\CRUDProject.csproj|solutionrelative:crudproject\\views\\employees\\view.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8F3390C-E118-40B1-A170-8EDA722CFBF5}|CRUDProject\\CRUDProject.csproj|c:\\users\\percoiditt\\source\\repos\\internship\\third day\\crudproject\\crudproject\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8F3390C-E118-40B1-A170-8EDA722CFBF5}|CRUDProject\\CRUDProject.csproj|solutionrelative:crudproject\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8F3390C-E118-40B1-A170-8EDA722CFBF5}|CRUDProject\\CRUDProject.csproj|c:\\users\\percoiditt\\source\\repos\\internship\\third day\\crudproject\\crudproject\\models\\updateemployeeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8F3390C-E118-40B1-A170-8EDA722CFBF5}|CRUDProject\\CRUDProject.csproj|solutionrelative:crudproject\\models\\updateemployeeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8F3390C-E118-40B1-A170-8EDA722CFBF5}|CRUDProject\\CRUDProject.csproj|c:\\users\\percoiditt\\source\\repos\\internship\\third day\\crudproject\\crudproject\\views\\employees\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D8F3390C-E118-40B1-A170-8EDA722CFBF5}|CRUDProject\\CRUDProject.csproj|solutionrelative:crudproject\\views\\employees\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "View.cshtml",
+              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Third Day\\CRUDProject\\CRUDProject\\Views\\Employees\\View.cshtml",
+              "RelativeDocumentMoniker": "CRUDProject\\Views\\Employees\\View.cshtml",
+              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Third Day\\CRUDProject\\CRUDProject\\Views\\Employees\\View.cshtml",
+              "RelativeToolTip": "CRUDProject\\Views\\Employees\\View.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAABfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-07T05:09:57.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UpdateEmployeeViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Third Day\\CRUDProject\\CRUDProject\\Models\\UpdateEmployeeViewModel.cs",
+              "RelativeDocumentMoniker": "CRUDProject\\Models\\UpdateEmployeeViewModel.cs",
+              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Third Day\\CRUDProject\\CRUDProject\\Models\\UpdateEmployeeViewModel.cs",
+              "RelativeToolTip": "CRUDProject\\Models\\UpdateEmployeeViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T04:29:34.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Third Day\\CRUDProject\\CRUDProject\\Views\\Employees\\Index.cshtml",
+              "RelativeDocumentMoniker": "CRUDProject\\Views\\Employees\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Third Day\\CRUDProject\\CRUDProject\\Views\\Employees\\Index.cshtml",
+              "RelativeToolTip": "CRUDProject\\Views\\Employees\\Index.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-07T04:15:28.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Third Day\\CRUDProject\\CRUDProject\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "CRUDProject\\Controllers\\EmployeesController.cs",
+              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Third Day\\CRUDProject\\CRUDProject\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "CRUDProject\\Controllers\\EmployeesController.cs",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAAAEEAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T04:12:49.53Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

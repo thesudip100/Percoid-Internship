@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PercoidCRUD")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+319f056ec4ba570ca8681d7caaa563b340e718e8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5b13f0afee97ee46e5bae4e5a00a0573be7ddf46")]
 [assembly: System.Reflection.AssemblyProductAttribute("PercoidCRUD")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PercoidCRUD")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

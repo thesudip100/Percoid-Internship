@@ -1,0 +1,48 @@
+﻿@model List<PercoidCRUD.Models.Intern>
+
+@{
+}
+
+
+@if (TempData["AlertMessage"] != null && TempData["AlertStatus"] != null)
+{
+    var status = (int)TempData["AlertStatus"];
+    <div class="alert @(status >= 200 && status < 300 ? "alert-success" : "alert-danger")">
+        @TempData["AlertMessage"]
+    </div>}
+
+<h1>Intern Details</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Joining Date</th>
+            <th>Salary</th>
+            <th></th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var intern in Model)
+        {
+            <tr>
+                <td>@intern.Id</td>
+                <td>@intern.Name</td>
+                <td>@intern.Address</td>
+                <td>@intern.JoiningDate.ToString("dd-MM-yyyy")</td>
+                <td>@intern.Salary</td>
+                <td><a href="Intern/View/@intern.Id" class="btn btn-primary">Update</a></td>
+       
+            </tr>
+        }
+    </tbody>
+</table>
+
+<script>
+    function confirmSubmit() {
+        return confirm('Are you sure you want to enter this info?');
+    }
+</script>

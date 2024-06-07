@@ -4,7 +4,9 @@
     margin: 0;
     padding: 20px;
 }
-
+.no-margin {
+    margin: 0;
+}
 form {
     max-width: 600px;
     margin: 0 auto;

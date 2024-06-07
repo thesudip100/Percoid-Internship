@@ -1,42 +1,46 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\PERCOIDITT\\source\\repos\\PercoidCRUD\\",
+  "WorkspaceRootPath": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\PercoidCRUD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PERCOIDITT\\source\\repos\\PercoidCRUD\\PercoidCRUD\\Migrations\\20240606113816_new model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PercoidCRUD\\Migrations\\20240606113816_new model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{04599422-9D30-46E5-BF67-278B857EFC2D}|PercoidCRUD\\PercoidCRUD.csproj|c:\\users\\percoiditt\\source\\repos\\internship\\percoidcrud\\percoidcrud\\views\\intern\\view.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{04599422-9D30-46E5-BF67-278B857EFC2D}|PercoidCRUD\\PercoidCRUD.csproj|solutionrelative:percoidcrud\\views\\intern\\view.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04599422-9D30-46E5-BF67-278B857EFC2D}|PercoidCRUD\\PercoidCRUD.csproj|c:\\users\\percoiditt\\source\\repos\\percoidcrud\\percoidcrud\\controllers\\interncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{04599422-9D30-46E5-BF67-278B857EFC2D}|PercoidCRUD\\PercoidCRUD.csproj|c:\\users\\percoiditt\\source\\repos\\internship\\percoidcrud\\percoidcrud\\views\\intern\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{04599422-9D30-46E5-BF67-278B857EFC2D}|PercoidCRUD\\PercoidCRUD.csproj|solutionrelative:percoidcrud\\views\\intern\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04599422-9D30-46E5-BF67-278B857EFC2D}|PercoidCRUD\\PercoidCRUD.csproj|c:\\users\\percoiditt\\source\\repos\\internship\\percoidcrud\\percoidcrud\\controllers\\interncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{04599422-9D30-46E5-BF67-278B857EFC2D}|PercoidCRUD\\PercoidCRUD.csproj|solutionrelative:percoidcrud\\controllers\\interncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04599422-9D30-46E5-BF67-278B857EFC2D}|PercoidCRUD\\PercoidCRUD.csproj|c:\\users\\percoiditt\\source\\repos\\percoidcrud\\percoidcrud\\models\\intern.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{04599422-9D30-46E5-BF67-278B857EFC2D}|PercoidCRUD\\PercoidCRUD.csproj|c:\\users\\percoiditt\\source\\repos\\internship\\percoidcrud\\percoidcrud\\models\\intern.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{04599422-9D30-46E5-BF67-278B857EFC2D}|PercoidCRUD\\PercoidCRUD.csproj|solutionrelative:percoidcrud\\models\\intern.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04599422-9D30-46E5-BF67-278B857EFC2D}|PercoidCRUD\\PercoidCRUD.csproj|c:\\users\\percoiditt\\source\\repos\\percoidcrud\\percoidcrud\\wwwroot\\css\\addform.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{04599422-9D30-46E5-BF67-278B857EFC2D}|PercoidCRUD\\PercoidCRUD.csproj|solutionrelative:percoidcrud\\wwwroot\\css\\addform.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{04599422-9D30-46E5-BF67-278B857EFC2D}|PercoidCRUD\\PercoidCRUD.csproj|c:\\users\\percoiditt\\source\\repos\\internship\\percoidcrud\\percoidcrud\\models\\updateinternmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04599422-9D30-46E5-BF67-278B857EFC2D}|PercoidCRUD\\PercoidCRUD.csproj|solutionrelative:percoidcrud\\models\\updateinternmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04599422-9D30-46E5-BF67-278B857EFC2D}|PercoidCRUD\\PercoidCRUD.csproj|c:\\users\\percoiditt\\source\\repos\\percoidcrud\\percoidcrud\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04599422-9D30-46E5-BF67-278B857EFC2D}|PercoidCRUD\\PercoidCRUD.csproj|solutionrelative:percoidcrud\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{04599422-9D30-46E5-BF67-278B857EFC2D}|PercoidCRUD\\PercoidCRUD.csproj|c:\\users\\percoiditt\\source\\repos\\internship\\percoidcrud\\percoidcrud\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04599422-9D30-46E5-BF67-278B857EFC2D}|PercoidCRUD\\PercoidCRUD.csproj|solutionrelative:percoidcrud\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04599422-9D30-46E5-BF67-278B857EFC2D}|PercoidCRUD\\PercoidCRUD.csproj|c:\\users\\percoiditt\\source\\repos\\percoidcrud\\percoidcrud\\views\\intern\\addinternview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{04599422-9D30-46E5-BF67-278B857EFC2D}|PercoidCRUD\\PercoidCRUD.csproj|solutionrelative:percoidcrud\\views\\intern\\addinternview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{04599422-9D30-46E5-BF67-278B857EFC2D}|PercoidCRUD\\PercoidCRUD.csproj|c:\\users\\percoiditt\\source\\repos\\internship\\percoidcrud\\percoidcrud\\views\\intern\\addintern.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{04599422-9D30-46E5-BF67-278B857EFC2D}|PercoidCRUD\\PercoidCRUD.csproj|solutionrelative:percoidcrud\\views\\intern\\addintern.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04599422-9D30-46E5-BF67-278B857EFC2D}|PercoidCRUD\\PercoidCRUD.csproj|c:\\users\\percoiditt\\source\\repos\\percoidcrud\\percoidcrud\\models\\addinterviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{04599422-9D30-46E5-BF67-278B857EFC2D}|PercoidCRUD\\PercoidCRUD.csproj|c:\\users\\percoiditt\\source\\repos\\internship\\percoidcrud\\percoidcrud\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{04599422-9D30-46E5-BF67-278B857EFC2D}|PercoidCRUD\\PercoidCRUD.csproj|solutionrelative:percoidcrud\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04599422-9D30-46E5-BF67-278B857EFC2D}|PercoidCRUD\\PercoidCRUD.csproj|c:\\users\\percoiditt\\source\\repos\\internship\\percoidcrud\\percoidcrud\\models\\addinterviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{04599422-9D30-46E5-BF67-278B857EFC2D}|PercoidCRUD\\PercoidCRUD.csproj|solutionrelative:percoidcrud\\models\\addinterviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04599422-9D30-46E5-BF67-278B857EFC2D}|PercoidCRUD\\PercoidCRUD.csproj|c:\\users\\percoiditt\\source\\repos\\percoidcrud\\percoidcrud\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{04599422-9D30-46E5-BF67-278B857EFC2D}|PercoidCRUD\\PercoidCRUD.csproj|solutionrelative:percoidcrud\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{04599422-9D30-46E5-BF67-278B857EFC2D}|PercoidCRUD\\PercoidCRUD.csproj|c:\\users\\percoiditt\\source\\repos\\percoidcrud\\percoidcrud\\views\\intern\\addintern.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{04599422-9D30-46E5-BF67-278B857EFC2D}|PercoidCRUD\\PercoidCRUD.csproj|solutionrelative:percoidcrud\\views\\intern\\addintern.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{04599422-9D30-46E5-BF67-278B857EFC2D}|PercoidCRUD\\PercoidCRUD.csproj|c:\\users\\percoiditt\\source\\repos\\internship\\percoidcrud\\percoidcrud\\wwwroot\\css\\addform.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{04599422-9D30-46E5-BF67-278B857EFC2D}|PercoidCRUD\\PercoidCRUD.csproj|solutionrelative:percoidcrud\\wwwroot\\css\\addform.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,123 +50,136 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20240606113816_new model.cs",
-              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\PercoidCRUD\\PercoidCRUD\\Migrations\\20240606113816_new model.cs",
-              "RelativeDocumentMoniker": "PercoidCRUD\\Migrations\\20240606113816_new model.cs",
-              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\PercoidCRUD\\PercoidCRUD\\Migrations\\20240606113816_new model.cs",
-              "RelativeToolTip": "PercoidCRUD\\Migrations\\20240606113816_new model.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T11:38:16.836Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AddInternView.cshtml",
-              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\PercoidCRUD\\PercoidCRUD\\Views\\Intern\\AddInternView.cshtml",
-              "RelativeDocumentMoniker": "PercoidCRUD\\Views\\Intern\\AddInternView.cshtml",
-              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\PercoidCRUD\\PercoidCRUD\\Views\\Intern\\AddInternView.cshtml",
-              "RelativeToolTip": "PercoidCRUD\\Views\\Intern\\AddInternView.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-06T11:22:40.596Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\PercoidCRUD\\PercoidCRUD\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "PercoidCRUD\\Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\PercoidCRUD\\PercoidCRUD\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "PercoidCRUD\\Models\\ErrorViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T11:02:33.91Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "addform.css",
-              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\PercoidCRUD\\PercoidCRUD\\wwwroot\\css\\addform.css",
+              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\PercoidCRUD\\PercoidCRUD\\wwwroot\\css\\addform.css",
               "RelativeDocumentMoniker": "PercoidCRUD\\wwwroot\\css\\addform.css",
-              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\PercoidCRUD\\PercoidCRUD\\wwwroot\\css\\addform.css",
+              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\PercoidCRUD\\PercoidCRUD\\wwwroot\\css\\addform.css",
               "RelativeToolTip": "PercoidCRUD\\wwwroot\\css\\addform.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-06-06T10:47:17.825Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Intern.cs",
-              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\PercoidCRUD\\PercoidCRUD\\Models\\Intern.cs",
-              "RelativeDocumentMoniker": "PercoidCRUD\\Models\\Intern.cs",
-              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\PercoidCRUD\\PercoidCRUD\\Models\\Intern.cs",
-              "RelativeToolTip": "PercoidCRUD\\Models\\Intern.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T10:20:12.35Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AddInterViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\PercoidCRUD\\PercoidCRUD\\Models\\AddInterViewModel.cs",
-              "RelativeDocumentMoniker": "PercoidCRUD\\Models\\AddInterViewModel.cs",
-              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\PercoidCRUD\\PercoidCRUD\\Models\\AddInterViewModel.cs",
-              "RelativeToolTip": "PercoidCRUD\\Models\\AddInterViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T10:19:52.778Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "InternController.cs",
-              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\PercoidCRUD\\PercoidCRUD\\Controllers\\InternController.cs",
-              "RelativeDocumentMoniker": "PercoidCRUD\\Controllers\\InternController.cs",
-              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\PercoidCRUD\\PercoidCRUD\\Controllers\\InternController.cs",
-              "RelativeToolTip": "PercoidCRUD\\Controllers\\InternController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAACgAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T10:13:09.834Z",
+              "WhenOpened": "2024-06-07T06:19:15.046Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\PercoidCRUD\\PercoidCRUD\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "PercoidCRUD\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\PercoidCRUD\\PercoidCRUD\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "PercoidCRUD\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAACoAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-06T10:12:42.715Z",
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\PercoidCRUD\\PercoidCRUD\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "PercoidCRUD\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\PercoidCRUD\\PercoidCRUD\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "PercoidCRUD\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-07T06:19:09.776Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "AddInterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\PercoidCRUD\\PercoidCRUD\\Models\\AddInterViewModel.cs",
+              "RelativeDocumentMoniker": "PercoidCRUD\\Models\\AddInterViewModel.cs",
+              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\PercoidCRUD\\PercoidCRUD\\Models\\AddInterViewModel.cs",
+              "RelativeToolTip": "PercoidCRUD\\Models\\AddInterViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T04:45:17.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "AddIntern.cshtml",
-              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\PercoidCRUD\\PercoidCRUD\\Views\\Intern\\AddIntern.cshtml",
+              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\PercoidCRUD\\PercoidCRUD\\Views\\Intern\\AddIntern.cshtml",
               "RelativeDocumentMoniker": "PercoidCRUD\\Views\\Intern\\AddIntern.cshtml",
-              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\PercoidCRUD\\PercoidCRUD\\Views\\Intern\\AddIntern.cshtml",
+              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\PercoidCRUD\\PercoidCRUD\\Views\\Intern\\AddIntern.cshtml",
               "RelativeToolTip": "PercoidCRUD\\Views\\Intern\\AddIntern.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAABBAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACMAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-06T09:31:11.652Z",
+              "WhenOpened": "2024-06-07T04:39:24.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "View.cshtml",
+              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\PercoidCRUD\\PercoidCRUD\\Views\\Intern\\View.cshtml",
+              "RelativeDocumentMoniker": "PercoidCRUD\\Views\\Intern\\View.cshtml",
+              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\PercoidCRUD\\PercoidCRUD\\Views\\Intern\\View.cshtml",
+              "RelativeToolTip": "PercoidCRUD\\Views\\Intern\\View.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABwAAACNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-07T04:39:21.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InternController.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\PercoidCRUD\\PercoidCRUD\\Controllers\\InternController.cs",
+              "RelativeDocumentMoniker": "PercoidCRUD\\Controllers\\InternController.cs",
+              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\PercoidCRUD\\PercoidCRUD\\Controllers\\InternController.cs",
+              "RelativeToolTip": "PercoidCRUD\\Controllers\\InternController.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAAACIAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T04:30:43.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Intern.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\PercoidCRUD\\PercoidCRUD\\Models\\Intern.cs",
+              "RelativeDocumentMoniker": "PercoidCRUD\\Models\\Intern.cs",
+              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\PercoidCRUD\\PercoidCRUD\\Models\\Intern.cs",
+              "RelativeToolTip": "PercoidCRUD\\Models\\Intern.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T04:29:41.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UpdateInternModel.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\PercoidCRUD\\PercoidCRUD\\Models\\UpdateInternModel.cs",
+              "RelativeDocumentMoniker": "PercoidCRUD\\Models\\UpdateInternModel.cs",
+              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\PercoidCRUD\\PercoidCRUD\\Models\\UpdateInternModel.cs",
+              "RelativeToolTip": "PercoidCRUD\\Models\\UpdateInternModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T04:29:26.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\PercoidCRUD\\PercoidCRUD\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "PercoidCRUD\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\PercoidCRUD\\PercoidCRUD\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "PercoidCRUD\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T04:14:12.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\PercoidCRUD\\PercoidCRUD\\Views\\Intern\\Index.cshtml",
+              "RelativeDocumentMoniker": "PercoidCRUD\\Views\\Intern\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\PercoidCRUD\\PercoidCRUD\\Views\\Intern\\Index.cshtml",
+              "RelativeToolTip": "PercoidCRUD\\Views\\Intern\\Index.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-07T04:07:09.599Z",
               "EditorCaption": ""
             }
           ]

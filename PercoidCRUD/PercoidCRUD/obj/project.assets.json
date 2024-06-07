@@ -2013,11 +2013,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PERCOIDITT\\source\\repos\\PercoidCRUD\\PercoidCRUD\\PercoidCRUD.csproj",
+      "projectUniqueName": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\PercoidCRUD\\PercoidCRUD\\PercoidCRUD.csproj",
       "projectName": "PercoidCRUD",
-      "projectPath": "C:\\Users\\PERCOIDITT\\source\\repos\\PercoidCRUD\\PercoidCRUD\\PercoidCRUD.csproj",
+      "projectPath": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\PercoidCRUD\\PercoidCRUD\\PercoidCRUD.csproj",
       "packagesPath": "C:\\Users\\PERCOIDITT\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PERCOIDITT\\source\\repos\\PercoidCRUD\\PercoidCRUD\\obj\\",
+      "outputPath": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\PercoidCRUD\\PercoidCRUD\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

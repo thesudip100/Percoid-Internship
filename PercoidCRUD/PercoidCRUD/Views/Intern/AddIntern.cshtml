@@ -3,8 +3,14 @@
 @{
 }
 
+@if (TempData["AlertMessage"] != null)
+{
+    <div class="alert alert-success">
+        <strong>SUCCESS!</strong>@TempData["AlertMessage"]
+    </div>
+}
 <link rel="stylesheet" href="~/css/addform.css" asp-append-version="true" />
-<form method="post" action="Add">
+<form method="post" action="Add" onsubmit="return confirmSubmit()">
     <fieldset >
         <legend>Personal Information</legend>
 
@@ -24,3 +30,8 @@
 
     <button type="submit" class="btn btn-primary">Submit</button>
 </form>
+<script>
+    function confirmSubmit() {
+        return confirm('Are you sure you want to enter this info?');
+    }
+</script>
