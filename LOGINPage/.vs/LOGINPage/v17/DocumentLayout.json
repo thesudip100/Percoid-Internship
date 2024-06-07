@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PERCOIDITT\\source\\repos\\LOGINPage\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BE51ADDB-CC5C-4B4F-A4A5-3107BBB839E7}|LOGINPage\\LOGINPage.csproj|c:\\users\\percoiditt\\source\\repos\\loginpage\\loginpage\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE51ADDB-CC5C-4B4F-A4A5-3107BBB839E7}|LOGINPage\\LOGINPage.csproj|solutionrelative:loginpage\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE51ADDB-CC5C-4B4F-A4A5-3107BBB839E7}|LOGINPage\\LOGINPage.csproj|c:\\users\\percoiditt\\source\\repos\\loginpage\\loginpage\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE51ADDB-CC5C-4B4F-A4A5-3107BBB839E7}|LOGINPage\\LOGINPage.csproj|solutionrelative:loginpage\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE51ADDB-CC5C-4B4F-A4A5-3107BBB839E7}|LOGINPage\\LOGINPage.csproj|c:\\users\\percoiditt\\source\\repos\\loginpage\\loginpage\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE51ADDB-CC5C-4B4F-A4A5-3107BBB839E7}|LOGINPage\\LOGINPage.csproj|solutionrelative:loginpage\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE51ADDB-CC5C-4B4F-A4A5-3107BBB839E7}|LOGINPage\\LOGINPage.csproj|c:\\users\\percoiditt\\source\\repos\\loginpage\\loginpage\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE51ADDB-CC5C-4B4F-A4A5-3107BBB839E7}|LOGINPage\\LOGINPage.csproj|solutionrelative:loginpage\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE51ADDB-CC5C-4B4F-A4A5-3107BBB839E7}|LOGINPage\\LOGINPage.csproj|c:\\users\\percoiditt\\source\\repos\\loginpage\\loginpage\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE51ADDB-CC5C-4B4F-A4A5-3107BBB839E7}|LOGINPage\\LOGINPage.csproj|solutionrelative:loginpage\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE51ADDB-CC5C-4B4F-A4A5-3107BBB839E7}|LOGINPage\\LOGINPage.csproj|c:\\users\\percoiditt\\source\\repos\\loginpage\\loginpage\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE51ADDB-CC5C-4B4F-A4A5-3107BBB839E7}|LOGINPage\\LOGINPage.csproj|solutionrelative:loginpage\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\LOGINPage\\LOGINPage\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "LOGINPage\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\LOGINPage\\LOGINPage\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "LOGINPage\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-07T08:17:07.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\LOGINPage\\LOGINPage\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "LOGINPage\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\LOGINPage\\LOGINPage\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "LOGINPage\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T08:16:08.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\LOGINPage\\LOGINPage\\Models\\User.cs",
+              "RelativeDocumentMoniker": "LOGINPage\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\LOGINPage\\LOGINPage\\Models\\User.cs",
+              "RelativeToolTip": "LOGINPage\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T07:59:23.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\LOGINPage\\LOGINPage\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "LOGINPage\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\LOGINPage\\LOGINPage\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "LOGINPage\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABwAAABvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-07T07:56:21.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\LOGINPage\\LOGINPage\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "LOGINPage\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\LOGINPage\\LOGINPage\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "LOGINPage\\Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-07T07:55:35.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\LOGINPage\\LOGINPage\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "LOGINPage\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\LOGINPage\\LOGINPage\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "LOGINPage\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAuwB4AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T07:52:58.54Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
