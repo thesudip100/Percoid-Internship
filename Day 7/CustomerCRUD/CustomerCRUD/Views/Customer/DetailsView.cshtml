@@ -1,0 +1,28 @@
+﻿@model CustomerCRUD.Models.Customer
+
+
+<h2 style="text-decoration:underline"> Customer Details</h2>
+
+<style>
+
+    div
+    {
+        padding:7px 0px;
+    }
+
+    .btn
+    {
+        margin-left: 13px;
+    }
+</style>
+
+
+<div class="container">
+    <div><strong>Name: </strong>@Model.Name</div>
+    <div><strong>Email: </strong>@Model.Email</div>
+    <div><strong>Phone: </strong>@Model.PhoneNumber</div>
+    <div><strong>Address: </strong>@Model.Address</div>
+    <div><strong>Date Of Birth: </strong>@Model.DateofBirth.ToString("dd-MM-yyyy")</div>
+</div>
+
+<div><a class="btn btn-primary" href="@Url.Action("CustomerList", "Customer")" role="button">Back</a></div>
