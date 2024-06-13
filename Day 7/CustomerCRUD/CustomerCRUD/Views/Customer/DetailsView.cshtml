@@ -1,4 +1,4 @@
-﻿@model CustomerCRUD.Models.Customer
+﻿@model CustomerCRUD.Models.CustomerGoods
 
 
 <h2 style="text-decoration:underline"> Customer Details</h2>
@@ -18,11 +18,13 @@
 
 
 <div class="container">
-    <div><strong>Name: </strong>@Model.Name</div>
-    <div><strong>Email: </strong>@Model.Email</div>
-    <div><strong>Phone: </strong>@Model.PhoneNumber</div>
-    <div><strong>Address: </strong>@Model.Address</div>
-    <div><strong>Date Of Birth: </strong>@Model.DateofBirth.ToString("dd-MM-yyyy")</div>
+    <div><strong>Customer ID: </strong>@Model.Cust.Cust_Id</div>
+    <div><strong>Name: </strong>@Model.Cust.Name</div>
+    <div><strong>Email: </strong>@Model.Cust.Email</div>
+    <div><strong>Phone: </strong>@Model.Cust.PhoneNumber</div>
+    <div><strong>Address: </strong>@Model.Cust.Address</div>
+    <div><strong>Date Of Birth: </strong>@Model.Cust.DateofBirth.ToString("dd-MM-yyyy")</div>
+    <div><strong>Goods Purchased: </strong>@Model.Gds.goodsName</div>
 </div>
 
-<div><a class="btn btn-primary" href="@Url.Action("CustomerList", "Customer")" role="button">Back</a></div>
+<div><a class="btn btn-primary" href="@Url.Action("CustomerList", "Customer")" role="button">Back</a></div> 

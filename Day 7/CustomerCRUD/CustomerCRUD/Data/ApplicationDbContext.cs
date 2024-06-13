@@ -10,5 +10,7 @@ namespace CustomerCRUD.Data
 
         }
         public DbSet<Customer>Customers { get; set; }
+        public DbSet<Goods> Goods { get; set; }
+        public DbSet<CustomerGoods> CustomerGoods { get; set; }
     }
 }

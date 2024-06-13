@@ -2014,11 +2014,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PERCOIDITT\\source\\repos\\CustomerCRUD\\CustomerCRUD\\CustomerCRUD.csproj",
+      "projectUniqueName": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day 7\\CustomerCRUD\\CustomerCRUD\\CustomerCRUD.csproj",
       "projectName": "CustomerCRUD",
-      "projectPath": "C:\\Users\\PERCOIDITT\\source\\repos\\CustomerCRUD\\CustomerCRUD\\CustomerCRUD.csproj",
+      "projectPath": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day 7\\CustomerCRUD\\CustomerCRUD\\CustomerCRUD.csproj",
       "packagesPath": "C:\\Users\\PERCOIDITT\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PERCOIDITT\\source\\repos\\CustomerCRUD\\CustomerCRUD\\obj\\",
+      "outputPath": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day 7\\CustomerCRUD\\CustomerCRUD\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

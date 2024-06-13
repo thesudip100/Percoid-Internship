@@ -2,7 +2,7 @@
 
 namespace CustomerCRUD.Models
 {
-    public class UpdateDTO
+    public class FinalCustomerViewModel
     {
         [Required]
         [Key]

@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Runtime.InteropServices;
 
 namespace CustomerCRUD.Models
@@ -6,7 +7,8 @@ namespace CustomerCRUD.Models
     public class Customer
     {
         [Key]
-        public int ID { get; set; }
+        [DatabaseGenerated(DatabaseGeneratedOption.None)]
+        public int Cust_Id { get; set; }
 
         [Required]
         public string Name { get; set; } = "";
@@ -21,7 +23,6 @@ namespace CustomerCRUD.Models
         public string Address { get; set; } = "";
 
         [Required]
-        public DateTime DateofBirth { get; set; } 
-
+        public DateTime DateofBirth { get; set; }
     }
 }

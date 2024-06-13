@@ -4,6 +4,12 @@
 
 <h2> Add Customers</h2>
 <form class="mt-5" method="post" action="Add">
+
+    <div class="mb-3">
+        <label class="form-label">ID</label>
+        <input type="text" class="form-control" asp-for="id">
+    </div>
+
     <div class="mb-3">
         <label class="form-label">Name</label>
         <input type="text" class="form-control" asp-for="name">
@@ -27,6 +33,17 @@
     <div class="mb-3">
         <label class="form-label">Date of Birth</label>
         <input type="date" class="form-control" asp-for="dateofBirth">
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">GoodsID</label>
+        <input type="text" class="form-control" asp-for="GoodsID">
+    </div>
+
+
+    <div class="mb-3">
+        <label class="form-label">Purchased Goods</label>
+        <input type="text" class="form-control" asp-for="goodsName">
     </div>
 
    

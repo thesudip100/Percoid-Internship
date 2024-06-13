@@ -1,38 +1,58 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\PERCOIDITT\\source\\repos\\CustomerCRUD\\",
+  "WorkspaceRootPath": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day 7\\CustomerCRUD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{12B10E36-E0F0-4F5E-87CE-3D0FD49CE9A5}|CustomerCRUD\\CustomerCRUD.csproj|c:\\users\\percoiditt\\source\\repos\\customercrud\\customercrud\\views\\customer\\detailsview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{12B10E36-E0F0-4F5E-87CE-3D0FD49CE9A5}|CustomerCRUD\\CustomerCRUD.csproj|solutionrelative:customercrud\\views\\customer\\detailsview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12B10E36-E0F0-4F5E-87CE-3D0FD49CE9A5}|CustomerCRUD\\CustomerCRUD.csproj|c:\\users\\percoiditt\\source\\repos\\customercrud\\customercrud\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{12B10E36-E0F0-4F5E-87CE-3D0FD49CE9A5}|CustomerCRUD\\CustomerCRUD.csproj|c:\\users\\percoiditt\\source\\repos\\internship\\day 7\\customercrud\\customercrud\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12B10E36-E0F0-4F5E-87CE-3D0FD49CE9A5}|CustomerCRUD\\CustomerCRUD.csproj|solutionrelative:customercrud\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12B10E36-E0F0-4F5E-87CE-3D0FD49CE9A5}|CustomerCRUD\\CustomerCRUD.csproj|c:\\users\\percoiditt\\source\\repos\\customercrud\\customercrud\\views\\customer\\addcustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{12B10E36-E0F0-4F5E-87CE-3D0FD49CE9A5}|CustomerCRUD\\CustomerCRUD.csproj|c:\\users\\percoiditt\\source\\repos\\internship\\day 7\\customercrud\\customercrud\\views\\customer\\addcustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{12B10E36-E0F0-4F5E-87CE-3D0FD49CE9A5}|CustomerCRUD\\CustomerCRUD.csproj|solutionrelative:customercrud\\views\\customer\\addcustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12B10E36-E0F0-4F5E-87CE-3D0FD49CE9A5}|CustomerCRUD\\CustomerCRUD.csproj|c:\\users\\percoiditt\\source\\repos\\customercrud\\customercrud\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{12B10E36-E0F0-4F5E-87CE-3D0FD49CE9A5}|CustomerCRUD\\CustomerCRUD.csproj|c:\\users\\percoiditt\\source\\repos\\internship\\day 7\\customercrud\\customercrud\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12B10E36-E0F0-4F5E-87CE-3D0FD49CE9A5}|CustomerCRUD\\CustomerCRUD.csproj|solutionrelative:customercrud\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12B10E36-E0F0-4F5E-87CE-3D0FD49CE9A5}|CustomerCRUD\\CustomerCRUD.csproj|c:\\users\\percoiditt\\source\\repos\\customercrud\\customercrud\\views\\customer\\updatecustomerview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{12B10E36-E0F0-4F5E-87CE-3D0FD49CE9A5}|CustomerCRUD\\CustomerCRUD.csproj|c:\\users\\percoiditt\\source\\repos\\internship\\day 7\\customercrud\\customercrud\\models\\customeraddviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12B10E36-E0F0-4F5E-87CE-3D0FD49CE9A5}|CustomerCRUD\\CustomerCRUD.csproj|solutionrelative:customercrud\\models\\customeraddviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12B10E36-E0F0-4F5E-87CE-3D0FD49CE9A5}|CustomerCRUD\\CustomerCRUD.csproj|c:\\users\\percoiditt\\source\\repos\\internship\\day 7\\customercrud\\customercrud\\views\\customer\\detailsview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{12B10E36-E0F0-4F5E-87CE-3D0FD49CE9A5}|CustomerCRUD\\CustomerCRUD.csproj|solutionrelative:customercrud\\views\\customer\\detailsview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12B10E36-E0F0-4F5E-87CE-3D0FD49CE9A5}|CustomerCRUD\\CustomerCRUD.csproj|c:\\users\\percoiditt\\source\\repos\\internship\\day 7\\customercrud\\customercrud\\models\\customergoods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12B10E36-E0F0-4F5E-87CE-3D0FD49CE9A5}|CustomerCRUD\\CustomerCRUD.csproj|solutionrelative:customercrud\\models\\customergoods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12B10E36-E0F0-4F5E-87CE-3D0FD49CE9A5}|CustomerCRUD\\CustomerCRUD.csproj|c:\\users\\percoiditt\\source\\repos\\internship\\day 7\\customercrud\\customercrud\\views\\customer\\updatecustomerview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{12B10E36-E0F0-4F5E-87CE-3D0FD49CE9A5}|CustomerCRUD\\CustomerCRUD.csproj|solutionrelative:customercrud\\views\\customer\\updatecustomerview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12B10E36-E0F0-4F5E-87CE-3D0FD49CE9A5}|CustomerCRUD\\CustomerCRUD.csproj|c:\\users\\percoiditt\\source\\repos\\customercrud\\customercrud\\views\\customer\\customerlistview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{12B10E36-E0F0-4F5E-87CE-3D0FD49CE9A5}|CustomerCRUD\\CustomerCRUD.csproj|solutionrelative:customercrud\\views\\customer\\customerlistview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12B10E36-E0F0-4F5E-87CE-3D0FD49CE9A5}|CustomerCRUD\\CustomerCRUD.csproj|c:\\users\\percoiditt\\source\\repos\\customercrud\\customercrud\\models\\updatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{12B10E36-E0F0-4F5E-87CE-3D0FD49CE9A5}|CustomerCRUD\\CustomerCRUD.csproj|c:\\users\\percoiditt\\source\\repos\\internship\\day 7\\customercrud\\customercrud\\models\\updatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12B10E36-E0F0-4F5E-87CE-3D0FD49CE9A5}|CustomerCRUD\\CustomerCRUD.csproj|solutionrelative:customercrud\\models\\updatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12B10E36-E0F0-4F5E-87CE-3D0FD49CE9A5}|CustomerCRUD\\CustomerCRUD.csproj|c:\\users\\percoiditt\\source\\repos\\customercrud\\customercrud\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{12B10E36-E0F0-4F5E-87CE-3D0FD49CE9A5}|CustomerCRUD\\CustomerCRUD.csproj|solutionrelative:customercrud\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day 7\\CustomerCRUD\\CustomerCRUD\\Migrations\\20240613072454_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CustomerCRUD\\Migrations\\20240613072454_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12B10E36-E0F0-4F5E-87CE-3D0FD49CE9A5}|CustomerCRUD\\CustomerCRUD.csproj|c:\\users\\percoiditt\\source\\repos\\internship\\day 7\\customercrud\\customercrud\\models\\finalcustomerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12B10E36-E0F0-4F5E-87CE-3D0FD49CE9A5}|CustomerCRUD\\CustomerCRUD.csproj|solutionrelative:customercrud\\models\\finalcustomerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12B10E36-E0F0-4F5E-87CE-3D0FD49CE9A5}|CustomerCRUD\\CustomerCRUD.csproj|c:\\users\\percoiditt\\source\\repos\\internship\\day 7\\customercrud\\customercrud\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12B10E36-E0F0-4F5E-87CE-3D0FD49CE9A5}|CustomerCRUD\\CustomerCRUD.csproj|solutionrelative:customercrud\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12B10E36-E0F0-4F5E-87CE-3D0FD49CE9A5}|CustomerCRUD\\CustomerCRUD.csproj|c:\\users\\percoiditt\\source\\repos\\internship\\day 7\\customercrud\\customercrud\\views\\customer\\customerlistview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{12B10E36-E0F0-4F5E-87CE-3D0FD49CE9A5}|CustomerCRUD\\CustomerCRUD.csproj|solutionrelative:customercrud\\views\\customer\\customerlistview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12B10E36-E0F0-4F5E-87CE-3D0FD49CE9A5}|CustomerCRUD\\CustomerCRUD.csproj|c:\\users\\percoiditt\\source\\repos\\internship\\day 7\\customercrud\\customercrud\\models\\goods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12B10E36-E0F0-4F5E-87CE-3D0FD49CE9A5}|CustomerCRUD\\CustomerCRUD.csproj|solutionrelative:customercrud\\models\\goods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,110 +62,175 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "DetailsView.cshtml",
-              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\CustomerCRUD\\CustomerCRUD\\Views\\Customer\\DetailsView.cshtml",
+              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day 7\\CustomerCRUD\\CustomerCRUD\\Views\\Customer\\DetailsView.cshtml",
               "RelativeDocumentMoniker": "CustomerCRUD\\Views\\Customer\\DetailsView.cshtml",
-              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\CustomerCRUD\\CustomerCRUD\\Views\\Customer\\DetailsView.cshtml",
+              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day 7\\CustomerCRUD\\CustomerCRUD\\Views\\Customer\\DetailsView.cshtml",
               "RelativeToolTip": "CustomerCRUD\\Views\\Customer\\DetailsView.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAXAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-11T08:26:17.191Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AddCustomer.cshtml",
-              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\CustomerCRUD\\CustomerCRUD\\Views\\Customer\\AddCustomer.cshtml",
-              "RelativeDocumentMoniker": "CustomerCRUD\\Views\\Customer\\AddCustomer.cshtml",
-              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\CustomerCRUD\\CustomerCRUD\\Views\\Customer\\AddCustomer.cshtml",
-              "RelativeToolTip": "CustomerCRUD\\Views\\Customer\\AddCustomer.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-11T07:45:04.77Z",
+              "WhenOpened": "2024-06-13T08:59:37.317Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\CustomerCRUD\\CustomerCRUD\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "CustomerCRUD\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\CustomerCRUD\\CustomerCRUD\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "CustomerCRUD\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-11T07:42:13.782Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\CustomerCRUD\\CustomerCRUD\\Models\\Customer.cs",
-              "RelativeDocumentMoniker": "CustomerCRUD\\Models\\Customer.cs",
-              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\CustomerCRUD\\CustomerCRUD\\Models\\Customer.cs",
-              "RelativeToolTip": "CustomerCRUD\\Models\\Customer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "UpdateDTO.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day 7\\CustomerCRUD\\CustomerCRUD\\Models\\UpdateDTO.cs",
+              "RelativeDocumentMoniker": "CustomerCRUD\\Models\\UpdateDTO.cs",
+              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day 7\\CustomerCRUD\\CustomerCRUD\\Models\\UpdateDTO.cs",
+              "RelativeToolTip": "CustomerCRUD\\Models\\UpdateDTO.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAYAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-11T07:26:52.156Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UpdateCustomerView.cshtml",
-              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\CustomerCRUD\\CustomerCRUD\\Views\\Customer\\UpdateCustomerView.cshtml",
-              "RelativeDocumentMoniker": "CustomerCRUD\\Views\\Customer\\UpdateCustomerView.cshtml",
-              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\CustomerCRUD\\CustomerCRUD\\Views\\Customer\\UpdateCustomerView.cshtml",
-              "RelativeToolTip": "CustomerCRUD\\Views\\Customer\\UpdateCustomerView.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAUAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-11T07:17:33.245Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CustomerController.cs",
-              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\CustomerCRUD\\CustomerCRUD\\Controllers\\CustomerController.cs",
-              "RelativeDocumentMoniker": "CustomerCRUD\\Controllers\\CustomerController.cs",
-              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\CustomerCRUD\\CustomerCRUD\\Controllers\\CustomerController.cs",
-              "RelativeToolTip": "CustomerCRUD\\Controllers\\CustomerController.cs",
-              "ViewState": "AQIAAD4AAAAAAAAAAAAlwFgAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-11T07:12:28.003Z",
+              "WhenOpened": "2024-06-13T07:50:44.282Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "UpdateDTO.cs",
-              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\CustomerCRUD\\CustomerCRUD\\Models\\UpdateDTO.cs",
-              "RelativeDocumentMoniker": "CustomerCRUD\\Models\\UpdateDTO.cs",
-              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\CustomerCRUD\\CustomerCRUD\\Models\\UpdateDTO.cs",
-              "RelativeToolTip": "CustomerCRUD\\Models\\UpdateDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAARAAAA",
+              "Title": "UpdateCustomerView.cshtml",
+              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day 7\\CustomerCRUD\\CustomerCRUD\\Views\\Customer\\UpdateCustomerView.cshtml",
+              "RelativeDocumentMoniker": "CustomerCRUD\\Views\\Customer\\UpdateCustomerView.cshtml",
+              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day 7\\CustomerCRUD\\CustomerCRUD\\Views\\Customer\\UpdateCustomerView.cshtml",
+              "RelativeToolTip": "CustomerCRUD\\Views\\Customer\\UpdateCustomerView.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAAgAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-13T07:50:29.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CustomerAddViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day 7\\CustomerCRUD\\CustomerCRUD\\Models\\CustomerAddViewModel.cs",
+              "RelativeDocumentMoniker": "CustomerCRUD\\Models\\CustomerAddViewModel.cs",
+              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day 7\\CustomerCRUD\\CustomerCRUD\\Models\\CustomerAddViewModel.cs",
+              "RelativeToolTip": "CustomerCRUD\\Models\\CustomerAddViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-11T07:11:42.023Z",
+              "WhenOpened": "2024-06-13T07:41:33.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CustomerListView.cshtml",
+              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day 7\\CustomerCRUD\\CustomerCRUD\\Views\\Customer\\CustomerListView.cshtml",
+              "RelativeDocumentMoniker": "CustomerCRUD\\Views\\Customer\\CustomerListView.cshtml",
+              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day 7\\CustomerCRUD\\CustomerCRUD\\Views\\Customer\\CustomerListView.cshtml",
+              "RelativeToolTip": "CustomerCRUD\\Views\\Customer\\CustomerListView.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABwAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-13T07:39:55.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day 7\\CustomerCRUD\\CustomerCRUD\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "CustomerCRUD\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day 7\\CustomerCRUD\\CustomerCRUD\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "CustomerCRUD\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T07:39:19.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Goods.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day 7\\CustomerCRUD\\CustomerCRUD\\Models\\Goods.cs",
+              "RelativeDocumentMoniker": "CustomerCRUD\\Models\\Goods.cs",
+              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day 7\\CustomerCRUD\\CustomerCRUD\\Models\\Goods.cs",
+              "RelativeToolTip": "CustomerCRUD\\Models\\Goods.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T07:37:04.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FinalCustomerViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day 7\\CustomerCRUD\\CustomerCRUD\\Models\\FinalCustomerViewModel.cs",
+              "RelativeDocumentMoniker": "CustomerCRUD\\Models\\FinalCustomerViewModel.cs",
+              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day 7\\CustomerCRUD\\CustomerCRUD\\Models\\FinalCustomerViewModel.cs",
+              "RelativeToolTip": "CustomerCRUD\\Models\\FinalCustomerViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T07:33:30.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20240613072454_initial.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day 7\\CustomerCRUD\\CustomerCRUD\\Migrations\\20240613072454_initial.cs",
+              "RelativeDocumentMoniker": "CustomerCRUD\\Migrations\\20240613072454_initial.cs",
+              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day 7\\CustomerCRUD\\CustomerCRUD\\Migrations\\20240613072454_initial.cs",
+              "RelativeToolTip": "CustomerCRUD\\Migrations\\20240613072454_initial.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T07:24:54.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddCustomer.cshtml",
+              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day 7\\CustomerCRUD\\CustomerCRUD\\Views\\Customer\\AddCustomer.cshtml",
+              "RelativeDocumentMoniker": "CustomerCRUD\\Views\\Customer\\AddCustomer.cshtml",
+              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day 7\\CustomerCRUD\\CustomerCRUD\\Views\\Customer\\AddCustomer.cshtml",
+              "RelativeToolTip": "CustomerCRUD\\Views\\Customer\\AddCustomer.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAAkAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-13T04:56:02.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day 7\\CustomerCRUD\\CustomerCRUD\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "CustomerCRUD\\Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day 7\\CustomerCRUD\\CustomerCRUD\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "CustomerCRUD\\Controllers\\CustomerController.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAIYAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T04:55:05.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day 7\\CustomerCRUD\\CustomerCRUD\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "CustomerCRUD\\Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day 7\\CustomerCRUD\\CustomerCRUD\\Models\\Customer.cs",
+              "RelativeToolTip": "CustomerCRUD\\Models\\Customer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T04:36:59.049Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "CustomerListView.cshtml",
-              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\CustomerCRUD\\CustomerCRUD\\Views\\Customer\\CustomerListView.cshtml",
-              "RelativeDocumentMoniker": "CustomerCRUD\\Views\\Customer\\CustomerListView.cshtml",
-              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\CustomerCRUD\\CustomerCRUD\\Views\\Customer\\CustomerListView.cshtml",
-              "RelativeToolTip": "CustomerCRUD\\Views\\Customer\\CustomerListView.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABsAAABAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-11T07:10:58.442Z",
+              "Title": "CustomerGoods.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day 7\\CustomerCRUD\\CustomerCRUD\\Models\\CustomerGoods.cs",
+              "RelativeDocumentMoniker": "CustomerCRUD\\Models\\CustomerGoods.cs",
+              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day 7\\CustomerCRUD\\CustomerCRUD\\Models\\CustomerGoods.cs",
+              "RelativeToolTip": "CustomerCRUD\\Models\\CustomerGoods.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T04:37:00.752Z",
               "EditorCaption": ""
             }
           ]

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BGOxak1mbv8=",
+  "dgSpecHash": "weYRsW3ypRs=",
   "success": true,
-  "projectFilePath": "C:\\Users\\PERCOIDITT\\source\\repos\\CustomerCRUD\\CustomerCRUD\\CustomerCRUD.csproj",
+  "projectFilePath": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day 7\\CustomerCRUD\\CustomerCRUD\\CustomerCRUD.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PERCOIDITT\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

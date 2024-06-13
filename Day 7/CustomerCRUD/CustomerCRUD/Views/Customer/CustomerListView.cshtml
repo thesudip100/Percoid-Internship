@@ -1,4 +1,5 @@
-﻿@model List<CustomerCRUD.Models.Customer>
+﻿@model List<CustomerCRUD.Models.FinalCustomerViewModel>
+
    
 @{
 }
@@ -11,6 +12,7 @@
             <th>Phone Number</th>
             <th>Address</th>
             <th>Date Of Birth</th>
+            <th>Goods</th>
             <th  style="text-align: center;">Action</th>
         </tr>
     </thead>
@@ -19,14 +21,15 @@
         @foreach (var customer in Model)
         {
         <tr>
-            <td>@customer.Name</td>
-                <td>@customer.Email</td>
-                <td>@customer.PhoneNumber</td>
-                <td>@customer.Address</td>
-                <td>@customer.DateofBirth.ToString("dd-MM-yyyy")</td>
-                <td><a class="btn btn-primary p-1" href="Update/@customer.ID" >Update</a>
-                    <a class="btn btn-danger p-1 " href="Delete/@customer.ID" >Delete</a>
-                    <a class="btn btn-primary p-1" href="Details/@customer.ID" >Details</a>
+            <td>@customer.name</td>
+                <td>@customer.email</td>
+                <td>@customer.phoneNumber</td>
+                <td>@customer.address</td>
+                <td>@customer.dateofBirth.ToString("dd-MM-yyyy")</td>
+                <td>@customer.goodsName</td>
+                <td><a class="btn btn-primary p-1" href="Update/@customer.id" >Update</a>
+                    <a class="btn btn-danger p-1 " href="Delete/@customer.id" >Delete</a>
+                    <a class="btn btn-primary p-1" href="Details/@customer.id" >Details</a>
                 </td>
         </tr>
         }
