@@ -1,0 +1,231 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PERCOIDITT\\source\\repos\\ShopCRUD\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8C4EB939-915C-432C-9C0B-9F31542B15E2}|ShopCRUD\\ShopCRUD.csproj|c:\\users\\percoiditt\\source\\repos\\shopcrud\\shopcrud\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C4EB939-915C-432C-9C0B-9F31542B15E2}|ShopCRUD\\ShopCRUD.csproj|solutionrelative:shopcrud\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C4EB939-915C-432C-9C0B-9F31542B15E2}|ShopCRUD\\ShopCRUD.csproj|c:\\users\\percoiditt\\source\\repos\\shopcrud\\shopcrud\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C4EB939-915C-432C-9C0B-9F31542B15E2}|ShopCRUD\\ShopCRUD.csproj|solutionrelative:shopcrud\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C4EB939-915C-432C-9C0B-9F31542B15E2}|ShopCRUD\\ShopCRUD.csproj|c:\\users\\percoiditt\\source\\repos\\shopcrud\\shopcrud\\views\\shop\\detailsshop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C4EB939-915C-432C-9C0B-9F31542B15E2}|ShopCRUD\\ShopCRUD.csproj|solutionrelative:shopcrud\\views\\shop\\detailsshop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E1113C3-7BE4-42B7-994D-028927F8623F}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\percoiditt\\source\\repos\\shopcrud\\dataaccesslayer\\repository\\shoprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E1113C3-7BE4-42B7-994D-028927F8623F}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repository\\shoprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C4EB939-915C-432C-9C0B-9F31542B15E2}|ShopCRUD\\ShopCRUD.csproj|c:\\users\\percoiditt\\source\\repos\\shopcrud\\shopcrud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C4EB939-915C-432C-9C0B-9F31542B15E2}|ShopCRUD\\ShopCRUD.csproj|solutionrelative:shopcrud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E1113C3-7BE4-42B7-994D-028927F8623F}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\percoiditt\\source\\repos\\shopcrud\\dataaccesslayer\\interface\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E1113C3-7BE4-42B7-994D-028927F8623F}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\interface\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C4EB939-915C-432C-9C0B-9F31542B15E2}|ShopCRUD\\ShopCRUD.csproj|c:\\users\\percoiditt\\source\\repos\\shopcrud\\shopcrud\\views\\shop\\editshop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C4EB939-915C-432C-9C0B-9F31542B15E2}|ShopCRUD\\ShopCRUD.csproj|solutionrelative:shopcrud\\views\\shop\\editshop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C4EB939-915C-432C-9C0B-9F31542B15E2}|ShopCRUD\\ShopCRUD.csproj|c:\\users\\percoiditt\\source\\repos\\shopcrud\\shopcrud\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C4EB939-915C-432C-9C0B-9F31542B15E2}|ShopCRUD\\ShopCRUD.csproj|solutionrelative:shopcrud\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C4EB939-915C-432C-9C0B-9F31542B15E2}|ShopCRUD\\ShopCRUD.csproj|c:\\users\\percoiditt\\source\\repos\\shopcrud\\shopcrud\\views\\shop\\addshop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C4EB939-915C-432C-9C0B-9F31542B15E2}|ShopCRUD\\ShopCRUD.csproj|solutionrelative:shopcrud\\views\\shop\\addshop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{998184B2-843E-49E8-85EC-C17F1AE89A7B}|BusinessLogicLayer(Services)\\BusinessLogicLayer(Services).csproj|c:\\users\\percoiditt\\source\\repos\\shopcrud\\businesslogiclayer(services)\\services\\shopservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{998184B2-843E-49E8-85EC-C17F1AE89A7B}|BusinessLogicLayer(Services)\\BusinessLogicLayer(Services).csproj|solutionrelative:businesslogiclayer(services)\\services\\shopservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E1113C3-7BE4-42B7-994D-028927F8623F}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\percoiditt\\source\\repos\\shopcrud\\dataaccesslayer\\entity\\shop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E1113C3-7BE4-42B7-994D-028927F8623F}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\entity\\shop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{998184B2-843E-49E8-85EC-C17F1AE89A7B}|BusinessLogicLayer(Services)\\BusinessLogicLayer(Services).csproj|c:\\users\\percoiditt\\source\\repos\\shopcrud\\businesslogiclayer(services)\\services\\iservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{998184B2-843E-49E8-85EC-C17F1AE89A7B}|BusinessLogicLayer(Services)\\BusinessLogicLayer(Services).csproj|solutionrelative:businesslogiclayer(services)\\services\\iservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E1113C3-7BE4-42B7-994D-028927F8623F}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\percoiditt\\source\\repos\\shopcrud\\dataaccesslayer\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E1113C3-7BE4-42B7-994D-028927F8623F}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DetailsShop.cshtml",
+              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\ShopCRUD\\ShopCRUD\\Views\\Shop\\DetailsShop.cshtml",
+              "RelativeDocumentMoniker": "ShopCRUD\\Views\\Shop\\DetailsShop.cshtml",
+              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\ShopCRUD\\ShopCRUD\\Views\\Shop\\DetailsShop.cshtml",
+              "RelativeToolTip": "ShopCRUD\\Views\\Shop\\DetailsShop.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-20T10:52:54.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EditShop.cshtml",
+              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\ShopCRUD\\ShopCRUD\\Views\\Shop\\EditShop.cshtml",
+              "RelativeDocumentMoniker": "ShopCRUD\\Views\\Shop\\EditShop.cshtml",
+              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\ShopCRUD\\ShopCRUD\\Views\\Shop\\EditShop.cshtml",
+              "RelativeToolTip": "ShopCRUD\\Views\\Shop\\EditShop.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-20T10:15:49.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AddShop.cshtml",
+              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\ShopCRUD\\ShopCRUD\\Views\\Shop\\AddShop.cshtml",
+              "RelativeDocumentMoniker": "ShopCRUD\\Views\\Shop\\AddShop.cshtml",
+              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\ShopCRUD\\ShopCRUD\\Views\\Shop\\AddShop.cshtml",
+              "RelativeToolTip": "ShopCRUD\\Views\\Shop\\AddShop.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-20T10:06:13.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\ShopCRUD\\ShopCRUD\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ShopCRUD\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\ShopCRUD\\ShopCRUD\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ShopCRUD\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACEAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-20T09:58:15.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\ShopCRUD\\ShopCRUD\\Views\\Shop\\Index.cshtml",
+              "RelativeDocumentMoniker": "ShopCRUD\\Views\\Shop\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\ShopCRUD\\ShopCRUD\\Views\\Shop\\Index.cshtml",
+              "RelativeToolTip": "ShopCRUD\\Views\\Shop\\Index.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACAAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-20T09:53:25.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ShopController.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\ShopCRUD\\ShopCRUD\\Controllers\\ShopController.cs",
+              "RelativeDocumentMoniker": "ShopCRUD\\Controllers\\ShopController.cs",
+              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\ShopCRUD\\ShopCRUD\\Controllers\\ShopController.cs",
+              "RelativeToolTip": "ShopCRUD\\Controllers\\ShopController.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAQwDYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T08:48:53.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ShopService.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\ShopCRUD\\BusinessLogicLayer(Services)\\Services\\ShopService.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer(Services)\\Services\\ShopService.cs",
+              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\ShopCRUD\\BusinessLogicLayer(Services)\\Services\\ShopService.cs",
+              "RelativeToolTip": "BusinessLogicLayer(Services)\\Services\\ShopService.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACcAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T08:38:21.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IService.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\ShopCRUD\\BusinessLogicLayer(Services)\\Services\\IService.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer(Services)\\Services\\IService.cs",
+              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\ShopCRUD\\BusinessLogicLayer(Services)\\Services\\IService.cs",
+              "RelativeToolTip": "BusinessLogicLayer(Services)\\Services\\IService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T08:27:18.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ShopRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\ShopCRUD\\DataAccessLayer\\Repository\\ShopRepository.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Repository\\ShopRepository.cs",
+              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\ShopCRUD\\DataAccessLayer\\Repository\\ShopRepository.cs",
+              "RelativeToolTip": "DataAccessLayer\\Repository\\ShopRepository.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABsAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T07:57:01.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\ShopCRUD\\DataAccessLayer\\Interface\\IRepository.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Interface\\IRepository.cs",
+              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\ShopCRUD\\DataAccessLayer\\Interface\\IRepository.cs",
+              "RelativeToolTip": "DataAccessLayer\\Interface\\IRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T07:54:03.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\ShopCRUD\\ShopCRUD\\Program.cs",
+              "RelativeDocumentMoniker": "ShopCRUD\\Program.cs",
+              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\ShopCRUD\\ShopCRUD\\Program.cs",
+              "RelativeToolTip": "ShopCRUD\\Program.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAlwCkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T07:44:15.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Shop.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\ShopCRUD\\DataAccessLayer\\Entity\\Shop.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Entity\\Shop.cs",
+              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\ShopCRUD\\DataAccessLayer\\Entity\\Shop.cs",
+              "RelativeToolTip": "DataAccessLayer\\Entity\\Shop.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T07:32:26.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\ShopCRUD\\DataAccessLayer\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\ShopCRUD\\DataAccessLayer\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "DataAccessLayer\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T07:31:28.307Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

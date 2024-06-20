@@ -1,0 +1,29 @@
+﻿@model DataAccessLayer.Entity.Shop
+
+<h1>User Details</h1>
+
+<div>
+    <dl class="row">
+        <dt class="col-sm-2">ShopID</dt>
+        <dd class="col-sm-10">@Model.ShopID</dd>
+
+        <dt class="col-sm-2">ShopName</dt>
+        <dd class="col-sm-10">@Model.ShopName</dd>
+
+        <dt class="col-sm-2">ShopAddress</dt>
+        <dd class="col-sm-10">@Model.ShopAddress</dd>
+
+        <dt class="col-sm-2">Shop Category</dt>
+        <dd class="col-sm-10">@Model.ShopCategory</dd>
+
+        <dt class="col-sm-2">Shop OpenTime</dt>
+        <dd class="col-sm-10">@Model.OpenTime</dd>
+
+        <dt class="col-sm-2">Shop CloseTime</dt>
+        <dd class="col-sm-10">@Model.CloseTime</dd>
+    </dl>
+</div>
+
+<p>
+    <a asp-action="Index">Back to List</a>
+</p>

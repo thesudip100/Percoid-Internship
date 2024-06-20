@@ -1,0 +1,46 @@
+﻿@model DataAccessLayer.Entity.Shop
+
+<h1>Edit Shop</h1>
+
+<form asp-action="EditShop">
+    <div class="form-group">
+        <label asp-for="ShopID" class="control-label"></label>
+        <input asp-for="ShopID" class="form-control" />
+        <span asp-validation-for="ShopName" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ShopName" class="control-label"></label>
+        <input asp-for="ShopName" class="form-control" />
+        <span asp-validation-for="ShopName" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ShopAddress" class="control-label"></label>
+        <input asp-for="ShopAddress" class="form-control" />
+        <span asp-validation-for="ShopAddress" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ShopCategory" class="control-label"></label>
+        <input asp-for="ShopCategory" class="form-control" />
+        <span asp-validation-for="ShopCategory" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="OpenTime" class="control-label"></label>
+        <input asp-for="OpenTime" class="form-control" />
+        <span asp-validation-for="OpenTime" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="CloseTime" class="control-label"></label>
+        <input asp-for="CloseTime" class="form-control" />
+        <span asp-validation-for="CloseTime" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <input type="submit" value="EditShop" class="btn btn-primary mt-4" />
+        <a asp-action="Index" class="btn btn-secondary  mt-4">Cancel</a>
+    </div>
+</form>
