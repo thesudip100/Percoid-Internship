@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Register_LoginAPI_with_JWT.props" />
+</Project>

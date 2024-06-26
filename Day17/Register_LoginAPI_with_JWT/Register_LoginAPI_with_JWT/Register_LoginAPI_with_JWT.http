@@ -1,0 +1,6 @@
+@Register_LoginAPI_with_JWT_HostAddress = http://localhost:5223
+
+GET {{Register_LoginAPI_with_JWT_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
