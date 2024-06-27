@@ -1,30 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\PERCOIDITT\\source\\repos\\Register_LoginAPI_with_JWT\\",
+  "WorkspaceRootPath": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day17\\Register_LoginAPI_with_JWT\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{20A92780-9DD4-49FA-A544-C041C471FBDF}|Register_LoginAPI_with_JWT\\Register_LoginAPI_with_JWT.csproj|c:\\users\\percoiditt\\source\\repos\\register_loginapi_with_jwt\\register_loginapi_with_jwt\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{20A92780-9DD4-49FA-A544-C041C471FBDF}|Register_LoginAPI_with_JWT\\Register_LoginAPI_with_JWT.csproj|c:\\users\\percoiditt\\source\\repos\\internship\\day17\\register_loginapi_with_jwt\\register_loginapi_with_jwt\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{20A92780-9DD4-49FA-A544-C041C471FBDF}|Register_LoginAPI_with_JWT\\Register_LoginAPI_with_JWT.csproj|solutionrelative:register_loginapi_with_jwt\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{20A92780-9DD4-49FA-A544-C041C471FBDF}|Register_LoginAPI_with_JWT\\Register_LoginAPI_with_JWT.csproj|c:\\users\\percoiditt\\source\\repos\\register_loginapi_with_jwt\\register_loginapi_with_jwt\\register_loginapi_with_jwt.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{20A92780-9DD4-49FA-A544-C041C471FBDF}|Register_LoginAPI_with_JWT\\Register_LoginAPI_with_JWT.csproj|c:\\users\\percoiditt\\source\\repos\\internship\\day17\\register_loginapi_with_jwt\\register_loginapi_with_jwt\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20A92780-9DD4-49FA-A544-C041C471FBDF}|Register_LoginAPI_with_JWT\\Register_LoginAPI_with_JWT.csproj|solutionrelative:register_loginapi_with_jwt\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20A92780-9DD4-49FA-A544-C041C471FBDF}|Register_LoginAPI_with_JWT\\Register_LoginAPI_with_JWT.csproj|c:\\users\\percoiditt\\source\\repos\\internship\\day17\\register_loginapi_with_jwt\\register_loginapi_with_jwt\\register_loginapi_with_jwt.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{20A92780-9DD4-49FA-A544-C041C471FBDF}|Register_LoginAPI_with_JWT\\Register_LoginAPI_with_JWT.csproj|solutionrelative:register_loginapi_with_jwt\\register_loginapi_with_jwt.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{20A92780-9DD4-49FA-A544-C041C471FBDF}|Register_LoginAPI_with_JWT\\Register_LoginAPI_with_JWT.csproj|c:\\users\\percoiditt\\source\\repos\\register_loginapi_with_jwt\\register_loginapi_with_jwt\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{20A92780-9DD4-49FA-A544-C041C471FBDF}|Register_LoginAPI_with_JWT\\Register_LoginAPI_with_JWT.csproj|solutionrelative:register_loginapi_with_jwt\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{20A92780-9DD4-49FA-A544-C041C471FBDF}|Register_LoginAPI_with_JWT\\Register_LoginAPI_with_JWT.csproj|c:\\users\\percoiditt\\source\\repos\\register_loginapi_with_jwt\\register_loginapi_with_jwt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{20A92780-9DD4-49FA-A544-C041C471FBDF}|Register_LoginAPI_with_JWT\\Register_LoginAPI_with_JWT.csproj|c:\\users\\percoiditt\\source\\repos\\internship\\day17\\register_loginapi_with_jwt\\register_loginapi_with_jwt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{20A92780-9DD4-49FA-A544-C041C471FBDF}|Register_LoginAPI_with_JWT\\Register_LoginAPI_with_JWT.csproj|solutionrelative:register_loginapi_with_jwt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{20A92780-9DD4-49FA-A544-C041C471FBDF}|Register_LoginAPI_with_JWT\\Register_LoginAPI_with_JWT.csproj|c:\\users\\percoiditt\\source\\repos\\register_loginapi_with_jwt\\register_loginapi_with_jwt\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{20A92780-9DD4-49FA-A544-C041C471FBDF}|Register_LoginAPI_with_JWT\\Register_LoginAPI_with_JWT.csproj|c:\\users\\percoiditt\\source\\repos\\internship\\day17\\register_loginapi_with_jwt\\register_loginapi_with_jwt\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{20A92780-9DD4-49FA-A544-C041C471FBDF}|Register_LoginAPI_with_JWT\\Register_LoginAPI_with_JWT.csproj|solutionrelative:register_loginapi_with_jwt\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{20A92780-9DD4-49FA-A544-C041C471FBDF}|Register_LoginAPI_with_JWT\\Register_LoginAPI_with_JWT.csproj|c:\\users\\percoiditt\\source\\repos\\register_loginapi_with_jwt\\register_loginapi_with_jwt\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{20A92780-9DD4-49FA-A544-C041C471FBDF}|Register_LoginAPI_with_JWT\\Register_LoginAPI_with_JWT.csproj|solutionrelative:register_loginapi_with_jwt\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{20A92780-9DD4-49FA-A544-C041C471FBDF}|Register_LoginAPI_with_JWT\\Register_LoginAPI_with_JWT.csproj|c:\\users\\percoiditt\\source\\repos\\internship\\day17\\register_loginapi_with_jwt\\register_loginapi_with_jwt\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{20A92780-9DD4-49FA-A544-C041C471FBDF}|Register_LoginAPI_with_JWT\\Register_LoginAPI_with_JWT.csproj|solutionrelative:register_loginapi_with_jwt\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,52 +38,49 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Register_LoginAPI_with_JWT",
-              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\Register_LoginAPI_with_JWT\\Register_LoginAPI_with_JWT\\Register_LoginAPI_with_JWT.csproj",
+              "DocumentIndex": 2,
+              "Title": "Register_LoginAPI_with_JWT.csproj",
+              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day17\\Register_LoginAPI_with_JWT\\Register_LoginAPI_with_JWT\\Register_LoginAPI_with_JWT.csproj",
               "RelativeDocumentMoniker": "Register_LoginAPI_with_JWT\\Register_LoginAPI_with_JWT.csproj",
-              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\Register_LoginAPI_with_JWT\\Register_LoginAPI_with_JWT\\Register_LoginAPI_with_JWT.csproj",
+              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day17\\Register_LoginAPI_with_JWT\\Register_LoginAPI_with_JWT\\Register_LoginAPI_with_JWT.csproj",
               "RelativeToolTip": "Register_LoginAPI_with_JWT\\Register_LoginAPI_with_JWT.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-26T08:18:19.642Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-26T08:18:19.642Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\Register_LoginAPI_with_JWT\\Register_LoginAPI_with_JWT\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day17\\Register_LoginAPI_with_JWT\\Register_LoginAPI_with_JWT\\Program.cs",
               "RelativeDocumentMoniker": "Register_LoginAPI_with_JWT\\Program.cs",
-              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\Register_LoginAPI_with_JWT\\Register_LoginAPI_with_JWT\\Program.cs",
+              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day17\\Register_LoginAPI_with_JWT\\Register_LoginAPI_with_JWT\\Program.cs",
               "RelativeToolTip": "Register_LoginAPI_with_JWT\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAaAAAA",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAB8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T09:50:02.07Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-26T09:50:02.07Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\Register_LoginAPI_with_JWT\\Register_LoginAPI_with_JWT\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day17\\Register_LoginAPI_with_JWT\\Register_LoginAPI_with_JWT\\appsettings.json",
               "RelativeDocumentMoniker": "Register_LoginAPI_with_JWT\\appsettings.json",
-              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\Register_LoginAPI_with_JWT\\Register_LoginAPI_with_JWT\\appsettings.json",
+              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day17\\Register_LoginAPI_with_JWT\\Register_LoginAPI_with_JWT\\appsettings.json",
               "RelativeToolTip": "Register_LoginAPI_with_JWT\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABhAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-26T09:49:02.571Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-26T09:49:02.571Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\Register_LoginAPI_with_JWT\\Register_LoginAPI_with_JWT\\Controllers\\AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day17\\Register_LoginAPI_with_JWT\\Register_LoginAPI_with_JWT\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Register_LoginAPI_with_JWT\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\Register_LoginAPI_with_JWT\\Register_LoginAPI_with_JWT\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day17\\Register_LoginAPI_with_JWT\\Register_LoginAPI_with_JWT\\Controllers\\AuthController.cs",
               "RelativeToolTip": "Register_LoginAPI_with_JWT\\Controllers\\AuthController.cs",
-              "ViewState": "AQIAADYAAAAAAAAAAAAlwEYAAAAOAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-26T08:19:39.532Z",
               "EditorCaption": ""
@@ -92,27 +89,25 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "UserDTO.cs",
-              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\Register_LoginAPI_with_JWT\\Register_LoginAPI_with_JWT\\UserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day17\\Register_LoginAPI_with_JWT\\Register_LoginAPI_with_JWT\\UserDTO.cs",
               "RelativeDocumentMoniker": "Register_LoginAPI_with_JWT\\UserDTO.cs",
-              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\Register_LoginAPI_with_JWT\\Register_LoginAPI_with_JWT\\UserDTO.cs",
+              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day17\\Register_LoginAPI_with_JWT\\Register_LoginAPI_with_JWT\\UserDTO.cs",
               "RelativeToolTip": "Register_LoginAPI_with_JWT\\UserDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T08:18:28.106Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-26T08:18:28.106Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\Register_LoginAPI_with_JWT\\Register_LoginAPI_with_JWT\\User.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day17\\Register_LoginAPI_with_JWT\\Register_LoginAPI_with_JWT\\User.cs",
               "RelativeDocumentMoniker": "Register_LoginAPI_with_JWT\\User.cs",
-              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\Register_LoginAPI_with_JWT\\Register_LoginAPI_with_JWT\\User.cs",
+              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day17\\Register_LoginAPI_with_JWT\\Register_LoginAPI_with_JWT\\User.cs",
               "RelativeToolTip": "Register_LoginAPI_with_JWT\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-26T08:12:34.793Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-26T08:12:34.793Z"
             }
           ]
         }

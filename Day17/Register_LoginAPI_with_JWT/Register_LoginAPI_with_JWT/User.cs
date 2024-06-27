@@ -5,5 +5,6 @@
         public string username { get; set; } = string.Empty;
         public byte[] PasswordHash { get; set; }= Array.Empty<byte>();
         public byte[] PasswordSalt { get; set; }=Array.Empty<byte>();
+        public string role { get; set; }=string.Empty;
     }
 }

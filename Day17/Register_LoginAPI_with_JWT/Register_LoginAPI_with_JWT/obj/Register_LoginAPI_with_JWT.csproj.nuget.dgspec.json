@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PERCOIDITT\\source\\repos\\Register_LoginAPI_with_JWT\\Register_LoginAPI_with_JWT\\Register_LoginAPI_with_JWT.csproj": {}
+    "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day17\\Register_LoginAPI_with_JWT\\Register_LoginAPI_with_JWT\\Register_LoginAPI_with_JWT.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PERCOIDITT\\source\\repos\\Register_LoginAPI_with_JWT\\Register_LoginAPI_with_JWT\\Register_LoginAPI_with_JWT.csproj": {
+    "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day17\\Register_LoginAPI_with_JWT\\Register_LoginAPI_with_JWT\\Register_LoginAPI_with_JWT.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PERCOIDITT\\source\\repos\\Register_LoginAPI_with_JWT\\Register_LoginAPI_with_JWT\\Register_LoginAPI_with_JWT.csproj",
+        "projectUniqueName": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day17\\Register_LoginAPI_with_JWT\\Register_LoginAPI_with_JWT\\Register_LoginAPI_with_JWT.csproj",
         "projectName": "Register_LoginAPI_with_JWT",
-        "projectPath": "C:\\Users\\PERCOIDITT\\source\\repos\\Register_LoginAPI_with_JWT\\Register_LoginAPI_with_JWT\\Register_LoginAPI_with_JWT.csproj",
+        "projectPath": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day17\\Register_LoginAPI_with_JWT\\Register_LoginAPI_with_JWT\\Register_LoginAPI_with_JWT.csproj",
         "packagesPath": "C:\\Users\\PERCOIDITT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PERCOIDITT\\source\\repos\\Register_LoginAPI_with_JWT\\Register_LoginAPI_with_JWT\\obj\\",
+        "outputPath": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day17\\Register_LoginAPI_with_JWT\\Register_LoginAPI_with_JWT\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -49,9 +49,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
+            },
+            "Swashbuckle.AspNetCore.Filters": {
+              "target": "Package",
+              "version": "[8.0.2, )"
             },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
