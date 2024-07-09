@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PERCOIDITT\\source\\repos\\DapperCRUD\\DapperCRUD\\DapperCRUD.csproj": {}
+    "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day14\\DapperCRUD\\DapperCRUD\\DapperCRUD.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PERCOIDITT\\source\\repos\\DapperCRUD\\ApplicationLayer\\ApplicationLayer.csproj": {
+    "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day14\\DapperCRUD\\ApplicationLayer\\ApplicationLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PERCOIDITT\\source\\repos\\DapperCRUD\\ApplicationLayer\\ApplicationLayer.csproj",
+        "projectUniqueName": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day14\\DapperCRUD\\ApplicationLayer\\ApplicationLayer.csproj",
         "projectName": "ApplicationLayer",
-        "projectPath": "C:\\Users\\PERCOIDITT\\source\\repos\\DapperCRUD\\ApplicationLayer\\ApplicationLayer.csproj",
+        "projectPath": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day14\\DapperCRUD\\ApplicationLayer\\ApplicationLayer.csproj",
         "packagesPath": "C:\\Users\\PERCOIDITT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PERCOIDITT\\source\\repos\\DapperCRUD\\ApplicationLayer\\obj\\",
+        "outputPath": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day14\\DapperCRUD\\ApplicationLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -32,11 +32,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\PERCOIDITT\\source\\repos\\DapperCRUD\\DomainLayer\\DomainLayer.csproj": {
-                "projectPath": "C:\\Users\\PERCOIDITT\\source\\repos\\DapperCRUD\\DomainLayer\\DomainLayer.csproj"
+              "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day14\\DapperCRUD\\DomainLayer\\DomainLayer.csproj": {
+                "projectPath": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day14\\DapperCRUD\\DomainLayer\\DomainLayer.csproj"
               },
-              "C:\\Users\\PERCOIDITT\\source\\repos\\DapperCRUD\\InfrastructureLayer\\InfrastructureLayer.csproj": {
-                "projectPath": "C:\\Users\\PERCOIDITT\\source\\repos\\DapperCRUD\\InfrastructureLayer\\InfrastructureLayer.csproj"
+              "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day14\\DapperCRUD\\InfrastructureLayer\\InfrastructureLayer.csproj": {
+                "projectPath": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day14\\DapperCRUD\\InfrastructureLayer\\InfrastructureLayer.csproj"
               }
             }
           }
@@ -85,14 +85,14 @@
         }
       }
     },
-    "C:\\Users\\PERCOIDITT\\source\\repos\\DapperCRUD\\DapperCRUD\\DapperCRUD.csproj": {
+    "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day14\\DapperCRUD\\DapperCRUD\\DapperCRUD.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PERCOIDITT\\source\\repos\\DapperCRUD\\DapperCRUD\\DapperCRUD.csproj",
+        "projectUniqueName": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day14\\DapperCRUD\\DapperCRUD\\DapperCRUD.csproj",
         "projectName": "DapperCRUD",
-        "projectPath": "C:\\Users\\PERCOIDITT\\source\\repos\\DapperCRUD\\DapperCRUD\\DapperCRUD.csproj",
+        "projectPath": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day14\\DapperCRUD\\DapperCRUD\\DapperCRUD.csproj",
         "packagesPath": "C:\\Users\\PERCOIDITT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PERCOIDITT\\source\\repos\\DapperCRUD\\DapperCRUD\\obj\\",
+        "outputPath": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day14\\DapperCRUD\\DapperCRUD\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -113,14 +113,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\PERCOIDITT\\source\\repos\\DapperCRUD\\ApplicationLayer\\ApplicationLayer.csproj": {
-                "projectPath": "C:\\Users\\PERCOIDITT\\source\\repos\\DapperCRUD\\ApplicationLayer\\ApplicationLayer.csproj"
+              "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day14\\DapperCRUD\\ApplicationLayer\\ApplicationLayer.csproj": {
+                "projectPath": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day14\\DapperCRUD\\ApplicationLayer\\ApplicationLayer.csproj"
               },
-              "C:\\Users\\PERCOIDITT\\source\\repos\\DapperCRUD\\DomainLayer\\DomainLayer.csproj": {
-                "projectPath": "C:\\Users\\PERCOIDITT\\source\\repos\\DapperCRUD\\DomainLayer\\DomainLayer.csproj"
+              "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day14\\DapperCRUD\\DomainLayer\\DomainLayer.csproj": {
+                "projectPath": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day14\\DapperCRUD\\DomainLayer\\DomainLayer.csproj"
               },
-              "C:\\Users\\PERCOIDITT\\source\\repos\\DapperCRUD\\InfrastructureLayer\\InfrastructureLayer.csproj": {
-                "projectPath": "C:\\Users\\PERCOIDITT\\source\\repos\\DapperCRUD\\InfrastructureLayer\\InfrastructureLayer.csproj"
+              "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day14\\DapperCRUD\\InfrastructureLayer\\InfrastructureLayer.csproj": {
+                "projectPath": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day14\\DapperCRUD\\InfrastructureLayer\\InfrastructureLayer.csproj"
               }
             }
           }
@@ -176,14 +176,14 @@
         }
       }
     },
-    "C:\\Users\\PERCOIDITT\\source\\repos\\DapperCRUD\\DomainLayer\\DomainLayer.csproj": {
+    "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day14\\DapperCRUD\\DomainLayer\\DomainLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PERCOIDITT\\source\\repos\\DapperCRUD\\DomainLayer\\DomainLayer.csproj",
+        "projectUniqueName": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day14\\DapperCRUD\\DomainLayer\\DomainLayer.csproj",
         "projectName": "DomainLayer",
-        "projectPath": "C:\\Users\\PERCOIDITT\\source\\repos\\DapperCRUD\\DomainLayer\\DomainLayer.csproj",
+        "projectPath": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day14\\DapperCRUD\\DomainLayer\\DomainLayer.csproj",
         "packagesPath": "C:\\Users\\PERCOIDITT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PERCOIDITT\\source\\repos\\DapperCRUD\\DomainLayer\\obj\\",
+        "outputPath": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day14\\DapperCRUD\\DomainLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -250,14 +250,14 @@
         }
       }
     },
-    "C:\\Users\\PERCOIDITT\\source\\repos\\DapperCRUD\\InfrastructureLayer\\InfrastructureLayer.csproj": {
+    "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day14\\DapperCRUD\\InfrastructureLayer\\InfrastructureLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PERCOIDITT\\source\\repos\\DapperCRUD\\InfrastructureLayer\\InfrastructureLayer.csproj",
+        "projectUniqueName": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day14\\DapperCRUD\\InfrastructureLayer\\InfrastructureLayer.csproj",
         "projectName": "InfrastructureLayer",
-        "projectPath": "C:\\Users\\PERCOIDITT\\source\\repos\\DapperCRUD\\InfrastructureLayer\\InfrastructureLayer.csproj",
+        "projectPath": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day14\\DapperCRUD\\InfrastructureLayer\\InfrastructureLayer.csproj",
         "packagesPath": "C:\\Users\\PERCOIDITT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PERCOIDITT\\source\\repos\\DapperCRUD\\InfrastructureLayer\\obj\\",
+        "outputPath": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day14\\DapperCRUD\\InfrastructureLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -278,8 +278,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\PERCOIDITT\\source\\repos\\DapperCRUD\\DomainLayer\\DomainLayer.csproj": {
-                "projectPath": "C:\\Users\\PERCOIDITT\\source\\repos\\DapperCRUD\\DomainLayer\\DomainLayer.csproj"
+              "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day14\\DapperCRUD\\DomainLayer\\DomainLayer.csproj": {
+                "projectPath": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day14\\DapperCRUD\\DomainLayer\\DomainLayer.csproj"
               }
             }
           }

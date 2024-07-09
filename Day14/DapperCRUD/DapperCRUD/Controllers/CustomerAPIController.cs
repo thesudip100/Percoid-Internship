@@ -29,5 +29,29 @@ namespace DapperCRUD.Controllers
             if (data == null) return NotFound();
             return Ok(data);
         }
+
+        [HttpPost]
+        public async Task<IActionResult> AddCustomer(Customer cust)
+        {
+            await customer.AddDataAsync(cust);
+            return Ok();
+        }
+
+        [HttpGet("{id}")]
+        public async Task<IActionResult> DeleteEmployee(int id)
+        {
+            var custObj= await customer.GetByIdDataAsync(id);
+            await customer.DeleteDataAsync(custObj);
+            var allCustomers = await customer.GetAllDataAsync();
+            return Ok(allCustomers);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> UpdateEmployee([FromBody] Customer c)
+        {
+            await customer.UpdateDataAsync(c);
+            return Ok(c);
+        }
+
     }
 }

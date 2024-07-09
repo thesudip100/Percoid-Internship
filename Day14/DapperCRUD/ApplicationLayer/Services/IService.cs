@@ -11,7 +11,7 @@ namespace ApplicationLayer.Services
         Task<IEnumerable<T>> GetAllDataAsync();
         Task<T> GetByIdDataAsync(int id);
         Task<string> AddDataAsync(T entity);
-        Task<string> UpdateDataAsync(T entity);
+        Task UpdateDataAsync(T entity);
         Task<string> DeleteDataAsync(T entity);
     }
 }

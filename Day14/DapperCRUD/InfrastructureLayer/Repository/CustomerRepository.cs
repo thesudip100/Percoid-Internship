@@ -13,11 +13,11 @@ using static Dapper.SqlMapper;
 
 namespace InfrastructureLayer.Repository
 {
-    public class CustomerRepository: IRepository<Customer>
+    public class CustomerRepository : IRepository<Customer>
     {
         private readonly string _connectionString;
 
-        public CustomerRepository(IConfiguration configuration )
+        public CustomerRepository(IConfiguration configuration)
         {
             _connectionString = configuration.GetConnectionString("DefaultConnection");
         }
@@ -25,8 +25,9 @@ namespace InfrastructureLayer.Repository
         public async Task<string> AddAsync(Customer entity)
         {
             string response = "added";
-            using var connection= new SqlConnection(_connectionString);
-            var query = "Insert into Customer (Name,Email,Phone,Address) values (@Name,@Email,@Phone,@Address)";
+            using var connection = new SqlConnection(_connectionString);
+            var query = "Insert into Customer (Id,Name,Email,Phone,Address) values (@Id,@Name,@Email,@Phone,@Address)";
+
             await connection.ExecuteAsync(query, entity);
             return response;
         }
@@ -36,7 +37,7 @@ namespace InfrastructureLayer.Repository
             string response = "deleted";
             using var connection = new SqlConnection(_connectionString);
             var query = "DELETE FROM Customer WHERE Id = @Id";
-            await connection.ExecuteAsync(query, new {entity.Id });
+            await connection.ExecuteAsync(query, new { entity.Id });
             return response;
         }
 
@@ -52,17 +53,26 @@ namespace InfrastructureLayer.Repository
         {
             using var connection = new SqlConnection(_connectionString);
             var query = "select * from Customer WHERE Id = @Id";
-            var entity = await connection.QuerySingleOrDefaultAsync<Customer>(query, new {Id = id});
+            var entity = await connection.QuerySingleOrDefaultAsync<Customer>(query, new { Id = id });
             return entity;
-                
+
         }
 
-        public async Task<string> UpdateAsync(Customer entity)
+
+        public async Task UpdateAsync(Customer entity)
         {
-            using var connection = new SqlConnection(_connectionString);
-            var query = "update Customer set Name=@Name,Email=@Email,Phone=@Phone, Address=@Address WHERE Id = @Id";
-            await connection.QuerySingleOrDefaultAsync<Customer>(query, new {@entity.Id });
-            return "updated";
+            using (var connection = new SqlConnection(_connectionString))
+            {
+                var query = "update Customer set Name=@Name,Email=@Email,Phone=@Phone, Address=@Address WHERE Id = @Id";
+                await connection.ExecuteAsync(query, new
+                {
+                    entity.Name,
+                    entity.Email,
+                    entity.Phone,
+                    entity.Address,
+                    entity.Id
+                });
+            }
         }
     }
 }

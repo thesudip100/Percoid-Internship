@@ -11,3 +11,16 @@ C:\Users\PERCOIDITT\source\repos\DapperCRUD\DomainLayer\obj\Debug\net8.0\DomainL
 C:\Users\PERCOIDITT\source\repos\DapperCRUD\DomainLayer\obj\Debug\net8.0\refint\DomainLayer.dll
 C:\Users\PERCOIDITT\source\repos\DapperCRUD\DomainLayer\obj\Debug\net8.0\DomainLayer.pdb
 C:\Users\PERCOIDITT\source\repos\DapperCRUD\DomainLayer\obj\Debug\net8.0\ref\DomainLayer.dll
+C:\Users\PERCOIDITT\source\repos\Internship\Day14\DapperCRUD\DomainLayer\bin\Debug\net8.0\DomainLayer.deps.json
+C:\Users\PERCOIDITT\source\repos\Internship\Day14\DapperCRUD\DomainLayer\bin\Debug\net8.0\DomainLayer.dll
+C:\Users\PERCOIDITT\source\repos\Internship\Day14\DapperCRUD\DomainLayer\bin\Debug\net8.0\DomainLayer.pdb
+C:\Users\PERCOIDITT\source\repos\Internship\Day14\DapperCRUD\DomainLayer\obj\Debug\net8.0\DomainLayer.csproj.AssemblyReference.cache
+C:\Users\PERCOIDITT\source\repos\Internship\Day14\DapperCRUD\DomainLayer\obj\Debug\net8.0\DomainLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PERCOIDITT\source\repos\Internship\Day14\DapperCRUD\DomainLayer\obj\Debug\net8.0\DomainLayer.AssemblyInfoInputs.cache
+C:\Users\PERCOIDITT\source\repos\Internship\Day14\DapperCRUD\DomainLayer\obj\Debug\net8.0\DomainLayer.AssemblyInfo.cs
+C:\Users\PERCOIDITT\source\repos\Internship\Day14\DapperCRUD\DomainLayer\obj\Debug\net8.0\DomainLayer.csproj.CoreCompileInputs.cache
+C:\Users\PERCOIDITT\source\repos\Internship\Day14\DapperCRUD\DomainLayer\obj\Debug\net8.0\DomainLayer.sourcelink.json
+C:\Users\PERCOIDITT\source\repos\Internship\Day14\DapperCRUD\DomainLayer\obj\Debug\net8.0\DomainLayer.dll
+C:\Users\PERCOIDITT\source\repos\Internship\Day14\DapperCRUD\DomainLayer\obj\Debug\net8.0\refint\DomainLayer.dll
+C:\Users\PERCOIDITT\source\repos\Internship\Day14\DapperCRUD\DomainLayer\obj\Debug\net8.0\DomainLayer.pdb
+C:\Users\PERCOIDITT\source\repos\Internship\Day14\DapperCRUD\DomainLayer\obj\Debug\net8.0\ref\DomainLayer.dll

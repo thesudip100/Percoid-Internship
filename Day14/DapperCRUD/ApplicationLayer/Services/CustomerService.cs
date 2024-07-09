@@ -38,7 +38,7 @@ namespace ApplicationLayer.Services
             return repository.GetByIdAsync(id);
         }
 
-        public Task<string> UpdateDataAsync(Customer entity)
+        public Task UpdateDataAsync(Customer entity)
         {
             return repository.UpdateAsync(entity);
         }

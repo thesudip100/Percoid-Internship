@@ -11,7 +11,7 @@ namespace InfrastructureLayer.Repository
         Task <IEnumerable<T>> GetAllAsync();
         Task<T> GetByIdAsync(int id);
         Task<string> AddAsync(T entity);
-        Task<string> UpdateAsync(T entity);
+        Task UpdateAsync(T entity);
         Task<string> DeleteAsync(T entity);
     }
 }
