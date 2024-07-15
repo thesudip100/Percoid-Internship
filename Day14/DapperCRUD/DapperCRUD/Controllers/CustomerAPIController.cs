@@ -47,7 +47,7 @@ namespace DapperCRUD.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> UpdateEmployee([FromBody] Customer c)
+        public async Task<IActionResult> UpdateEmployee(Customer c)
         {
             await customer.UpdateDataAsync(c);
             return Ok(c);

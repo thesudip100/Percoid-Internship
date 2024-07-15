@@ -1,6 +1,8 @@
 {
   "ExpandedNodes": [
     "",
+    "\\ApplicationLayer",
+    "\\ApplicationLayer\\Services",
     "\\DapperCRUD",
     "\\DapperCRUD\\Controllers",
     "\\DomainLayer",

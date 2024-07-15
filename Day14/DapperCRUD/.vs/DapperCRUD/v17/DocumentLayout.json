@@ -3,36 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day14\\DapperCRUD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F4A50838-7478-4FAA-8AEF-8A835718EC0A}|DapperCRUD\\DapperCRUD.csproj|c:\\users\\percoiditt\\source\\repos\\internship\\day14\\dappercrud\\dappercrud\\controllers\\customerapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4A50838-7478-4FAA-8AEF-8A835718EC0A}|DapperCRUD\\DapperCRUD.csproj|solutionrelative:dappercrud\\controllers\\customerapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A15606AC-4398-490D-BADB-B664E80CBF11}|DomainLayer\\DomainLayer.csproj|c:\\users\\percoiditt\\source\\repos\\internship\\day14\\dappercrud\\domainlayer\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A15606AC-4398-490D-BADB-B664E80CBF11}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F4A50838-7478-4FAA-8AEF-8A835718EC0A}|DapperCRUD\\DapperCRUD.csproj|c:\\users\\percoiditt\\source\\repos\\internship\\day14\\dappercrud\\dappercrud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4A50838-7478-4FAA-8AEF-8A835718EC0A}|DapperCRUD\\DapperCRUD.csproj|solutionrelative:dappercrud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E0D8EE98-7399-4741-9936-8220063F880A}|InfrastructureLayer\\InfrastructureLayer.csproj|c:\\users\\percoiditt\\source\\repos\\internship\\day14\\dappercrud\\infrastructurelayer\\repository\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0D8EE98-7399-4741-9936-8220063F880A}|InfrastructureLayer\\InfrastructureLayer.csproj|solutionrelative:infrastructurelayer\\repository\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B6463474-CFD9-4262-85F5-C9B50979267D}|ApplicationLayer\\ApplicationLayer.csproj|c:\\users\\percoiditt\\source\\repos\\internship\\day14\\dappercrud\\applicationlayer\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B6463474-CFD9-4262-85F5-C9B50979267D}|ApplicationLayer\\ApplicationLayer.csproj|solutionrelative:applicationlayer\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B6463474-CFD9-4262-85F5-C9B50979267D}|ApplicationLayer\\ApplicationLayer.csproj|c:\\users\\percoiditt\\source\\repos\\internship\\day14\\dappercrud\\applicationlayer\\services\\iservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6463474-CFD9-4262-85F5-C9B50979267D}|ApplicationLayer\\ApplicationLayer.csproj|solutionrelative:applicationlayer\\services\\iservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F4A50838-7478-4FAA-8AEF-8A835718EC0A}|DapperCRUD\\DapperCRUD.csproj|c:\\users\\percoiditt\\source\\repos\\internship\\day14\\dappercrud\\dappercrud\\controllers\\customerapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4A50838-7478-4FAA-8AEF-8A835718EC0A}|DapperCRUD\\DapperCRUD.csproj|solutionrelative:dappercrud\\controllers\\customerapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F4A50838-7478-4FAA-8AEF-8A835718EC0A}|DapperCRUD\\DapperCRUD.csproj|c:\\users\\percoiditt\\source\\repos\\internship\\day14\\dappercrud\\dappercrud\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{F4A50838-7478-4FAA-8AEF-8A835718EC0A}|DapperCRUD\\DapperCRUD.csproj|solutionrelative:dappercrud\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{B6463474-CFD9-4262-85F5-C9B50979267D}|ApplicationLayer\\ApplicationLayer.csproj|c:\\users\\percoiditt\\source\\repos\\internship\\day14\\dappercrud\\applicationlayer\\services\\iservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6463474-CFD9-4262-85F5-C9B50979267D}|ApplicationLayer\\ApplicationLayer.csproj|solutionrelative:applicationlayer\\services\\iservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A15606AC-4398-490D-BADB-B664E80CBF11}|DomainLayer\\DomainLayer.csproj|c:\\users\\percoiditt\\source\\repos\\internship\\day14\\dappercrud\\domainlayer\\interface\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A15606AC-4398-490D-BADB-B664E80CBF11}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\interface\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0D8EE98-7399-4741-9936-8220063F880A}|InfrastructureLayer\\InfrastructureLayer.csproj|c:\\users\\percoiditt\\source\\repos\\internship\\day14\\dappercrud\\infrastructurelayer\\repository\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0D8EE98-7399-4741-9936-8220063F880A}|InfrastructureLayer\\InfrastructureLayer.csproj|solutionrelative:infrastructurelayer\\repository\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A15606AC-4398-490D-BADB-B664E80CBF11}|DomainLayer\\DomainLayer.csproj|c:\\users\\percoiditt\\source\\repos\\internship\\day14\\dappercrud\\domainlayer\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A15606AC-4398-490D-BADB-B664E80CBF11}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,104 +34,85 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day14\\DapperCRUD\\DomainLayer\\Entities\\Customer.cs",
-              "RelativeDocumentMoniker": "DomainLayer\\Entities\\Customer.cs",
-              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day14\\DapperCRUD\\DomainLayer\\Entities\\Customer.cs",
-              "RelativeToolTip": "DomainLayer\\Entities\\Customer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T05:07:28.826Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day14\\DapperCRUD\\DapperCRUD\\Program.cs",
-              "RelativeDocumentMoniker": "DapperCRUD\\Program.cs",
-              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day14\\DapperCRUD\\DapperCRUD\\Program.cs",
-              "RelativeToolTip": "DapperCRUD\\Program.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAABAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T10:37:59.241Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "CustomerAPIController.cs",
               "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day14\\DapperCRUD\\DapperCRUD\\Controllers\\CustomerAPIController.cs",
               "RelativeDocumentMoniker": "DapperCRUD\\Controllers\\CustomerAPIController.cs",
               "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day14\\DapperCRUD\\DapperCRUD\\Controllers\\CustomerAPIController.cs",
               "RelativeToolTip": "DapperCRUD\\Controllers\\CustomerAPIController.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAACoAAAA9AAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAADQAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T10:11:43.904Z",
+              "WhenOpened": "2024-07-15T05:20:22.751Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "CustomerService.cs",
               "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day14\\DapperCRUD\\ApplicationLayer\\Services\\CustomerService.cs",
               "RelativeDocumentMoniker": "ApplicationLayer\\Services\\CustomerService.cs",
               "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day14\\DapperCRUD\\ApplicationLayer\\Services\\CustomerService.cs",
               "RelativeToolTip": "ApplicationLayer\\Services\\CustomerService.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAAB4AAAA8AAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABwAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T09:55:43.757Z"
+              "WhenOpened": "2024-07-15T05:18:18.467Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "IService.cs",
               "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day14\\DapperCRUD\\ApplicationLayer\\Services\\IService.cs",
               "RelativeDocumentMoniker": "ApplicationLayer\\Services\\IService.cs",
               "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day14\\DapperCRUD\\ApplicationLayer\\Services\\IService.cs",
               "RelativeToolTip": "ApplicationLayer\\Services\\IService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAMAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T09:53:37.321Z"
+              "WhenOpened": "2024-07-15T05:18:12.137Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day14\\DapperCRUD\\DapperCRUD\\appsettings.json",
-              "RelativeDocumentMoniker": "DapperCRUD\\appsettings.json",
-              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day14\\DapperCRUD\\DapperCRUD\\appsettings.json",
-              "RelativeToolTip": "DapperCRUD\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-21T08:22:00.452Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IRepository.cs",
-              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day14\\DapperCRUD\\DomainLayer\\Interface\\IRepository.cs",
-              "RelativeDocumentMoniker": "DomainLayer\\Interface\\IRepository.cs",
-              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day14\\DapperCRUD\\DomainLayer\\Interface\\IRepository.cs",
-              "RelativeToolTip": "DomainLayer\\Interface\\IRepository.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T08:13:32.186Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "CustomerRepository.cs",
               "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day14\\DapperCRUD\\InfrastructureLayer\\Repository\\CustomerRepository.cs",
               "RelativeDocumentMoniker": "InfrastructureLayer\\Repository\\CustomerRepository.cs",
               "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day14\\DapperCRUD\\InfrastructureLayer\\Repository\\CustomerRepository.cs",
               "RelativeToolTip": "InfrastructureLayer\\Repository\\CustomerRepository.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAAA8AAAAmAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD8AAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T08:09:30.632Z"
+              "WhenOpened": "2024-07-15T04:56:54.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day14\\DapperCRUD\\DomainLayer\\Interface\\IRepository.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\Interface\\IRepository.cs",
+              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day14\\DapperCRUD\\DomainLayer\\Interface\\IRepository.cs",
+              "RelativeToolTip": "DomainLayer\\Interface\\IRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T04:42:12.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day14\\DapperCRUD\\DomainLayer\\Entities\\Customer.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\Entities\\Customer.cs",
+              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day14\\DapperCRUD\\DomainLayer\\Entities\\Customer.cs",
+              "RelativeToolTip": "DomainLayer\\Entities\\Customer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T04:40:29.98Z",
+              "EditorCaption": ""
             }
           ]
         }

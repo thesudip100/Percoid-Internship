@@ -24,21 +24,24 @@ namespace InfrastructureLayer.Repository
 
         public async Task<string> AddAsync(Customer entity)
         {
-            string response = "added";
-            using var connection = new SqlConnection(_connectionString);
-            var query = "Insert into Customer (Id,Name,Email,Phone,Address) values (@Id,@Name,@Email,@Phone,@Address)";
-
-            await connection.ExecuteAsync(query, entity);
-            return response;
+            using(var connection=new SqlConnection(_connectionString))
+            {
+                string response = "added";
+                var query = "Insert into Customer (Id,Name,Email,Phone,Address) values (@Id,@Name,@Email,@Phone,@Address)";
+                await connection.ExecuteAsync(query, entity);
+                return response;
+            }
         }
 
         public async Task<string> DeleteAsync(Customer entity)
         {
-            string response = "deleted";
-            using var connection = new SqlConnection(_connectionString);
-            var query = "DELETE FROM Customer WHERE Id = @Id";
-            await connection.ExecuteAsync(query, new { entity.Id });
-            return response;
+            using (var connection = new SqlConnection(_connectionString))
+            {
+                string response = "deleted";
+                var query = "DELETE FROM Customer WHERE Id = @Id";
+                await connection.ExecuteAsync(query, new { entity.Id });
+                return response;
+            }
         }
 
         public async Task<IEnumerable<Customer>> GetAllAsync()
@@ -51,10 +54,15 @@ namespace InfrastructureLayer.Repository
 
         public async Task<Customer> GetByIdAsync(int id)
         {
-            using var connection = new SqlConnection(_connectionString);
-            var query = "select * from Customer WHERE Id = @Id";
-            var entity = await connection.QuerySingleOrDefaultAsync<Customer>(query, new { Id = id });
-            return entity;
+            using (var connection = new SqlConnection(_connectionString))
+            {
+                var query = "select * from Customer WHERE Id = @Id";
+                var entity = await connection.QuerySingleOrDefaultAsync<Customer>(query, new { @Id = id });
+                if (entity != null)
+                    return entity;
+                else
+                    throw new Exception("Entity not Found");
+            }
 
         }
 
@@ -66,11 +74,11 @@ namespace InfrastructureLayer.Repository
                 var query = "update Customer set Name=@Name,Email=@Email,Phone=@Phone, Address=@Address WHERE Id = @Id";
                 await connection.ExecuteAsync(query, new
                 {
-                    entity.Name,
-                    entity.Email,
-                    entity.Phone,
-                    entity.Address,
-                    entity.Id
+                    @Name=entity.Name,
+                    @Email=entity.Email,
+                    @Phone=entity.Phone,
+                    @Address=entity.Address,
+                    @Id=entity.Id
                 });
             }
         }
