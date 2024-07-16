@@ -1,0 +1,15 @@
+C:\Users\PERCOIDITT\source\repos\HomeServiceApp\DomainLayer\bin\Debug\net6.0\DomainLayer.deps.json
+C:\Users\PERCOIDITT\source\repos\HomeServiceApp\DomainLayer\bin\Debug\net6.0\DomainLayer.runtimeconfig.json
+C:\Users\PERCOIDITT\source\repos\HomeServiceApp\DomainLayer\bin\Debug\net6.0\DomainLayer.dll
+C:\Users\PERCOIDITT\source\repos\HomeServiceApp\DomainLayer\bin\Debug\net6.0\DomainLayer.pdb
+C:\Users\PERCOIDITT\source\repos\HomeServiceApp\DomainLayer\obj\Debug\net6.0\DomainLayer.csproj.AssemblyReference.cache
+C:\Users\PERCOIDITT\source\repos\HomeServiceApp\DomainLayer\obj\Debug\net6.0\DomainLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PERCOIDITT\source\repos\HomeServiceApp\DomainLayer\obj\Debug\net6.0\DomainLayer.AssemblyInfoInputs.cache
+C:\Users\PERCOIDITT\source\repos\HomeServiceApp\DomainLayer\obj\Debug\net6.0\DomainLayer.AssemblyInfo.cs
+C:\Users\PERCOIDITT\source\repos\HomeServiceApp\DomainLayer\obj\Debug\net6.0\DomainLayer.csproj.CoreCompileInputs.cache
+C:\Users\PERCOIDITT\source\repos\HomeServiceApp\DomainLayer\obj\Debug\net6.0\DomainLayer.sourcelink.json
+C:\Users\PERCOIDITT\source\repos\HomeServiceApp\DomainLayer\obj\Debug\net6.0\DomainLayer.dll
+C:\Users\PERCOIDITT\source\repos\HomeServiceApp\DomainLayer\obj\Debug\net6.0\refint\DomainLayer.dll
+C:\Users\PERCOIDITT\source\repos\HomeServiceApp\DomainLayer\obj\Debug\net6.0\DomainLayer.pdb
+C:\Users\PERCOIDITT\source\repos\HomeServiceApp\DomainLayer\obj\Debug\net6.0\DomainLayer.genruntimeconfig.cache
+C:\Users\PERCOIDITT\source\repos\HomeServiceApp\DomainLayer\obj\Debug\net6.0\ref\DomainLayer.dll
