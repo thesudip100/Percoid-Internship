@@ -1,0 +1,256 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PERCOIDITT\\source\\repos\\GharSewaAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8B2F90C0-51F0-4D96-AE9A-19DC06CD6FE0}|InfrastructureLayer\\InfrastructureLayer.csproj|c:\\users\\percoiditt\\source\\repos\\gharsewaapi\\infrastructurelayer\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B2F90C0-51F0-4D96-AE9A-19DC06CD6FE0}|InfrastructureLayer\\InfrastructureLayer.csproj|solutionrelative:infrastructurelayer\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E22BB32A-D26D-4E70-B081-135C349D312F}|DomainLayer\\DomainLayer.csproj|c:\\users\\percoiditt\\source\\repos\\gharsewaapi\\domainlayer\\interface\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E22BB32A-D26D-4E70-B081-135C349D312F}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\interface\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E22BB32A-D26D-4E70-B081-135C349D312F}|DomainLayer\\DomainLayer.csproj|c:\\users\\percoiditt\\source\\repos\\gharsewaapi\\domainlayer\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E22BB32A-D26D-4E70-B081-135C349D312F}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E22BB32A-D26D-4E70-B081-135C349D312F}|DomainLayer\\DomainLayer.csproj|c:\\users\\percoiditt\\source\\repos\\gharsewaapi\\domainlayer\\entities\\authuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E22BB32A-D26D-4E70-B081-135C349D312F}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\entities\\authuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B7CAED5-40CB-42DB-8CCD-499C8A9F5C7D}|GharSewaAPI\\GharSewaAPI.csproj|c:\\users\\percoiditt\\source\\repos\\gharsewaapi\\gharsewaapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B7CAED5-40CB-42DB-8CCD-499C8A9F5C7D}|GharSewaAPI\\GharSewaAPI.csproj|solutionrelative:gharsewaapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B7CAED5-40CB-42DB-8CCD-499C8A9F5C7D}|GharSewaAPI\\GharSewaAPI.csproj|c:\\users\\percoiditt\\source\\repos\\gharsewaapi\\gharsewaapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3B7CAED5-40CB-42DB-8CCD-499C8A9F5C7D}|GharSewaAPI\\GharSewaAPI.csproj|solutionrelative:gharsewaapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B7CAED5-40CB-42DB-8CCD-499C8A9F5C7D}|GharSewaAPI\\GharSewaAPI.csproj|c:\\users\\percoiditt\\source\\repos\\gharsewaapi\\gharsewaapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B7CAED5-40CB-42DB-8CCD-499C8A9F5C7D}|GharSewaAPI\\GharSewaAPI.csproj|solutionrelative:gharsewaapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E22BB32A-D26D-4E70-B081-135C349D312F}|DomainLayer\\DomainLayer.csproj|c:\\users\\percoiditt\\source\\repos\\gharsewaapi\\domainlayer\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E22BB32A-D26D-4E70-B081-135C349D312F}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F92A688-F65B-45F1-B152-4D96599A0BE3}|ApplicationLayer\\ApplicationLayer.csproj|c:\\users\\percoiditt\\source\\repos\\gharsewaapi\\applicationlayer\\services\\service interface\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F92A688-F65B-45F1-B152-4D96599A0BE3}|ApplicationLayer\\ApplicationLayer.csproj|solutionrelative:applicationlayer\\services\\service interface\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F92A688-F65B-45F1-B152-4D96599A0BE3}|ApplicationLayer\\ApplicationLayer.csproj|c:\\users\\percoiditt\\source\\repos\\gharsewaapi\\applicationlayer\\services\\service interface\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F92A688-F65B-45F1-B152-4D96599A0BE3}|ApplicationLayer\\ApplicationLayer.csproj|solutionrelative:applicationlayer\\services\\service interface\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E22BB32A-D26D-4E70-B081-135C349D312F}|DomainLayer\\DomainLayer.csproj|c:\\users\\percoiditt\\source\\repos\\gharsewaapi\\domainlayer\\dto\\userregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E22BB32A-D26D-4E70-B081-135C349D312F}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\dto\\userregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E22BB32A-D26D-4E70-B081-135C349D312F}|DomainLayer\\DomainLayer.csproj|c:\\users\\percoiditt\\source\\repos\\gharsewaapi\\domainlayer\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E22BB32A-D26D-4E70-B081-135C349D312F}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PERCOIDITT\\source\\repos\\GharSewaAPI\\DomainLayer\\Migrations\\20240717081320_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DomainLayer\\Migrations\\20240717081320_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PERCOIDITT\\source\\repos\\GharSewaAPI\\DomainLayer\\Migrations\\20240717053740_intial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DomainLayer\\Migrations\\20240717053740_intial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\GharSewaAPI\\GharSewaAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "GharSewaAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\GharSewaAPI\\GharSewaAPI\\appsettings.json",
+              "RelativeToolTip": "GharSewaAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAACAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-17T09:46:20.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\GharSewaAPI\\DomainLayer\\DTO\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\DTO\\LoginDTO.cs",
+              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\GharSewaAPI\\DomainLayer\\DTO\\LoginDTO.cs",
+              "RelativeToolTip": "DomainLayer\\DTO\\LoginDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T08:37:36.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\GharSewaAPI\\DomainLayer\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\GharSewaAPI\\DomainLayer\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "DomainLayer\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T08:37:19.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20240717081320_initial.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\GharSewaAPI\\DomainLayer\\Migrations\\20240717081320_initial.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\Migrations\\20240717081320_initial.cs",
+              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\GharSewaAPI\\DomainLayer\\Migrations\\20240717081320_initial.cs",
+              "RelativeToolTip": "DomainLayer\\Migrations\\20240717081320_initial.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T08:13:20.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\GharSewaAPI\\GharSewaAPI\\Program.cs",
+              "RelativeDocumentMoniker": "GharSewaAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\GharSewaAPI\\GharSewaAPI\\Program.cs",
+              "RelativeToolTip": "GharSewaAPI\\Program.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T07:36:07.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\GharSewaAPI\\GharSewaAPI\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "GharSewaAPI\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\GharSewaAPI\\GharSewaAPI\\Controllers\\UserController.cs",
+              "RelativeToolTip": "GharSewaAPI\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAB8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T06:23:03.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\GharSewaAPI\\ApplicationLayer\\Services\\Service Interface\\UserService.cs",
+              "RelativeDocumentMoniker": "ApplicationLayer\\Services\\Service Interface\\UserService.cs",
+              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\GharSewaAPI\\ApplicationLayer\\Services\\Service Interface\\UserService.cs",
+              "RelativeToolTip": "ApplicationLayer\\Services\\Service Interface\\UserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T06:18:42.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\GharSewaAPI\\ApplicationLayer\\Services\\Service Interface\\IUserService.cs",
+              "RelativeDocumentMoniker": "ApplicationLayer\\Services\\Service Interface\\IUserService.cs",
+              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\GharSewaAPI\\ApplicationLayer\\Services\\Service Interface\\IUserService.cs",
+              "RelativeToolTip": "ApplicationLayer\\Services\\Service Interface\\IUserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T06:10:17.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "20240717053740_intial.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\GharSewaAPI\\DomainLayer\\Migrations\\20240717053740_intial.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\Migrations\\20240717053740_intial.cs",
+              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\GharSewaAPI\\DomainLayer\\Migrations\\20240717053740_intial.cs",
+              "RelativeToolTip": "DomainLayer\\Migrations\\20240717053740_intial.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T05:37:40.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\GharSewaAPI\\InfrastructureLayer\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "InfrastructureLayer\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\GharSewaAPI\\InfrastructureLayer\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "InfrastructureLayer\\Repositories\\UserRepository.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAUwB8AAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T05:29:15.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserRegisterDTO.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\GharSewaAPI\\DomainLayer\\DTO\\UserRegisterDTO.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\DTO\\UserRegisterDTO.cs",
+              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\GharSewaAPI\\DomainLayer\\DTO\\UserRegisterDTO.cs",
+              "RelativeToolTip": "DomainLayer\\DTO\\UserRegisterDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T05:25:08.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\GharSewaAPI\\DomainLayer\\Interface\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\Interface\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\GharSewaAPI\\DomainLayer\\Interface\\IUserRepository.cs",
+              "RelativeToolTip": "DomainLayer\\Interface\\IUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T05:23:43.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\GharSewaAPI\\DomainLayer\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\GharSewaAPI\\DomainLayer\\Entities\\User.cs",
+              "RelativeToolTip": "DomainLayer\\Entities\\User.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T05:05:32.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthUser.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\GharSewaAPI\\DomainLayer\\Entities\\AuthUser.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\Entities\\AuthUser.cs",
+              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\GharSewaAPI\\DomainLayer\\Entities\\AuthUser.cs",
+              "RelativeToolTip": "DomainLayer\\Entities\\AuthUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T05:03:22.473Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
