@@ -58,9 +58,6 @@ namespace DomainLayer.Migrations
                     b.Property<string>("Address")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("AuthId")
-                        .HasColumnType("int");
-
                     b.Property<string>("Email")
                         .HasColumnType("nvarchar(max)");
 
@@ -72,20 +69,7 @@ namespace DomainLayer.Migrations
 
                     b.HasKey("UserId");
 
-                    b.HasIndex("AuthId");
-
                     b.ToTable("Users");
-                });
-
-            modelBuilder.Entity("DomainLayer.Entities.User", b =>
-                {
-                    b.HasOne("DomainLayer.Entities.AuthUser", "AuthUsers")
-                        .WithMany()
-                        .HasForeignKey("AuthId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("AuthUsers");
                 });
 #pragma warning restore 612, 618
         }

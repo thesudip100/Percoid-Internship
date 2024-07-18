@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VekM41ZiylQ=",
+  "dgSpecHash": "RWZ6bKTRWKM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\PERCOIDITT\\source\\repos\\GharSewaAPI\\GharSewaAPI\\GharSewaAPI.csproj",
+  "projectFilePath": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\GharSewaAPI\\GharSewaAPI\\GharSewaAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PERCOIDITT\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\PERCOIDITT\\.nuget\\packages\\azure.identity\\1.11.3\\azure.identity.1.11.3.nupkg.sha512",

@@ -2610,11 +2610,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PERCOIDITT\\source\\repos\\GharSewaAPI\\DomainLayer\\DomainLayer.csproj",
+      "projectUniqueName": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\GharSewaAPI\\DomainLayer\\DomainLayer.csproj",
       "projectName": "DomainLayer",
-      "projectPath": "C:\\Users\\PERCOIDITT\\source\\repos\\GharSewaAPI\\DomainLayer\\DomainLayer.csproj",
+      "projectPath": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\GharSewaAPI\\DomainLayer\\DomainLayer.csproj",
       "packagesPath": "C:\\Users\\PERCOIDITT\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PERCOIDITT\\source\\repos\\GharSewaAPI\\DomainLayer\\obj\\",
+      "outputPath": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\GharSewaAPI\\DomainLayer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

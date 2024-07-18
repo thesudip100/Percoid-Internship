@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PERCOIDITT\\source\\repos\\GharSewaAPI\\InfrastructureLayer\\InfrastructureLayer.csproj": {}
+    "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\GharSewaAPI\\InfrastructureLayer\\InfrastructureLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PERCOIDITT\\source\\repos\\GharSewaAPI\\DomainLayer\\DomainLayer.csproj": {
+    "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\GharSewaAPI\\DomainLayer\\DomainLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PERCOIDITT\\source\\repos\\GharSewaAPI\\DomainLayer\\DomainLayer.csproj",
+        "projectUniqueName": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\GharSewaAPI\\DomainLayer\\DomainLayer.csproj",
         "projectName": "DomainLayer",
-        "projectPath": "C:\\Users\\PERCOIDITT\\source\\repos\\GharSewaAPI\\DomainLayer\\DomainLayer.csproj",
+        "projectPath": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\GharSewaAPI\\DomainLayer\\DomainLayer.csproj",
         "packagesPath": "C:\\Users\\PERCOIDITT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PERCOIDITT\\source\\repos\\GharSewaAPI\\DomainLayer\\obj\\",
+        "outputPath": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\GharSewaAPI\\DomainLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -106,14 +106,14 @@
         }
       }
     },
-    "C:\\Users\\PERCOIDITT\\source\\repos\\GharSewaAPI\\InfrastructureLayer\\InfrastructureLayer.csproj": {
+    "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\GharSewaAPI\\InfrastructureLayer\\InfrastructureLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PERCOIDITT\\source\\repos\\GharSewaAPI\\InfrastructureLayer\\InfrastructureLayer.csproj",
+        "projectUniqueName": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\GharSewaAPI\\InfrastructureLayer\\InfrastructureLayer.csproj",
         "projectName": "InfrastructureLayer",
-        "projectPath": "C:\\Users\\PERCOIDITT\\source\\repos\\GharSewaAPI\\InfrastructureLayer\\InfrastructureLayer.csproj",
+        "projectPath": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\GharSewaAPI\\InfrastructureLayer\\InfrastructureLayer.csproj",
         "packagesPath": "C:\\Users\\PERCOIDITT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PERCOIDITT\\source\\repos\\GharSewaAPI\\InfrastructureLayer\\obj\\",
+        "outputPath": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\GharSewaAPI\\InfrastructureLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -134,8 +134,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\PERCOIDITT\\source\\repos\\GharSewaAPI\\DomainLayer\\DomainLayer.csproj": {
-                "projectPath": "C:\\Users\\PERCOIDITT\\source\\repos\\GharSewaAPI\\DomainLayer\\DomainLayer.csproj"
+              "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\GharSewaAPI\\DomainLayer\\DomainLayer.csproj": {
+                "projectPath": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\GharSewaAPI\\DomainLayer\\DomainLayer.csproj"
               }
             }
           }

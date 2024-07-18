@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GharSewaAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+319f056ec4ba570ca8681d7caaa563b340e718e8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ab495d7a4958678360cb4082a4de51393f27484f")]
 [assembly: System.Reflection.AssemblyProductAttribute("GharSewaAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GharSewaAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

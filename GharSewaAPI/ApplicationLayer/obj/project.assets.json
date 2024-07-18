@@ -2632,11 +2632,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PERCOIDITT\\source\\repos\\GharSewaAPI\\ApplicationLayer\\ApplicationLayer.csproj",
+      "projectUniqueName": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\GharSewaAPI\\ApplicationLayer\\ApplicationLayer.csproj",
       "projectName": "ApplicationLayer",
-      "projectPath": "C:\\Users\\PERCOIDITT\\source\\repos\\GharSewaAPI\\ApplicationLayer\\ApplicationLayer.csproj",
+      "projectPath": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\GharSewaAPI\\ApplicationLayer\\ApplicationLayer.csproj",
       "packagesPath": "C:\\Users\\PERCOIDITT\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PERCOIDITT\\source\\repos\\GharSewaAPI\\ApplicationLayer\\obj\\",
+      "outputPath": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\GharSewaAPI\\ApplicationLayer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -2657,8 +2657,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\PERCOIDITT\\source\\repos\\GharSewaAPI\\DomainLayer\\DomainLayer.csproj": {
-              "projectPath": "C:\\Users\\PERCOIDITT\\source\\repos\\GharSewaAPI\\DomainLayer\\DomainLayer.csproj"
+            "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\GharSewaAPI\\DomainLayer\\DomainLayer.csproj": {
+              "projectPath": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\GharSewaAPI\\DomainLayer\\DomainLayer.csproj"
             }
           }
         }

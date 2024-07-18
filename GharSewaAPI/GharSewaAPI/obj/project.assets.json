@@ -3054,11 +3054,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PERCOIDITT\\source\\repos\\GharSewaAPI\\GharSewaAPI\\GharSewaAPI.csproj",
+      "projectUniqueName": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\GharSewaAPI\\GharSewaAPI\\GharSewaAPI.csproj",
       "projectName": "GharSewaAPI",
-      "projectPath": "C:\\Users\\PERCOIDITT\\source\\repos\\GharSewaAPI\\GharSewaAPI\\GharSewaAPI.csproj",
+      "projectPath": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\GharSewaAPI\\GharSewaAPI\\GharSewaAPI.csproj",
       "packagesPath": "C:\\Users\\PERCOIDITT\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PERCOIDITT\\source\\repos\\GharSewaAPI\\GharSewaAPI\\obj\\",
+      "outputPath": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\GharSewaAPI\\GharSewaAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3079,14 +3079,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\PERCOIDITT\\source\\repos\\GharSewaAPI\\ApplicationLayer\\ApplicationLayer.csproj": {
-              "projectPath": "C:\\Users\\PERCOIDITT\\source\\repos\\GharSewaAPI\\ApplicationLayer\\ApplicationLayer.csproj"
+            "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\GharSewaAPI\\ApplicationLayer\\ApplicationLayer.csproj": {
+              "projectPath": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\GharSewaAPI\\ApplicationLayer\\ApplicationLayer.csproj"
             },
-            "C:\\Users\\PERCOIDITT\\source\\repos\\GharSewaAPI\\DomainLayer\\DomainLayer.csproj": {
-              "projectPath": "C:\\Users\\PERCOIDITT\\source\\repos\\GharSewaAPI\\DomainLayer\\DomainLayer.csproj"
+            "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\GharSewaAPI\\DomainLayer\\DomainLayer.csproj": {
+              "projectPath": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\GharSewaAPI\\DomainLayer\\DomainLayer.csproj"
             },
-            "C:\\Users\\PERCOIDITT\\source\\repos\\GharSewaAPI\\InfrastructureLayer\\InfrastructureLayer.csproj": {
-              "projectPath": "C:\\Users\\PERCOIDITT\\source\\repos\\GharSewaAPI\\InfrastructureLayer\\InfrastructureLayer.csproj"
+            "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\GharSewaAPI\\InfrastructureLayer\\InfrastructureLayer.csproj": {
+              "projectPath": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\GharSewaAPI\\InfrastructureLayer\\InfrastructureLayer.csproj"
             }
           }
         }

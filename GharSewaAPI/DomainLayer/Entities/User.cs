@@ -16,9 +16,5 @@ namespace DomainLayer.Entities
         public string? Address { get; set; }
         public string? Email { get; set; }
         public string? Phone {  get; set; }
-        public int AuthId { get; set; }
-
-        [ForeignKey("AuthId")]
-        public AuthUser? AuthUsers { get; set; }
     }
 }
