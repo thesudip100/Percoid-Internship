@@ -15,7 +15,7 @@ namespace ApplicationLayer.Services.Service_Interface
         Task<EditUserDTO> GetUserbyIdAsync(int id);
         Task<string> DeleteUserAsync(int id);
         Task<string> ChangePasswordAsync(ChangePasswordDTO user, int id);
-        Task<string> OTPGenerationAsync(OTPGenerationDTO user);
+   /*     Task<string> OTPGenerationAsync(OTPGenerationDTO user);*/
 
     }
 }

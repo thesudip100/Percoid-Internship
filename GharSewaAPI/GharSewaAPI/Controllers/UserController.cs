@@ -1,5 +1,7 @@
 ﻿using ApplicationLayer.Services.Service_Interface;
 using DomainLayer.DTO;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Authorization.Infrastructure;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -19,7 +21,7 @@ namespace GharSewaAPI.Controllers
         [HttpPost]
         public async Task<IActionResult> UserRegistration(UserRegisterDTO user)
         {
-            var response=await _service.RegisterUserAsync(user);
+            var response = await _service.RegisterUserAsync(user);
             return Ok(response);
         }
 
@@ -30,7 +32,7 @@ namespace GharSewaAPI.Controllers
             return Ok(new { message = $"{response}" });
         }
 
-        [HttpPut]
+        [HttpPut("{id}"),Authorize(Roles="User")]
         public async Task<IActionResult> EditUserProfile(EditUserDTO user, int id)
         {
             var response = await _service.EditUserProfileAsync(user, id);
@@ -55,19 +57,19 @@ namespace GharSewaAPI.Controllers
             return Ok(response);
         }
 
-        [HttpPut]
+        [HttpPut("{id}")]
         public async Task<IActionResult> ChangePassword(ChangePasswordDTO user, int id)
         {
             var response = await _service.ChangePasswordAsync(user, id);
             return Ok(response);
         }
 
-        [HttpPost]
+/*        [HttpPost]
         public async Task<IActionResult> OTPGeneration(OTPGenerationDTO user)
         {
             var response = await _service.OTPGenerationAsync(user);
             return Ok(response);
-        }
+        }*/
 
     }
 }

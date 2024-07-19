@@ -1,6 +1,8 @@
 {
   "ExpandedNodes": [
     "",
+    "\\GharSewaAPI",
+    "\\GharSewaAPI\\Controllers",
     "\\InfrastructureLayer",
     "\\InfrastructureLayer\\Repositories"
   ],

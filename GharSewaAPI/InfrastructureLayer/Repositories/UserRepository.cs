@@ -26,23 +26,11 @@ namespace InfrastructureLayer.Repositories
     {
         private readonly string connectionString;
         private readonly IConfiguration configuration;
-        private readonly IMemoryCache _cache;
-        private readonly EmailSettings _email;
 
-        public UserRepository(IConfiguration configuration, IMemoryCache cache, EmailSettings email)
+        public UserRepository(IConfiguration configuration)
         {
             connectionString = configuration.GetConnectionString("DefaultConnection");
             this.configuration = configuration;
-            _cache = cache;
-            _email = email;
-        }
-
-        public UserRepository(IConfiguration configuration, IMemoryCache cache, IOptions<EmailSettings> email)
-        {
-            connectionString = configuration.GetConnectionString("DefaultConnection");
-            this.configuration = configuration;
-            _cache = cache;
-            _email = email.Value;
         }
 
         public async Task<string> CreateUserAsync(UserRegisterDTO user)
@@ -130,7 +118,8 @@ namespace InfrastructureLayer.Repositories
             var claims = new List<Claim>
             {
                 new Claim(ClaimTypes.Name,user.UserName ),
-                new Claim(ClaimTypes.Role, user.Role)
+                new Claim(ClaimTypes.Role, user.Role),
+                new Claim("UserId", user.AuthId.ToString())
             };
 
             var secretKey = configuration["ApplicationSettings:secret_key"];
@@ -264,65 +253,6 @@ namespace InfrastructureLayer.Repositories
 
         }
 
-        public async Task<string> OTPGenerationAsync(OTPGenerationDTO user)
-        {
-            using (var connection = new SqlConnection(connectionString))
-            {
-                var check_usernamequery = "select count(1) from AuthUsers where UserName=@UserName";
-                var data = await connection.ExecuteScalarAsync<bool>(check_usernamequery, new { @Username = user.UserName });
-                if (!data)
-                {
-                    return "Username/Email is not Found";
-                }
-                else
-                {
-                    var otp = GenerateOTP();
-                    var expirationTime = DateTime.UtcNow.AddMinutes(5);
-                    var cacheEntryOptions = new MemoryCacheEntryOptions
-                    {
-                        AbsoluteExpirationRelativeToNow = TimeSpan.FromMinutes(2)
-                    };
-                    _cache.Set(user.UserName, otp, cacheEntryOptions);
-                    await SendEmailAsync(user.Email, otp);
-                    return "OTP has been sent to your email.";
-                }
-            }
-
-        }
-       
-        private string GenerateOTP()
-        {
-            Random random = new Random();
-            return random.Next(100000, 999999).ToString();
-        }
-
-        private async Task SendEmailAsync(string email, string otp)
-        {
-            var toEmail = email;
-            var subject = "Your OTP Code";
-            var body = $"Your OTP code is: {otp}";
-
-            var smtpClient = new SmtpClient(_email.SmtpServer)
-            {
-                Port = Convert.ToInt32(_email.SmtpPort),
-                Credentials = new NetworkCredential(_email.SenderEmail, _email.SenderPassword),
-                EnableSsl = true,
-                DeliveryMethod = SmtpDeliveryMethod.Network,
-                UseDefaultCredentials = false 
-            };
-
-            var mailMessage = new MailMessage
-            {
-                From = new MailAddress(_email.SenderEmail, _email.SenderName),
-                Subject = subject,
-                Body = body,
-                IsBodyHtml = false,
-            };
-            mailMessage.To.Add(toEmail);
-
-            await smtpClient.SendMailAsync(mailMessage);
-        }
-
         private bool CheckPassword(string password, byte[] passSalt, byte[] passHash)
         {
             using (var hmac = new HMACSHA512(passSalt))
@@ -340,6 +270,68 @@ namespace InfrastructureLayer.Repositories
                 passHash = hmac.ComputeHash(Encoding.UTF8.GetBytes(password));
             }
         }
+
+       
+
+        /* public async Task<string> OTPGenerationAsync(OTPGenerationDTO user)
+         {
+             using (var connection = new SqlConnection(connectionString))
+             {
+                 var check_usernamequery = "select count(1) from AuthUsers where UserName=@UserName";
+                 var data = await connection.ExecuteScalarAsync<bool>(check_usernamequery, new { @Username = user.UserName });
+                 if (!data)
+                 {
+                     return "Username/Email is not Found";
+                 }
+                 else
+                 {
+                     var otp = GenerateOTP();
+                     var expirationTime = DateTime.UtcNow.AddMinutes(5);
+                     var cacheEntryOptions = new MemoryCacheEntryOptions
+                     {
+                         AbsoluteExpirationRelativeToNow = TimeSpan.FromMinutes(2)
+                     };
+                     _cache.Set(user.UserName, otp, cacheEntryOptions);
+                     await SendEmailAsync(user.Email, otp);
+                     return "OTP has been sent to your email.";
+                 }
+             }
+
+         }*/
+
+        /*  private string GenerateOTP()
+          {
+              Random random = new Random();
+              return random.Next(100000, 999999).ToString();
+          }
+
+          private async Task SendEmailAsync(string email, string otp)
+          {
+              var toEmail = email;
+              var subject = "Your OTP Code";
+              var body = $"Your OTP code is: {otp}";
+
+              var smtpClient = new SmtpClient(_email.SmtpServer)
+              {
+                  Port = Convert.ToInt32(_email.SmtpPort),
+                  Credentials = new NetworkCredential(_email.SenderEmail, _email.SenderPassword),
+                  EnableSsl = true,
+                  DeliveryMethod = SmtpDeliveryMethod.Network,
+                  UseDefaultCredentials = false 
+              };
+
+              var mailMessage = new MailMessage
+              {
+                  From = new MailAddress(_email.SenderEmail, _email.SenderName),
+                  Subject = subject,
+                  Body = body,
+                  IsBodyHtml = false,
+              };
+              mailMessage.To.Add(toEmail);
+
+              await smtpClient.SendMailAsync(mailMessage);
+          }*/
+
 
 
     }

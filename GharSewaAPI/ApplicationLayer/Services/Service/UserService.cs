@@ -38,10 +38,10 @@ namespace ApplicationLayer.Services.Service
             return _repository.GetUserbyIdAsync(id);
         }
 
-        public Task<string> OTPGenerationAsync(OTPGenerationDTO user)
+/*        public Task<string> OTPGenerationAsync(OTPGenerationDTO user)
         {
             return _repository.OTPGenerationAsync(user);
-        }
+        }*/
 
         public async Task<string> RegisterUserAsync(UserRegisterDTO user)
         {
