@@ -13,9 +13,9 @@ namespace DomainLayer.Interface
     {
         public Task<string> BookServiceAsync(BookingDTO booking, ClaimsPrincipal user);
         public Task<IEnumerable<BookingDTO>> GetAllBookingsAsync();
-        public Task<BookingDTO> GetBookingbyBookingIdAsync(int bookId);
-        public Task<BookingDTO> GetBookingByUserIdAsync(int userId);
+        public Task<Booking> GetBookingbyBookingIdAsync(int bookId);
+        public Task<IEnumerable<BookingDTO>> GetBookingByUserIdAsync(int userId);
         public Task<string> DeletebookingAsync(int bookid);
-        public Task<string> UpdateBookingDetails(BookingDTO booking);
+        public Task<string> UpdateBookingDetailsAsync(BookingDTO booking, int bookid);
     }
 }

@@ -1,5 +1,6 @@
 ﻿using ApplicationLayer.Services.Service_Interface;
 using DomainLayer.DTO;
+using DomainLayer.Entities;
 using DomainLayer.Interface;
 using System;
 using System.Collections.Generic;
@@ -21,6 +22,31 @@ namespace ApplicationLayer.Services.Service
         public Task<string> BookServiceAsync(BookingDTO booking, ClaimsPrincipal user)
         {
             return _bookrepo.BookServiceAsync(booking, user);
+        }
+
+        public Task<string> DeletebookingAsync(int bookid)
+        {
+            return _bookrepo.DeletebookingAsync(bookid);
+        }
+
+        public Task<IEnumerable<BookingDTO>> GetAllBookingsAsync()
+        {
+            return _bookrepo.GetAllBookingsAsync();
+        }
+
+        public Task<Booking> GetBookingbyBookingIdAsync(int bookId)
+        {
+            return _bookrepo.GetBookingbyBookingIdAsync(bookId);
+        }
+
+        public Task<IEnumerable<BookingDTO>> GetBookingByUserIdAsync(int userId)
+        {
+            return _bookrepo.GetBookingByUserIdAsync(userId);
+        }
+
+        public Task<string> UpdateBookingDetailsAsync(BookingDTO booking, int book)
+        {
+            return _bookrepo.UpdateBookingDetailsAsync(booking, book);
         }
     }
 }

@@ -1,5 +1,6 @@
 ﻿using ApplicationLayer.Services.Service_Interface;
 using DomainLayer.DTO;
+using DomainLayer.Entities;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -23,5 +24,45 @@ namespace GharSewaAPI.Controllers
             var result = await _bookservice.BookServiceAsync(booking, User);
             return Ok(result);
         }
+
+        [HttpGet]
+        public async Task<IActionResult> getAllBookings()
+            {
+                var result= await _bookservice.GetAllBookingsAsync();
+                return Ok(result);
+            }
+
+        [HttpGet]
+        public async Task<IActionResult> GetBookingsbyBookingId(int bookid)
+        {
+            var result = await _bookservice.GetBookingbyBookingIdAsync(bookid);
+            return Ok(result);
+        }
+
+
+        [HttpGet]
+        public async Task<IActionResult> GetBookingsbyUserId(int userid)
+        {
+            var result = await _bookservice.GetBookingByUserIdAsync(userid);
+            return Ok(result);
+        }
+
+        [HttpPut]
+        public async Task<IActionResult> UpdateBookingDetailsAsync(BookingDTO booking, int bookid)
+        {
+            var result= await _bookservice.UpdateBookingDetailsAsync(booking, bookid);
+            return Ok(result);
+        }
+
+        [HttpDelete]
+        public async Task<IActionResult> DeleteBookingDetailsAsync(int bookid)
+        {
+            var result = await _bookservice.DeletebookingAsync(bookid);
+            return Ok(result);
+        }
+
+
+
+
     }
 }

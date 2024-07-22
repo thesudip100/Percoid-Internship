@@ -17,7 +17,6 @@ using System.Security.Claims;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
-using static DomainLayer.Entities.EmailSetttings;
 using Microsoft.Extensions.Options;
 
 namespace InfrastructureLayer.Repositories

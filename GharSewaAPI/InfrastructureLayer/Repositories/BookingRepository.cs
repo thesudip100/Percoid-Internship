@@ -1,7 +1,9 @@
 ﻿using Dapper;
 using DomainLayer.DTO;
+using DomainLayer.Entities;
 using DomainLayer.Interface;
 using Microsoft.Data.SqlClient;
+using Microsoft.EntityFrameworkCore.ChangeTracking;
 using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
@@ -23,7 +25,7 @@ namespace InfrastructureLayer.Repositories
             this.configuration = configuration;
         }
 
-        
+
         public async Task<string> BookServiceAsync(BookingDTO booking, ClaimsPrincipal user)
         {
             var userId = GetUserIdFromToken(user);
@@ -48,6 +50,7 @@ namespace InfrastructureLayer.Repositories
             }
         }
 
+
         private int GetUserIdFromToken(ClaimsPrincipal user)
         {
             if (user.HasClaim(c => c.Type == "UserId"))
@@ -57,5 +60,72 @@ namespace InfrastructureLayer.Repositories
             throw new Exception("User ID not found in token");
         }
 
+        public async Task<IEnumerable<BookingDTO>> GetAllBookingsAsync()
+        {
+            using (var connection = new SqlConnection(connectionString))
+            {
+                var query = "select u.FullName, u.Address, u.phone, b.ServiceName, b.BookingDate from Users u join UserBookings ub on u.UserId=ub.UserId join Bookings b on b.BookingId=ub.BookingId";
+                var entities = await connection.QueryAsync<BookingDTO>(query);
+                return entities.ToList();
+            }
+        }
+
+        public async Task<Booking> GetBookingbyBookingIdAsync(int bookId)
+        {
+            using (var connection = new SqlConnection(connectionString))
+            {
+                var query = "select * from Bookings where BookingId=@Id";
+                var entity = await connection.QueryFirstOrDefaultAsync<Booking>(query, new { @Id = bookId });
+                return entity;
+            }
+        }
+
+        public async Task<IEnumerable<BookingDTO>> GetBookingByUserIdAsync(int userId)
+        {
+            using (var connection = new SqlConnection(connectionString))
+            {
+                var query = "select u.FullName, u.Address, u.phone, b.ServiceName, b.BookingDate from Users u join UserBookings ub on u.UserId=ub.UserId join Bookings b on b.BookingId=ub.BookingId where UserId=@Id";
+                var entities = await connection.QueryAsync<BookingDTO>(query, new { @Id = userId });
+                return entities.ToList();
+            }
+        }
+
+        public async Task<string> DeletebookingAsync(int bookid)
+        {
+            using (var connection = new SqlConnection(connectionString))
+            {
+                var count_query = "select count(1) from Bookings where BookingId=@Id";
+                var result = await connection.ExecuteScalarAsync<bool>(count_query, new { @Id = bookid });
+                if (result)
+                {
+                    var del_query1 = "Delete from UserBookings where BookingId=@Id";
+                    await connection.ExecuteAsync(del_query1, new { @Id = bookid });
+
+                    var del_query2 = "Delete from Bookings where BookingId=@Id";
+                    await connection.ExecuteAsync(del_query2, new { @Id = bookid });
+
+                    return "Successfully deleted";
+                }
+                else
+                {
+                    return "Booking Id not found";
+                }
+            }
+        }
+
+        public async Task<string> UpdateBookingDetailsAsync(BookingDTO booking, int bookid)
+        {
+            using (var connection = new SqlConnection(connectionString))
+            {
+                var update_query = "UPDATE Bookings set ServiceName=@servicename, BookingDate=@bookingdate where BookingId=@Id";
+                await connection.ExecuteAsync(update_query, new
+                {
+                    @servicename = booking.ServiceName,
+                    @bookingdate = booking.BookingDate,
+                    @Id = bookid
+                });
+                return "Updated successfully";
+            }
+        }
     }
 }
