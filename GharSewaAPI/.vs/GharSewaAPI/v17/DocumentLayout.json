@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\GharSewaAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8B2F90C0-51F0-4D96-AE9A-19DC06CD6FE0}|InfrastructureLayer\\InfrastructureLayer.csproj|c:\\users\\percoiditt\\source\\repos\\internship\\gharsewaapi\\infrastructurelayer\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B2F90C0-51F0-4D96-AE9A-19DC06CD6FE0}|InfrastructureLayer\\InfrastructureLayer.csproj|solutionrelative:infrastructurelayer\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3B7CAED5-40CB-42DB-8CCD-499C8A9F5C7D}|GharSewaAPI\\GharSewaAPI.csproj|c:\\users\\percoiditt\\source\\repos\\internship\\gharsewaapi\\gharsewaapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B7CAED5-40CB-42DB-8CCD-499C8A9F5C7D}|GharSewaAPI\\GharSewaAPI.csproj|solutionrelative:gharsewaapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,44 +15,8 @@
       "RelativeMoniker": "D:0:0:{3B7CAED5-40CB-42DB-8CCD-499C8A9F5C7D}|GharSewaAPI\\GharSewaAPI.csproj|solutionrelative:gharsewaapi\\controllers\\bookingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B7CAED5-40CB-42DB-8CCD-499C8A9F5C7D}|GharSewaAPI\\GharSewaAPI.csproj|c:\\users\\percoiditt\\source\\repos\\internship\\gharsewaapi\\gharsewaapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B7CAED5-40CB-42DB-8CCD-499C8A9F5C7D}|GharSewaAPI\\GharSewaAPI.csproj|solutionrelative:gharsewaapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8B2F90C0-51F0-4D96-AE9A-19DC06CD6FE0}|InfrastructureLayer\\InfrastructureLayer.csproj|c:\\users\\percoiditt\\source\\repos\\internship\\gharsewaapi\\infrastructurelayer\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B2F90C0-51F0-4D96-AE9A-19DC06CD6FE0}|InfrastructureLayer\\InfrastructureLayer.csproj|solutionrelative:infrastructurelayer\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E22BB32A-D26D-4E70-B081-135C349D312F}|DomainLayer\\DomainLayer.csproj|c:\\users\\percoiditt\\source\\repos\\internship\\gharsewaapi\\domainlayer\\dto\\userregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E22BB32A-D26D-4E70-B081-135C349D312F}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\dto\\userregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8B2F90C0-51F0-4D96-AE9A-19DC06CD6FE0}|InfrastructureLayer\\InfrastructureLayer.csproj|c:\\users\\percoiditt\\source\\repos\\internship\\gharsewaapi\\infrastructurelayer\\repositories\\bookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B2F90C0-51F0-4D96-AE9A-19DC06CD6FE0}|InfrastructureLayer\\InfrastructureLayer.csproj|solutionrelative:infrastructurelayer\\repositories\\bookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E22BB32A-D26D-4E70-B081-135C349D312F}|DomainLayer\\DomainLayer.csproj|c:\\users\\percoiditt\\source\\repos\\internship\\gharsewaapi\\domainlayer\\dto\\bookingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E22BB32A-D26D-4E70-B081-135C349D312F}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\dto\\bookingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E22BB32A-D26D-4E70-B081-135C349D312F}|DomainLayer\\DomainLayer.csproj|c:\\users\\percoiditt\\source\\repos\\internship\\gharsewaapi\\domainlayer\\entities\\userbooking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E22BB32A-D26D-4E70-B081-135C349D312F}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\entities\\userbooking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E22BB32A-D26D-4E70-B081-135C349D312F}|DomainLayer\\DomainLayer.csproj|c:\\users\\percoiditt\\source\\repos\\internship\\gharsewaapi\\domainlayer\\interface\\ibookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E22BB32A-D26D-4E70-B081-135C349D312F}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\interface\\ibookingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F92A688-F65B-45F1-B152-4D96599A0BE3}|ApplicationLayer\\ApplicationLayer.csproj|c:\\users\\percoiditt\\source\\repos\\internship\\gharsewaapi\\applicationlayer\\services\\service interface\\ibookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F92A688-F65B-45F1-B152-4D96599A0BE3}|ApplicationLayer\\ApplicationLayer.csproj|solutionrelative:applicationlayer\\services\\service interface\\ibookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F92A688-F65B-45F1-B152-4D96599A0BE3}|ApplicationLayer\\ApplicationLayer.csproj|c:\\users\\percoiditt\\source\\repos\\internship\\gharsewaapi\\applicationlayer\\services\\service\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F92A688-F65B-45F1-B152-4D96599A0BE3}|ApplicationLayer\\ApplicationLayer.csproj|solutionrelative:applicationlayer\\services\\service\\bookingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E22BB32A-D26D-4E70-B081-135C349D312F}|DomainLayer\\DomainLayer.csproj|c:\\users\\percoiditt\\source\\repos\\internship\\gharsewaapi\\domainlayer\\entities\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E22BB32A-D26D-4E70-B081-135C349D312F}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\entities\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E22BB32A-D26D-4E70-B081-135C349D312F}|DomainLayer\\DomainLayer.csproj|c:\\users\\percoiditt\\source\\repos\\internship\\gharsewaapi\\domainlayer\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E22BB32A-D26D-4E70-B081-135C349D312F}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,162 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\GharSewaAPI\\GharSewaAPI\\Program.cs",
-              "RelativeDocumentMoniker": "GharSewaAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\GharSewaAPI\\GharSewaAPI\\Program.cs",
-              "RelativeToolTip": "GharSewaAPI\\Program.cs",
-              "ViewState": "AQIAADMAAAAAAAAAAAAAAEcAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-22T11:30:14.252Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserRegisterDTO.cs",
-              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\GharSewaAPI\\DomainLayer\\DTO\\UserRegisterDTO.cs",
-              "RelativeDocumentMoniker": "DomainLayer\\DTO\\UserRegisterDTO.cs",
-              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\GharSewaAPI\\DomainLayer\\DTO\\UserRegisterDTO.cs",
-              "RelativeToolTip": "DomainLayer\\DTO\\UserRegisterDTO.cs",
+              "DocumentIndex": 3,
+              "Title": "LoginDTO.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\GharSewaAPI\\DomainLayer\\DTO\\LoginDTO.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\DTO\\LoginDTO.cs",
+              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\GharSewaAPI\\DomainLayer\\DTO\\LoginDTO.cs",
+              "RelativeToolTip": "DomainLayer\\DTO\\LoginDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-22T10:02:29.782Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UserBooking.cs",
-              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\GharSewaAPI\\DomainLayer\\Entities\\UserBooking.cs",
-              "RelativeDocumentMoniker": "DomainLayer\\Entities\\UserBooking.cs",
-              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\GharSewaAPI\\DomainLayer\\Entities\\UserBooking.cs",
-              "RelativeToolTip": "DomainLayer\\Entities\\UserBooking.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-22T08:06:38.902Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Booking.cs",
-              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\GharSewaAPI\\DomainLayer\\Entities\\Booking.cs",
-              "RelativeDocumentMoniker": "DomainLayer\\Entities\\Booking.cs",
-              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\GharSewaAPI\\DomainLayer\\Entities\\Booking.cs",
-              "RelativeToolTip": "DomainLayer\\Entities\\Booking.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-22T07:41:27.606Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BookingDTO.cs",
-              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\GharSewaAPI\\DomainLayer\\DTO\\BookingDTO.cs",
-              "RelativeDocumentMoniker": "DomainLayer\\DTO\\BookingDTO.cs",
-              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\GharSewaAPI\\DomainLayer\\DTO\\BookingDTO.cs",
-              "RelativeToolTip": "DomainLayer\\DTO\\BookingDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-22T07:33:37.407Z",
+              "WhenOpened": "2024-07-23T04:50:39.791Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\GharSewaAPI\\GharSewaAPI\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "GharSewaAPI\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\GharSewaAPI\\GharSewaAPI\\Controllers\\UserController.cs",
-              "RelativeToolTip": "GharSewaAPI\\Controllers\\UserController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-22T07:27:49.304Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "BookingRepository.cs",
-              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\GharSewaAPI\\InfrastructureLayer\\Repositories\\BookingRepository.cs",
-              "RelativeDocumentMoniker": "InfrastructureLayer\\Repositories\\BookingRepository.cs",
-              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\GharSewaAPI\\InfrastructureLayer\\Repositories\\BookingRepository.cs",
-              "RelativeToolTip": "InfrastructureLayer\\Repositories\\BookingRepository.cs",
-              "ViewState": "AQIAAGkAAAAAAAAAAAAAAHkAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-22T07:34:18.987Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IBookingRepository.cs",
-              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\GharSewaAPI\\DomainLayer\\Interface\\IBookingRepository.cs",
-              "RelativeDocumentMoniker": "DomainLayer\\Interface\\IBookingRepository.cs",
-              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\GharSewaAPI\\DomainLayer\\Interface\\IBookingRepository.cs",
-              "RelativeToolTip": "DomainLayer\\Interface\\IBookingRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-22T07:34:10.35Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "BookingService.cs",
-              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\GharSewaAPI\\ApplicationLayer\\Services\\Service\\BookingService.cs",
-              "RelativeDocumentMoniker": "ApplicationLayer\\Services\\Service\\BookingService.cs",
-              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\GharSewaAPI\\ApplicationLayer\\Services\\Service\\BookingService.cs",
-              "RelativeToolTip": "ApplicationLayer\\Services\\Service\\BookingService.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-22T07:33:57.489Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IBookingService.cs",
-              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\GharSewaAPI\\ApplicationLayer\\Services\\Service Interface\\IBookingService.cs",
-              "RelativeDocumentMoniker": "ApplicationLayer\\Services\\Service Interface\\IBookingService.cs",
-              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\GharSewaAPI\\ApplicationLayer\\Services\\Service Interface\\IBookingService.cs",
-              "RelativeToolTip": "ApplicationLayer\\Services\\Service Interface\\IBookingService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-22T07:33:43.747Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\GharSewaAPI\\InfrastructureLayer\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "InfrastructureLayer\\Repositories\\UserRepository.cs",
               "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\GharSewaAPI\\InfrastructureLayer\\Repositories\\UserRepository.cs",
               "RelativeToolTip": "InfrastructureLayer\\Repositories\\UserRepository.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAAD4vxIAAAAdAAAA",
+              "ViewState": "AQIAAIoAAAAAAAAAAAAAAFsAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-22T07:27:22.236Z",
+              "WhenOpened": "2024-07-23T04:24:07.802Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\GharSewaAPI\\GharSewaAPI\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "GharSewaAPI\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\GharSewaAPI\\GharSewaAPI\\Controllers\\UserController.cs",
+              "RelativeToolTip": "GharSewaAPI\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB8AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T04:17:33.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "BookingController.cs",
               "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\GharSewaAPI\\GharSewaAPI\\Controllers\\BookingController.cs",
               "RelativeDocumentMoniker": "GharSewaAPI\\Controllers\\BookingController.cs",
               "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\GharSewaAPI\\GharSewaAPI\\Controllers\\BookingController.cs",
               "RelativeToolTip": "GharSewaAPI\\Controllers\\BookingController.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAD4vxUAAAA/AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-19T10:06:09.446Z",
+              "WhenOpened": "2024-07-23T04:17:40.847Z",
               "EditorCaption": ""
             }
           ]

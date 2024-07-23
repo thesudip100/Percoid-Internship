@@ -65,7 +65,7 @@ namespace InfrastructureLayer.Repositories
                         @Email = user.Email,
                         @Phone = user.Phone,
                     });
-                    return "User Registered Successfully";
+                    return "User Registered Successfully! Please Login Now";
                 }
 
             }

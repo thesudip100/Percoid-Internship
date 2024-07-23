@@ -22,7 +22,7 @@ namespace GharSewaAPI.Controllers
         public async Task<IActionResult> UserRegistration(UserRegisterDTO user)
         {
             var response = await _service.RegisterUserAsync(user);
-            return Ok(response);
+            return Ok(new { message = $"{response}" });
         }
 
         [HttpPost]
@@ -36,7 +36,7 @@ namespace GharSewaAPI.Controllers
         public async Task<IActionResult> EditUserProfile(EditUserDTO user, int id)
         {
             var response = await _service.EditUserProfileAsync(user, id);
-            return Ok(new { message = response });
+            return Ok(new { message = $"{ response}"});
         }
 
         [HttpGet]
