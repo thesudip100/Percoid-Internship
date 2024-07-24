@@ -18,19 +18,20 @@ namespace GharSewaAPI.Controllers
             _bookservice = bookservice;
         }
 
-        [HttpPost,Authorize(Roles ="User")]
+        [HttpPost, Authorize(Roles = "User")]
         public async Task<IActionResult> BookService(BookingDTO booking)
         {
             var result = await _bookservice.BookServiceAsync(booking, User);
-            return Ok(result);
+            return Ok(new { message = $"{result}" });
+
         }
 
         [HttpGet]
         public async Task<IActionResult> getAllBookings()
-            {
-                var result= await _bookservice.GetAllBookingsAsync();
-                return Ok(result);
-            }
+        {
+            var result = await _bookservice.GetAllBookingsAsync();
+            return Ok(result);
+        }
 
         [HttpGet]
         public async Task<IActionResult> GetBookingsbyBookingId(int bookid)
@@ -40,7 +41,7 @@ namespace GharSewaAPI.Controllers
         }
 
 
-        [HttpGet]
+        [HttpGet("{id}")]
         public async Task<IActionResult> GetBookingsbyUserId(int userid)
         {
             var result = await _bookservice.GetBookingByUserIdAsync(userid);

@@ -1,6 +1,8 @@
 {
   "ExpandedNodes": [
     "",
+    "\\DomainLayer",
+    "\\DomainLayer\\Data",
     "\\GharSewaAPI",
     "\\GharSewaAPI\\Controllers",
     "\\InfrastructureLayer",

@@ -13,6 +13,6 @@ namespace DomainLayer.DTO
         public string? Address { get; set; }
         public string? Phone { get; set; }
         public string? ServiceName { get; set; }
-        public DateTime? BookingDate { get; set; }
+        public string? BookingDate { get; set; }
     }
 }

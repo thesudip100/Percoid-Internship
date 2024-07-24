@@ -53,9 +53,9 @@ namespace InfrastructureLayer.Repositories
 
         private int GetUserIdFromToken(ClaimsPrincipal user)
         {
-            if (user.HasClaim(c => c.Type == "UserId"))
+            if (user.HasClaim(c => c.Type == ClaimTypes.SerialNumber))
             {
-                return int.Parse(user.Claims.FirstOrDefault(c => c.Type == "UserId")?.Value);
+                return int.Parse(user.Claims.FirstOrDefault(c => c.Type == ClaimTypes.SerialNumber)?.Value);
             }
             throw new Exception("User ID not found in token");
         }

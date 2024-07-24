@@ -118,7 +118,7 @@ namespace InfrastructureLayer.Repositories
             {
                 new Claim(ClaimTypes.Name,user.UserName ),
                 new Claim(ClaimTypes.Role, user.Role),
-                new Claim("UserId", user.AuthId.ToString())
+                new Claim(ClaimTypes.SerialNumber, user.AuthId.ToString())
             };
 
             var secretKey = configuration["ApplicationSettings:secret_key"];

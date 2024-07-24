@@ -55,8 +55,8 @@ namespace DomainLayer.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("BookingId"), 1L, 1);
 
-                    b.Property<DateTime?>("BookingDate")
-                        .HasColumnType("datetime2");
+                    b.Property<string>("BookingDate")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ServiceName")
                         .HasColumnType("nvarchar(max)");

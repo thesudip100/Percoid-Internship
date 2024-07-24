@@ -13,6 +13,6 @@ namespace DomainLayer.Entities
         [Key]
         public int BookingId { get; set; }
         public string? ServiceName { get; set; }
-        public DateTime? BookingDate { get; set; }
+        public string? BookingDate { get; set; }
     }
 }

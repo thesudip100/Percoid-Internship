@@ -47,14 +47,14 @@ namespace GharSewaAPI.Controllers
             {
                 return Ok(new { message = "User not Found" });
             }
-            return Ok(response);
+            return Ok(new { message = $"{response}" });
         }
 
-        [HttpDelete]
+        [HttpGet("{id}")]
         public async Task<IActionResult> DeleteUser(int id)
         {
             var response= await _service.DeleteUserAsync(id);
-            return Ok(response);
+            return Ok(new { message = $"{response}" });
         }
 
         [HttpPut("{id}")]
