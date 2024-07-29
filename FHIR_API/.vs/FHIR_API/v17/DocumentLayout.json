@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PERCOIDITT\\source\\repos\\FHIR_API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6B48A89B-51A7-4321-B2EC-18D3FD2ACBFA}|FHIR_API\\FHIR_API.csproj|c:\\users\\percoiditt\\source\\repos\\fhir_api\\fhir_api\\controllers\\fhircontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B48A89B-51A7-4321-B2EC-18D3FD2ACBFA}|FHIR_API\\FHIR_API.csproj|solutionrelative:fhir_api\\controllers\\fhircontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B48A89B-51A7-4321-B2EC-18D3FD2ACBFA}|FHIR_API\\FHIR_API.csproj|c:\\users\\percoiditt\\source\\repos\\fhir_api\\fhir_api\\fhir_api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6B48A89B-51A7-4321-B2EC-18D3FD2ACBFA}|FHIR_API\\FHIR_API.csproj|solutionrelative:fhir_api\\fhir_api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FHIR_API",
+              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\FHIR_API\\FHIR_API\\FHIR_API.csproj",
+              "RelativeDocumentMoniker": "FHIR_API\\FHIR_API.csproj",
+              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\FHIR_API\\FHIR_API\\FHIR_API.csproj",
+              "RelativeToolTip": "FHIR_API\\FHIR_API.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-29T10:58:02.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FHIRController.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\FHIR_API\\FHIR_API\\Controllers\\FHIRController.cs",
+              "RelativeDocumentMoniker": "FHIR_API\\Controllers\\FHIRController.cs",
+              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\FHIR_API\\FHIR_API\\Controllers\\FHIRController.cs",
+              "RelativeToolTip": "FHIR_API\\Controllers\\FHIRController.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAC0AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T10:57:40.816Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

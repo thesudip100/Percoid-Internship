@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "sa6JdEovl3ZQ14zzT34clnLndlYxhXEn4FKwbqS+U+U=",
+  "Source": "FHIR_API",
+  "BasePath": "_content/FHIR_API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
