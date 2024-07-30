@@ -39,7 +39,7 @@ namespace GharSewaAPI.Controllers
             return Ok(new { message = $"{ response}"});
         }
 
-        [HttpGet]
+        [HttpGet("{id}")]
         public async Task<IActionResult> GetSingleUser(int id)
         {
             var response= await _service.GetUserbyIdAsync(id);
@@ -47,21 +47,21 @@ namespace GharSewaAPI.Controllers
             {
                 return Ok(new { message = "User not Found" });
             }
-            return Ok(new { message = $"{response}" });
+            return Ok (response);
         }
 
-        [HttpGet("{id}")]
+        [HttpGet("{id}"), Authorize(Roles = "User")]
         public async Task<IActionResult> DeleteUser(int id)
         {
             var response= await _service.DeleteUserAsync(id);
             return Ok(new { message = $"{response}" });
         }
 
-        [HttpPut("{id}")]
+        [HttpPut("{id}"), Authorize(Roles = "User")]
         public async Task<IActionResult> ChangePassword(ChangePasswordDTO user, int id)
         {
             var response = await _service.ChangePasswordAsync(user, id);
-            return Ok(response);
+            return Ok(new { message = $"{response}" });
         }
 
 /*        [HttpPost]

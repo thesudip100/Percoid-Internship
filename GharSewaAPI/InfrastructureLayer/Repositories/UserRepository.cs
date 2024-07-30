@@ -32,6 +32,33 @@ namespace InfrastructureLayer.Repositories
             this.configuration = configuration;
         }
 
+        public async Task CreateAdminUserAsync()
+        {
+            string adminUsername = "theadmin100";
+            string adminPassword = "admin100"; 
+            string adminRole = "Admin";
+
+            HashPassword(adminPassword, out byte[] passwordSalt, out byte[] passwordHash);
+
+            using (var connection = new SqlConnection(connectionString))
+            {
+                var adminCheckQuery = "SELECT COUNT(1) FROM AuthUsers WHERE UserName = @UserName";
+                bool isAdminExists = await connection.ExecuteScalarAsync<bool>(adminCheckQuery, new { UserName = adminUsername });
+
+                if (!isAdminExists)
+                {
+                    var insertAdminQuery = "INSERT INTO AuthUsers (UserName, PassWordSalt, PassWordHash, Role) VALUES (@UserName, @PassWordSalt, @PassWordHash, @Role)";
+                    await connection.ExecuteAsync(insertAdminQuery, new
+                    {
+                        UserName = adminUsername,
+                        PassWordSalt = passwordSalt,
+                        PassWordHash = passwordHash,
+                        Role = adminRole
+                    });
+                }
+            }
+        }
+
         public async Task<string> CreateUserAsync(UserRegisterDTO user)
         {
             HashPassword(user.PassWord, out byte[] PassSalt, out byte[] PassHash);
@@ -213,6 +240,16 @@ namespace InfrastructureLayer.Repositories
                     @Id = id
                 });
 
+                var deleteBookingsQuery = @"
+                    DELETE FROM Bookings 
+                    WHERE BookingId IN (
+                        SELECT BookingId FROM UserBookings WHERE UserId = @Id
+                    )";
+                await connection.ExecuteAsync(deleteBookingsQuery, new { Id = id });
+
+                var deleteUserBookingsQuery = "DELETE FROM UserBookings WHERE UserId = @Id";
+                await connection.ExecuteAsync(deleteUserBookingsQuery, new { Id = id });
+
             }
             return "User deleted successfully";
         }
@@ -270,7 +307,7 @@ namespace InfrastructureLayer.Repositories
             }
         }
 
-       
+
 
         /* public async Task<string> OTPGenerationAsync(OTPGenerationDTO user)
          {

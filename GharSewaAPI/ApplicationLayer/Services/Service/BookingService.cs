@@ -39,9 +39,9 @@ namespace ApplicationLayer.Services.Service
             return _bookrepo.GetBookingbyBookingIdAsync(bookId);
         }
 
-        public Task<IEnumerable<BookingDTO>> GetBookingByUserIdAsync(int userId)
+        public Task<IEnumerable<BookingDTO>> GetBookingByUserIdAsync(int id)
         {
-            return _bookrepo.GetBookingByUserIdAsync(userId);
+            return _bookrepo.GetBookingByUserIdAsync(id);
         }
 
         public Task<string> UpdateBookingDetailsAsync(BookingDTO booking, int book)

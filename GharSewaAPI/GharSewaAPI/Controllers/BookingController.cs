@@ -26,7 +26,7 @@ namespace GharSewaAPI.Controllers
 
         }
 
-        [HttpGet]
+        [HttpGet, Authorize(Roles = "Admin")]
         public async Task<IActionResult> getAllBookings()
         {
             var result = await _bookservice.GetAllBookingsAsync();
@@ -42,9 +42,9 @@ namespace GharSewaAPI.Controllers
 
 
         [HttpGet("{id}")]
-        public async Task<IActionResult> GetBookingsbyUserId(int userid)
+        public async Task<IActionResult> GetBookingsbyUserId(int id)
         {
-            var result = await _bookservice.GetBookingByUserIdAsync(userid);
+            var result = await _bookservice.GetBookingByUserIdAsync(id);
             return Ok(result);
         }
 

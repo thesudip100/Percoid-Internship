@@ -14,7 +14,7 @@ namespace ApplicationLayer.Services.Service_Interface
         public Task<string> BookServiceAsync(BookingDTO booking, ClaimsPrincipal user);
         public Task<IEnumerable<BookingDTO>> GetAllBookingsAsync();
         public Task<Booking> GetBookingbyBookingIdAsync(int bookId);
-        public Task<IEnumerable<BookingDTO>> GetBookingByUserIdAsync(int userId);
+        public Task<IEnumerable<BookingDTO>> GetBookingByUserIdAsync(int id);
         public Task<string> DeletebookingAsync(int bookid);
         public Task<string> UpdateBookingDetailsAsync(BookingDTO booking, int bookid);
     }

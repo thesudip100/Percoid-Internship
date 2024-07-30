@@ -1,0 +1,24 @@
+C:\Users\PERCOIDITT\source\repos\Internship\GharSewaAPI\Admin Add\bin\Debug\net6.0\Admin Add.exe
+C:\Users\PERCOIDITT\source\repos\Internship\GharSewaAPI\Admin Add\bin\Debug\net6.0\Admin Add.deps.json
+C:\Users\PERCOIDITT\source\repos\Internship\GharSewaAPI\Admin Add\bin\Debug\net6.0\Admin Add.runtimeconfig.json
+C:\Users\PERCOIDITT\source\repos\Internship\GharSewaAPI\Admin Add\bin\Debug\net6.0\Admin Add.dll
+C:\Users\PERCOIDITT\source\repos\Internship\GharSewaAPI\Admin Add\bin\Debug\net6.0\Admin Add.pdb
+C:\Users\PERCOIDITT\source\repos\Internship\GharSewaAPI\Admin Add\bin\Debug\net6.0\Dapper.dll
+C:\Users\PERCOIDITT\source\repos\Internship\GharSewaAPI\Admin Add\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\PERCOIDITT\source\repos\Internship\GharSewaAPI\Admin Add\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\PERCOIDITT\source\repos\Internship\GharSewaAPI\Admin Add\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\PERCOIDITT\source\repos\Internship\GharSewaAPI\Admin Add\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\PERCOIDITT\source\repos\Internship\GharSewaAPI\Admin Add\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\PERCOIDITT\source\repos\Internship\GharSewaAPI\Admin Add\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\PERCOIDITT\source\repos\Internship\GharSewaAPI\Admin Add\obj\Debug\net6.0\Admin Add.csproj.AssemblyReference.cache
+C:\Users\PERCOIDITT\source\repos\Internship\GharSewaAPI\Admin Add\obj\Debug\net6.0\Admin Add.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PERCOIDITT\source\repos\Internship\GharSewaAPI\Admin Add\obj\Debug\net6.0\Admin Add.AssemblyInfoInputs.cache
+C:\Users\PERCOIDITT\source\repos\Internship\GharSewaAPI\Admin Add\obj\Debug\net6.0\Admin Add.AssemblyInfo.cs
+C:\Users\PERCOIDITT\source\repos\Internship\GharSewaAPI\Admin Add\obj\Debug\net6.0\Admin Add.csproj.CoreCompileInputs.cache
+C:\Users\PERCOIDITT\source\repos\Internship\GharSewaAPI\Admin Add\obj\Debug\net6.0\Admin Add.sourcelink.json
+C:\Users\PERCOIDITT\source\repos\Internship\GharSewaAPI\Admin Add\obj\Debug\net6.0\Admin Add.csproj.Up2Date
+C:\Users\PERCOIDITT\source\repos\Internship\GharSewaAPI\Admin Add\obj\Debug\net6.0\Admin Add.dll
+C:\Users\PERCOIDITT\source\repos\Internship\GharSewaAPI\Admin Add\obj\Debug\net6.0\refint\Admin Add.dll
+C:\Users\PERCOIDITT\source\repos\Internship\GharSewaAPI\Admin Add\obj\Debug\net6.0\Admin Add.pdb
+C:\Users\PERCOIDITT\source\repos\Internship\GharSewaAPI\Admin Add\obj\Debug\net6.0\Admin Add.genruntimeconfig.cache
+C:\Users\PERCOIDITT\source\repos\Internship\GharSewaAPI\Admin Add\obj\Debug\net6.0\ref\Admin Add.dll

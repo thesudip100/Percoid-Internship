@@ -64,7 +64,7 @@ namespace InfrastructureLayer.Repositories
         {
             using (var connection = new SqlConnection(connectionString))
             {
-                var query = "select u.FullName, u.Address, u.phone, b.ServiceName, b.BookingDate from Users u join UserBookings ub on u.UserId=ub.UserId join Bookings b on b.BookingId=ub.BookingId";
+                var query = "select u.FullName, u.Address, u.phone, b.ServiceName, b.BookingDate, b.BookingId from Users u join UserBookings ub on u.UserId=ub.UserId join Bookings b on b.BookingId=ub.BookingId";
                 var entities = await connection.QueryAsync<BookingDTO>(query);
                 return entities.ToList();
             }
@@ -80,12 +80,12 @@ namespace InfrastructureLayer.Repositories
             }
         }
 
-        public async Task<IEnumerable<BookingDTO>> GetBookingByUserIdAsync(int userId)
+        public async Task<IEnumerable<BookingDTO>> GetBookingByUserIdAsync(int id)
         {
             using (var connection = new SqlConnection(connectionString))
             {
-                var query = "select u.FullName, u.Address, u.phone, b.ServiceName, b.BookingDate from Users u join UserBookings ub on u.UserId=ub.UserId join Bookings b on b.BookingId=ub.BookingId where UserId=@Id";
-                var entities = await connection.QueryAsync<BookingDTO>(query, new { @Id = userId });
+                var query = "select u.FullName, u.Address, u.phone, b.ServiceName, b.BookingDate from Users u join UserBookings ub on u.UserId=ub.UserId join Bookings b on b.BookingId=ub.BookingId where u.UserId=@Id order by b.BookingId desc";
+                var entities = await connection.QueryAsync<BookingDTO>(query, new { @Id = id });
                 return entities.ToList();
             }
         }
