@@ -32,32 +32,7 @@ namespace InfrastructureLayer.Repositories
             this.configuration = configuration;
         }
 
-        public async Task CreateAdminUserAsync()
-        {
-            string adminUsername = "theadmin100";
-            string adminPassword = "admin100"; 
-            string adminRole = "Admin";
-
-            HashPassword(adminPassword, out byte[] passwordSalt, out byte[] passwordHash);
-
-            using (var connection = new SqlConnection(connectionString))
-            {
-                var adminCheckQuery = "SELECT COUNT(1) FROM AuthUsers WHERE UserName = @UserName";
-                bool isAdminExists = await connection.ExecuteScalarAsync<bool>(adminCheckQuery, new { UserName = adminUsername });
-
-                if (!isAdminExists)
-                {
-                    var insertAdminQuery = "INSERT INTO AuthUsers (UserName, PassWordSalt, PassWordHash, Role) VALUES (@UserName, @PassWordSalt, @PassWordHash, @Role)";
-                    await connection.ExecuteAsync(insertAdminQuery, new
-                    {
-                        UserName = adminUsername,
-                        PassWordSalt = passwordSalt,
-                        PassWordHash = passwordHash,
-                        Role = adminRole
-                    });
-                }
-            }
-        }
+       
 
         public async Task<string> CreateUserAsync(UserRegisterDTO user)
         {
@@ -167,6 +142,8 @@ namespace InfrastructureLayer.Repositories
             return new JwtSecurityTokenHandler().WriteToken(jwtToken);
         }
 
+
+
         public async Task<string> EditUserProfileAsync(EditUserDTO user, int id)
         {
             using (var connection = new SqlConnection(connectionString))
@@ -209,6 +186,9 @@ namespace InfrastructureLayer.Repositories
                 }
             }
         }
+
+
+
 
         public async Task<EditUserDTO> GetUserbyIdAsync(int id)
         {

@@ -55,11 +55,11 @@ namespace GharSewaAPI.Controllers
             return Ok(result);
         }
 
-        [HttpDelete]
+        [HttpDelete("{bookid}")]
         public async Task<IActionResult> DeleteBookingDetailsAsync(int bookid)
         {
             var result = await _bookservice.DeletebookingAsync(bookid);
-            return Ok(result);
+            return Ok(new { message = $"{result}" });
         }
 
 
