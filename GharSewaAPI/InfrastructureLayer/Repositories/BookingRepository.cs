@@ -84,7 +84,7 @@ namespace InfrastructureLayer.Repositories
         {
             using (var connection = new SqlConnection(connectionString))
             {
-                var query = "select u.FullName, u.Address, u.phone, b.ServiceName, b.BookingDate from Users u join UserBookings ub on u.UserId=ub.UserId join Bookings b on b.BookingId=ub.BookingId where u.UserId=@Id order by b.BookingId desc";
+                var query = "select u.FullName, u.Address, u.phone, b.ServiceName, b.BookingDate, b.bookingId from Users u join UserBookings ub on u.UserId=ub.UserId join Bookings b on b.BookingId=ub.BookingId where u.UserId=@Id order by b.BookingId desc";
                 var entities = await connection.QueryAsync<BookingDTO>(query, new { @Id = id });
                 return entities.ToList();
             }

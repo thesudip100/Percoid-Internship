@@ -19,5 +19,6 @@ namespace DomainLayer.Data
         public DbSet<Booking>Bookings { get; set; }
         public DbSet<UserBooking> UserBookings { get; set; }
         public DbSet<Feedback> Feedbacks { get; set; }
+        public DbSet<ServiceCategory> Categories { get; set; }
     }
 }

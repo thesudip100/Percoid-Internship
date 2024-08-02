@@ -48,7 +48,7 @@ namespace GharSewaAPI.Controllers
             return Ok(result);
         }
 
-        [HttpPut]
+        [HttpPut("{id}")]
         public async Task<IActionResult> UpdateBookingDetailsAsync(BookingDTO booking, int bookid)
         {
             var result= await _bookservice.UpdateBookingDetailsAsync(booking, bookid);
