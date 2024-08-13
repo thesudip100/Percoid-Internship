@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PERCOIDITT\\source\\repos\\FHIR_API\\FHIR_API\\FHIR_API.csproj": {}
+    "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\FHIR_API\\FHIR_API\\FHIR_API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PERCOIDITT\\source\\repos\\FHIR_API\\FHIR_API\\FHIR_API.csproj": {
+    "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\FHIR_API\\FHIR_API\\FHIR_API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PERCOIDITT\\source\\repos\\FHIR_API\\FHIR_API\\FHIR_API.csproj",
+        "projectUniqueName": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\FHIR_API\\FHIR_API\\FHIR_API.csproj",
         "projectName": "FHIR_API",
-        "projectPath": "C:\\Users\\PERCOIDITT\\source\\repos\\FHIR_API\\FHIR_API\\FHIR_API.csproj",
+        "projectPath": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\FHIR_API\\FHIR_API\\FHIR_API.csproj",
         "packagesPath": "C:\\Users\\PERCOIDITT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PERCOIDITT\\source\\repos\\FHIR_API\\FHIR_API\\obj\\",
+        "outputPath": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\FHIR_API\\FHIR_API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
