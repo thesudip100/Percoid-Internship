@@ -271,7 +271,6 @@ namespace YourNamespace.Controllers
                                     var divorce = coding.LastOrDefault()?.Display;
 
 
-
                                     if (code == "M")
                                     {
                                         marital = "MARRIED";
@@ -316,8 +315,15 @@ namespace YourNamespace.Controllers
 
 
                             //CONTACT
-                            string relationship = "";
-                            List<string> contact = new List<string>();
+                            string? relationship = "";
+                            string? contactRelationship = "";
+                            string? contactName = "";
+                            string? contactPhone = "";
+                            string? contactEmail = "Not Provided";
+                            string? contactAddress = "";
+                            string? contactGender = "";
+                            string? contactPeriod = "";
+
                             if (patient.Contact != null)
                             {
                                 if (patient.Contact.Count > 0)
@@ -375,27 +381,113 @@ namespace YourNamespace.Controllers
                                         {
                                             relationship = "NOT SPECIFIED";
                                         }
-                                        contact.Add(relationship);
+                                        contactRelationship = relationship;
                                     }
 
                                     var name = patient.Contact.FirstOrDefault()?.Name;
                                     if (name is HumanName contactname)
                                     {
-                                        var naam = contactname.Family;
-                                        contact.Add(Convert.ToString(naam));
+                                        var contactLastName = contactname.Family;
+                                        var givenNamesList = new List<string>();
+                                        foreach (var g in contactname.Given)
+                                        {
+                                            givenNamesList.Add(g.ToString());
+                                        }
+                                        var contactGivenName = string.Join(" ", givenNamesList);
+                                        contactName = contactGivenName + " " + Convert.ToString(contactLastName);
+                                    }
+
+                                    var contactTelecom = patient.Contact.FirstOrDefault()?.Telecom;
+                                    if (contactTelecom is List<ContactPoint> contactTel)
+                                    {
+                                        if (contactTel.FirstOrDefault()?.System.ToString().ToLower() == "phone")
+                                        {
+                                            contactPhone = contactTel.FirstOrDefault()?.Value;
+                                        }
+                                        else
+                                        {
+                                            contactPhone = "";
+                                        }
+
+                                        if (contactTel.LastOrDefault()?.System.ToString().ToLower() == "email")
+                                        {
+                                            contactEmail = contactTel.LastOrDefault()?.Value;
+                                        }
+                                        else
+                                        {
+                                            contactEmail = "";
+                                        }
+                                    }
+
+                                    var contactaddress = patient.Contact.FirstOrDefault()?.Address;
+                                    if (contactaddress is Address add)
+                                    {
+                                        var contactLineList = add.Line;
+                                        string contactLine = "";
+                                        string contactCity = "";
+                                        string contactDistrict = "";
+                                        string contactState = "";
+                                        string contactPostal = "";
+                                        /*string contactCountry = "";*/
+
+                                        foreach (var line in contactLineList)
+                                        {
+                                            contactLine = line.ToString();
+                                        }
+
+                                        contactCity = add.City.ToString();
+                                        contactDistrict = add.District.ToString();
+                                        contactState = add.State.ToString();
+                                        contactPostal = add.PostalCode.ToString();
+                                        /*contactCountry = add.Country.ToString();*/
+
+                                        contactAddress = contactPostal + ", " + contactLine + ", " + contactCity + ", " + contactState;
+
+                                    }
+
+                                    contactGender = patient.Contact.FirstOrDefault()?.Gender.ToString();
+
+                                    if (patient.Contact.FirstOrDefault()?.Period is Period per)
+                                    {
+                                        contactPeriod = per.Start.ToString();
+                                    }
+
+                                    else
+                                    {
+                                        contactPeriod = "";
                                     }
 
                                 }
                             }
 
+
+                            //COMMUNICATION
+
+
+
                             patients.Add(new
-                            {
-                                /*Deceased = deceased,*/
-                                MaritalStatus = patient.MaritalStatus,
-                                /*MultipleBirth = multipleBirth,
-                                Telecom = telecom,
+                            {/*
+                                Id = patient.Id,
+                                Active = patient.Active??false,
+                                Name = patient.Name.FirstOrDefault()?.ToString() ?? "Not specified",
                                 Address = address,
-                                Contact = contact*/
+                                Gender = gender,
+                                DoB = patient.BirthDate ?? "NOT SPECIFIED",*/
+                                /*Deceased = patient.Deceased,
+                                MaritalStatus = patient.MaritalStatus,
+                                MultipleBirth = multipleBirth,
+                                Telecom = patient.Telecom,
+                                Address = address,
+                                StandardContact = patient.Contact,
+                                ContactRelationship = contactRelationship,
+                                ContactName = contactName,
+                                ContactPhone = contactPhone,
+                                ContactEmail = contactEmail,
+                                ContactAddress = contactAddress,
+                                ContactGender = contactGender,
+                                ContactPeriod = contactPeriod,*/
+                                Communcation = patient.Communication
+
                             });
                         }
                     }
@@ -413,8 +505,6 @@ namespace YourNamespace.Controllers
                     Total = patients.Count,
                     Patients = patients,
                     FullTotal = total
-
-
                 });
             }
             catch (Exception ex)
