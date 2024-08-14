@@ -90,11 +90,10 @@ namespace FHIR_API.Controllers
    }
 }
 */
+using FHIR_API.Data_Access;
 using Hl7.Fhir.Model;
 using Hl7.Fhir.Rest;
 using Microsoft.AspNetCore.Mvc;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
 
 namespace YourNamespace.Controllers
 {
@@ -103,6 +102,12 @@ namespace YourNamespace.Controllers
     public class PatientController : ControllerBase
     {
         private const string FhirServer = "https://server.fire.ly";
+        private readonly ApplicationDbContext appDbContext;
+
+        public PatientController(ApplicationDbContext _appDbContext)
+        {
+            appDbContext = _appDbContext;
+        }
 
         [HttpGet]
         public IActionResult GetPatients(int maxCount)
@@ -120,7 +125,7 @@ namespace YourNamespace.Controllers
 
                     foreach (Bundle.EntryComponent patientEntry in patientBundle.Entry)
                     {
-                        if (patients.Count >= maxCount)
+                        if (patients.Count() >= maxCount)
                         {
                             break;
                         }
@@ -141,6 +146,7 @@ namespace YourNamespace.Controllers
                             }*/
 
                             string address = "";
+                            string line = "";
                             if (patient.Address != null && patient.Address.Count > 0)
                             {
                                 if (patient.Address is List<Address> addressvalues)
@@ -148,7 +154,14 @@ namespace YourNamespace.Controllers
                                     var postalcode = addressvalues.FirstOrDefault()?.PostalCode;
                                     var district = addressvalues.FirstOrDefault()?.District;
                                     var period = addressvalues.FirstOrDefault()?.Period;
-                                    var line = addressvalues.FirstOrDefault()?.Line;
+                                    var lineList = addressvalues.FirstOrDefault()?.Line;
+                                    if (lineList != null)
+                                    {
+                                        foreach (var l in lineList)
+                                        {
+                                            line = l.ToString();
+                                        }
+                                    }
                                     var cityname = addressvalues.FirstOrDefault()?.City;
                                     var statename = addressvalues.FirstOrDefault()?.State;
                                     var countryname = addressvalues.FirstOrDefault()?.Country;
@@ -195,8 +208,10 @@ namespace YourNamespace.Controllers
                                 {
                                     var phone = telecomdetail.FirstOrDefault()?.Value;
                                     var email = telecomdetail.LastOrDefault()?.Value;
-                                    telecom.Add(phone);
-                                    telecom.Add(email);
+                                    if (phone != null)
+                                        telecom.Add(phone);
+                                    if (email != null)
+                                        telecom.Add(email);
                                 }
                             }
 
@@ -257,6 +272,7 @@ namespace YourNamespace.Controllers
                                 deceased.Add(deceasedTrue);
                             }
 
+
                             //MARITAL STATUS
                             string marital = "NOT SPECIFIED";
                             string divorceDate = "";
@@ -294,15 +310,23 @@ namespace YourNamespace.Controllers
 
                                     if (code == "D")
                                     {
-                                        divorceDate = divorce;
+                                        if (divorce != null)
+                                        {
+                                            divorceDate = divorce;
+                                        }
+
                                     }
                                     maritalStatus.Add(marital);
-                                    maritalStatus.Add(divorceDate);
+                                    if (divorceDate != null)
+                                    {
+                                        maritalStatus.Add(divorceDate);
+                                    }
+
                                 }
 
                             }
 
-                            object multipleBirth = "NOT SPECIFIED";
+                            bool? multipleBirth = false;
 
                             //MULTIPLE BIRTH 
                             if (patient.MultipleBirth != null)
@@ -329,59 +353,67 @@ namespace YourNamespace.Controllers
                                 if (patient.Contact.Count > 0)
                                 {
                                     var relationshipContainer = patient.Contact.FirstOrDefault()?.Relationship;
-                                    var relationshipCode = relationshipContainer.FirstOrDefault()?.Coding;
-                                    var relationshipcodeValue = relationshipCode.FirstOrDefault()?.Code;
-                                    if (relationshipcodeValue != null)
+                                    if (relationshipContainer != null)
                                     {
-                                        if (relationshipcodeValue == "BP")
+                                        var relationshipCode = relationshipContainer.FirstOrDefault()?.Coding;
+                                        if (relationshipCode != null)
                                         {
-                                            relationship = "Billing Contact Person";
+                                            var relationshipcodeValue = relationshipCode.FirstOrDefault()?.Code;
+                                            if (relationshipcodeValue != null)
+                                            {
+                                                if (relationshipcodeValue == "BP")
+                                                {
+                                                    relationship = "Billing Contact Person";
+                                                }
+                                                else if (relationshipcodeValue == "CP")
+                                                {
+                                                    relationship = "Contact Person";
+                                                }
+                                                else if (relationshipcodeValue == "EP")
+                                                {
+                                                    relationship = "Emergency Contact Person";
+                                                }
+                                                else if (relationshipcodeValue == "PR")
+                                                {
+                                                    relationship = "Person Preparing Referral";
+                                                }
+                                                else if (relationshipcodeValue == "E")
+                                                {
+                                                    relationship = "Employer";
+                                                }
+                                                else if (relationshipcodeValue == "C")
+                                                {
+                                                    relationship = "Emergency Contact";
+                                                }
+                                                else if (relationshipcodeValue == "F")
+                                                {
+                                                    relationship = "Federal Agency";
+                                                }
+                                                else if (relationshipcodeValue == "I")
+                                                {
+                                                    relationship = "Insurance Company";
+                                                }
+                                                else if (relationshipcodeValue == "N")
+                                                {
+                                                    relationship = "Next-of-Kin";
+                                                }
+                                                else if (relationshipcodeValue == "S")
+                                                {
+                                                    relationship = "State Agency";
+                                                }
+                                                else if (relationshipcodeValue == "U")
+                                                {
+                                                    relationship = "Unknown";
+                                                }
+                                                else
+                                                {
+                                                    relationship = "NOT SPECIFIED";
+                                                }
+                                                contactRelationship = relationship;
+
+                                            }
+
                                         }
-                                        else if (relationshipcodeValue == "CP")
-                                        {
-                                            relationship = "Contact Person";
-                                        }
-                                        else if (relationshipcodeValue == "EP")
-                                        {
-                                            relationship = "Emergency Contact Person";
-                                        }
-                                        else if (relationshipcodeValue == "PR")
-                                        {
-                                            relationship = "Person Preparing Referral";
-                                        }
-                                        else if (relationshipcodeValue == "E")
-                                        {
-                                            relationship = "Employer";
-                                        }
-                                        else if (relationshipcodeValue == "C")
-                                        {
-                                            relationship = "Emergency Contact";
-                                        }
-                                        else if (relationshipcodeValue == "F")
-                                        {
-                                            relationship = "Federal Agency";
-                                        }
-                                        else if (relationshipcodeValue == "I")
-                                        {
-                                            relationship = "Insurance Company";
-                                        }
-                                        else if (relationshipcodeValue == "N")
-                                        {
-                                            relationship = "Next-of-Kin";
-                                        }
-                                        else if (relationshipcodeValue == "S")
-                                        {
-                                            relationship = "State Agency";
-                                        }
-                                        else if (relationshipcodeValue == "U")
-                                        {
-                                            relationship = "Unknown";
-                                        }
-                                        else
-                                        {
-                                            relationship = "NOT SPECIFIED";
-                                        }
-                                        contactRelationship = relationship;
                                     }
 
                                     var name = patient.Contact.FirstOrDefault()?.Name;
@@ -430,19 +462,19 @@ namespace YourNamespace.Controllers
                                         string contactPostal = "";
                                         /*string contactCountry = "";*/
 
-                                        foreach (var line in contactLineList)
+                                        foreach (var l in contactLineList)
                                         {
-                                            contactLine = line.ToString();
+                                            contactLine = l.ToString();
                                         }
-
                                         contactCity = add.City.ToString();
-                                        contactDistrict = add.District.ToString();
-                                        contactState = add.State.ToString();
-                                        contactPostal = add.PostalCode.ToString();
+                                        if (add.District != null)
+                                            contactDistrict = add.District.ToString();
+                                        if (add.State != null)
+                                            contactState = add.State.ToString();
+                                        if (add.PostalCode != null)
+                                            contactPostal = add.PostalCode.ToString();
                                         /*contactCountry = add.Country.ToString();*/
-
                                         contactAddress = contactPostal + ", " + contactLine + ", " + contactCity + ", " + contactState;
-
                                     }
 
                                     contactGender = patient.Contact.FirstOrDefault()?.Gender.ToString();
@@ -462,33 +494,103 @@ namespace YourNamespace.Controllers
 
 
                             //COMMUNICATION
+                            string? language = "";
+                            string? preferredLang = "";
+
+                            if (patient.Communication != null && patient.Communication.Count > 0)
+                            {
+                                if (patient.Communication is List<Patient.CommunicationComponent> commList)
+                                {
+                                    foreach (var comm in commList)
+                                    {
+                                        var lang = comm.Language;
+                                        /* foreach(var coding in lang)
+                                         {
+                                             Language = coding.Key;
+                                             Language.FirstOrDefault()?.
+                                         }*/
+                                        if (lang != null && lang.Coding != null)
+                                        {
+                                            var coding = lang.Coding;
+                                            foreach (var value in coding)
+                                            {
+                                                if (value.Display != null)
+                                                {
+                                                    language += value.Display + " ";
+                                                }
+                                                else
+                                                {
+                                                    language += value.Code + " ";
+                                                }
+
+                                            }
+                                        }
+
+                                        var preferred = comm.Preferred;
+                                        if (preferred is Boolean pre)
+                                        {
+                                            preferredLang = pre.ToString();
+                                        }
+                                        else
+                                        {
+                                            preferredLang = "Not Specified";
+                                        }
+
+                                    }
+                                }
+                            }
 
 
-
-                            patients.Add(new
-                            {/*
+                            var patientsdata = new PatientDetail()
+                            {
                                 Id = patient.Id,
-                                Active = patient.Active??false,
+                                Active = patient.Active ?? false,
                                 Name = patient.Name.FirstOrDefault()?.ToString() ?? "Not specified",
                                 Address = address,
                                 Gender = gender,
-                                DoB = patient.BirthDate ?? "NOT SPECIFIED",*/
-                                /*Deceased = patient.Deceased,
-                                MaritalStatus = patient.MaritalStatus,
+                                DoB = patient.BirthDate ?? "NOT SPECIFIED",
+                                Deceased = deceased,
+                                MaritalStatus = maritalStatus,
                                 MultipleBirth = multipleBirth,
-                                Telecom = patient.Telecom,
-                                Address = address,
-                                StandardContact = patient.Contact,
+                                Telecom = telecom,
                                 ContactRelationship = contactRelationship,
                                 ContactName = contactName,
                                 ContactPhone = contactPhone,
                                 ContactEmail = contactEmail,
                                 ContactAddress = contactAddress,
                                 ContactGender = contactGender,
-                                ContactPeriod = contactPeriod,*/
-                                Communcation = patient.Communication
+                                ContactPeriod = contactPeriod,
+                                Communication = language,
+                                PreferredLanguage = preferredLang,
 
-                            });
+                            };
+                            appDbContext.Patients.Add(patientsdata);
+                            appDbContext.SaveChanges();
+
+                            /*patients.Add(new
+                            {
+                                Id = patient.Id,
+                                *//*Active = patient.Active??false,
+                                Name = patient.Name.FirstOrDefault()?.ToString() ?? "Not specified",
+                                Address = address,
+                                Gender = gender,
+                                DoB = patient.BirthDate ?? "NOT SPECIFIED",*/
+                            /*Deceased = patient.Deceased,
+                            MaritalStatus = patient.MaritalStatus,
+                            MultipleBirth = multipleBirth,
+                            Telecom = patient.Telecom,
+                            Address = address,
+                            StandardContact = patient.Contact,
+                            ContactRelationship = contactRelationship,
+                            ContactName = contactName,
+                            ContactPhone = contactPhone,
+                            ContactEmail = contactEmail,
+                            ContactAddress = contactAddress,
+                            ContactGender = contactGender,
+                            ContactPeriod = contactPeriod,*//*
+                            Communcation = patient.Communication
+
+                        });*/
                         }
                     }
 
@@ -503,8 +605,8 @@ namespace YourNamespace.Controllers
                 return Ok(new
                 {
                     Total = patients.Count,
-                    Patients = patients,
-                    FullTotal = total
+                    FullTotal = total,
+                    Patients = patients
                 });
             }
             catch (Exception ex)

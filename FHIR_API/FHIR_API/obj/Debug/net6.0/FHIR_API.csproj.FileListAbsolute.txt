@@ -80,3 +80,10 @@ C:\Users\PERCOIDITT\source\repos\Internship\FHIR_API\FHIR_API\obj\Debug\net6.0\r
 C:\Users\PERCOIDITT\source\repos\Internship\FHIR_API\FHIR_API\obj\Debug\net6.0\FHIR_API.pdb
 C:\Users\PERCOIDITT\source\repos\Internship\FHIR_API\FHIR_API\obj\Debug\net6.0\FHIR_API.genruntimeconfig.cache
 C:\Users\PERCOIDITT\source\repos\Internship\FHIR_API\FHIR_API\obj\Debug\net6.0\ref\FHIR_API.dll
+C:\Users\PERCOIDITT\source\repos\Internship\FHIR_API\FHIR_API\bin\Debug\net6.0\Humanizer.dll
+C:\Users\PERCOIDITT\source\repos\Internship\FHIR_API\FHIR_API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\PERCOIDITT\source\repos\Internship\FHIR_API\FHIR_API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\PERCOIDITT\source\repos\Internship\FHIR_API\FHIR_API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\PERCOIDITT\source\repos\Internship\FHIR_API\FHIR_API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\PERCOIDITT\source\repos\Internship\FHIR_API\FHIR_API\bin\Debug\net6.0\Npgsql.dll
+C:\Users\PERCOIDITT\source\repos\Internship\FHIR_API\FHIR_API\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll

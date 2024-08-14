@@ -3,8 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\FHIR_API\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\FHIR_API\\FHIR_API\\Migrations\\20240814094258_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FHIR_API\\Migrations\\20240814094258_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6B48A89B-51A7-4321-B2EC-18D3FD2ACBFA}|FHIR_API\\FHIR_API.csproj|c:\\users\\percoiditt\\source\\repos\\internship\\fhir_api\\fhir_api\\controllers\\fhircontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6B48A89B-51A7-4321-B2EC-18D3FD2ACBFA}|FHIR_API\\FHIR_API.csproj|solutionrelative:fhir_api\\controllers\\fhircontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B48A89B-51A7-4321-B2EC-18D3FD2ACBFA}|FHIR_API\\FHIR_API.csproj|c:\\users\\percoiditt\\source\\repos\\internship\\fhir_api\\fhir_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B48A89B-51A7-4321-B2EC-18D3FD2ACBFA}|FHIR_API\\FHIR_API.csproj|solutionrelative:fhir_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B48A89B-51A7-4321-B2EC-18D3FD2ACBFA}|FHIR_API\\FHIR_API.csproj|c:\\users\\percoiditt\\source\\repos\\internship\\fhir_api\\fhir_api\\data access\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B48A89B-51A7-4321-B2EC-18D3FD2ACBFA}|FHIR_API\\FHIR_API.csproj|solutionrelative:fhir_api\\data access\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B48A89B-51A7-4321-B2EC-18D3FD2ACBFA}|FHIR_API\\FHIR_API.csproj|c:\\users\\percoiditt\\source\\repos\\internship\\fhir_api\\fhir_api\\data access\\patientdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B48A89B-51A7-4321-B2EC-18D3FD2ACBFA}|FHIR_API\\FHIR_API.csproj|solutionrelative:fhir_api\\data access\\patientdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B48A89B-51A7-4321-B2EC-18D3FD2ACBFA}|FHIR_API\\FHIR_API.csproj|c:\\users\\percoiditt\\source\\repos\\internship\\fhir_api\\fhir_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6B48A89B-51A7-4321-B2EC-18D3FD2ACBFA}|FHIR_API\\FHIR_API.csproj|solutionrelative:fhir_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,12 +39,77 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "20240814094258_initial.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\FHIR_API\\FHIR_API\\Migrations\\20240814094258_initial.cs",
+              "RelativeDocumentMoniker": "FHIR_API\\Migrations\\20240814094258_initial.cs",
+              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\FHIR_API\\FHIR_API\\Migrations\\20240814094258_initial.cs",
+              "RelativeToolTip": "FHIR_API\\Migrations\\20240814094258_initial.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T09:42:59.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PatientDetail.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\FHIR_API\\FHIR_API\\Data Access\\PatientDetail.cs",
+              "RelativeDocumentMoniker": "FHIR_API\\Data Access\\PatientDetail.cs",
+              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\FHIR_API\\FHIR_API\\Data Access\\PatientDetail.cs",
+              "RelativeToolTip": "FHIR_API\\Data Access\\PatientDetail.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T09:31:41.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\FHIR_API\\FHIR_API\\Data Access\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "FHIR_API\\Data Access\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\FHIR_API\\FHIR_API\\Data Access\\ApplicationDbContext.cs",
+              "RelativeToolTip": "FHIR_API\\Data Access\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T09:28:54.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\FHIR_API\\FHIR_API\\Program.cs",
+              "RelativeDocumentMoniker": "FHIR_API\\Program.cs",
+              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\FHIR_API\\FHIR_API\\Program.cs",
+              "RelativeToolTip": "FHIR_API\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T09:27:54.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\FHIR_API\\FHIR_API\\appsettings.json",
+              "RelativeDocumentMoniker": "FHIR_API\\appsettings.json",
+              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\FHIR_API\\FHIR_API\\appsettings.json",
+              "RelativeToolTip": "FHIR_API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-14T09:26:03.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "FHIRController.cs",
               "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\FHIR_API\\FHIR_API\\Controllers\\FHIRController.cs",
               "RelativeDocumentMoniker": "FHIR_API\\Controllers\\FHIRController.cs",
               "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\FHIR_API\\FHIR_API\\Controllers\\FHIRController.cs",
               "RelativeToolTip": "FHIR_API\\Controllers\\FHIRController.cs",
-              "ViewState": "AQIAAJsBAAAAAAAAAAAmwKcBAAAlAAAA",
+              "ViewState": "AQIAACMCAAAAAAAAAAAWwFkCAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-29T10:57:40.816Z",
               "EditorCaption": ""
