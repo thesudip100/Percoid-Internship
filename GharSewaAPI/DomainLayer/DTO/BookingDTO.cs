@@ -15,5 +15,6 @@ namespace DomainLayer.DTO
         public string? ServiceName { get; set; }
         public string? BookingDate { get; set; }
         public int? BookingId { get; set; }
+        public bool? BookingApproval { get; set; }
     }
 }

@@ -19,6 +19,12 @@ namespace ApplicationLayer.Services.Service
         {
             _bookrepo = bookrepo;
         }
+
+        public Task<string> ApproveBookingsAsync(int bookid)
+        {
+            return _bookrepo.ApproveBookingsAsync(bookid);
+        }
+
         public Task<string> BookServiceAsync(BookingDTO booking, ClaimsPrincipal user)
         {
             return _bookrepo.BookServiceAsync(booking, user);
@@ -34,6 +40,11 @@ namespace ApplicationLayer.Services.Service
             return _bookrepo.GetAllBookingsAsync();
         }
 
+        public Task<IEnumerable<BookingDTO>> GetAllUnapprovedBookingsAsync()
+        {
+            return _bookrepo.GetAllUnapprovedBookingsAsync();
+        }
+
         public Task<Booking> GetBookingbyBookingIdAsync(int bookId)
         {
             return _bookrepo.GetBookingbyBookingIdAsync(bookId);
@@ -42,6 +53,11 @@ namespace ApplicationLayer.Services.Service
         public Task<IEnumerable<BookingDTO>> GetBookingByUserIdAsync(int id)
         {
             return _bookrepo.GetBookingByUserIdAsync(id);
+        }
+
+        public Task<string> GetBookingStatusAsync(int bookid)
+        {
+            return _bookrepo.GetBookingStatusAsync(bookid);
         }
 
         public Task<string> UpdateBookingDetailsAsync(BookingDTO booking, int book)

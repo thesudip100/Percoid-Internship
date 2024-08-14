@@ -17,5 +17,8 @@ namespace ApplicationLayer.Services.Service_Interface
         public Task<IEnumerable<BookingDTO>> GetBookingByUserIdAsync(int id);
         public Task<string> DeletebookingAsync(int bookid);
         public Task<string> UpdateBookingDetailsAsync(BookingDTO booking, int bookid);
+        public Task<string> ApproveBookingsAsync(int bookid);
+        public Task<string> GetBookingStatusAsync(int bookid);
+        public Task<IEnumerable<BookingDTO>> GetAllUnapprovedBookingsAsync();
     }
 }

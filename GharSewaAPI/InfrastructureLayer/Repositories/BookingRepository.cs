@@ -32,11 +32,12 @@ namespace InfrastructureLayer.Repositories
 
             using (var connection = new SqlConnection(connectionString))
             {
-                var bookingQuery = "INSERT INTO Bookings(ServiceName, BookingDate) VALUES(@ServiceName, @BookingDate); SELECT SCOPE_IDENTITY();";
+                var bookingQuery = "INSERT INTO Bookings(ServiceName, BookingDate,BookingApproval) VALUES(@ServiceName, @BookingDate, @status); SELECT SCOPE_IDENTITY();";
                 var bookingId = await connection.ExecuteScalarAsync<int>(bookingQuery, new
                 {
                     @ServiceName = booking.ServiceName,
-                    @BookingDate = booking.BookingDate
+                    @BookingDate = booking.BookingDate,
+                    @status=false
                 });
 
                 var userBookingQuery = "INSERT INTO UserBookings(UserId, BookingId) VALUES(@UserId, @BookingId)";
@@ -46,7 +47,7 @@ namespace InfrastructureLayer.Repositories
                     @BookingId = bookingId
                 });
 
-                return "Booking successful";
+                return "Booking sent!! Confirmation pending from admin";
             }
         }
 
@@ -64,8 +65,11 @@ namespace InfrastructureLayer.Repositories
         {
             using (var connection = new SqlConnection(connectionString))
             {
-                var query = "select u.FullName, u.Address, u.phone, b.ServiceName, b.BookingDate, b.BookingId from Users u join UserBookings ub on u.UserId=ub.UserId join Bookings b on b.BookingId=ub.BookingId order by b.BookingId desc";
-                var entities = await connection.QueryAsync<BookingDTO>(query);
+                var query = "select u.FullName, u.Address, u.phone, b.ServiceName, b.BookingDate, b.BookingId from Users u join UserBookings ub on u.UserId=ub.UserId join Bookings b on b.BookingId=ub.BookingId where b.BookingApproval=@status order by b.BookingId desc";
+                var entities = await connection.QueryAsync<BookingDTO>(query, new
+                {
+                    status=true
+                });
                 return entities.ToList();
             }
         }
@@ -84,7 +88,7 @@ namespace InfrastructureLayer.Repositories
         {
             using (var connection = new SqlConnection(connectionString))
             {
-                var query = "select u.FullName, u.Address, u.phone, b.ServiceName, b.BookingDate, b.bookingId from Users u join UserBookings ub on u.UserId=ub.UserId join Bookings b on b.BookingId=ub.BookingId where u.UserId=@Id order by b.BookingId desc";
+                var query = "select u.FullName, u.Address, u.phone, b.ServiceName, b.BookingDate, b.bookingId, b.BookingApproval from Users u join UserBookings ub on u.UserId=ub.UserId join Bookings b on b.BookingId=ub.BookingId where u.UserId=@Id order by b.BookingId desc";
                 var entities = await connection.QueryAsync<BookingDTO>(query, new { @Id = id });
                 return entities.ToList();
             }
@@ -127,5 +131,52 @@ namespace InfrastructureLayer.Repositories
                 return "Updated successfully";
             }
         }
+
+        public async Task<string> ApproveBookingsAsync(int bookid)
+        {
+            using (var connection = new SqlConnection(connectionString))
+            {
+                var approvalquery = "UPDATE Bookings set BookingApproval=@status where BookingId=@Id";
+                await connection.ExecuteAsync(approvalquery, new
+                {
+                    @status = true,
+                    @Id = bookid
+                });
+                return "Successfully approved";
+            }
+        }
+
+
+        public async Task<string> GetBookingStatusAsync(int bookid)
+        {
+            using (var connection = new SqlConnection(connectionString))
+            {
+                var statusquery = "SELECT BookingApproval from Bookings where BookingId=@Id";
+                var data = await connection.QuerySingleOrDefaultAsync<bool?>(statusquery, new { Id = bookid });
+
+                if (data == true)
+                {
+                    return "Booking Approved";
+                }
+                else
+                {
+                    return "Pending Approval";
+                }
+            }
+        }
+
+        public async Task<IEnumerable<BookingDTO>> GetAllUnapprovedBookingsAsync()
+        {
+            using (var connection = new SqlConnection(connectionString))
+            {
+                var query = "select u.FullName, u.Address, u.phone, b.ServiceName, b.BookingDate, b.BookingId, b.BookingApproval from Users u join UserBookings ub on u.UserId=ub.UserId join Bookings b on b.BookingId=ub.BookingId where b.BookingApproval=@status order by b.BookingId desc";
+                var entities = await connection.QueryAsync<BookingDTO>(query, new
+                {
+                    status=false
+                });
+                return entities.ToList();
+            }
+        }
     }
 }
+

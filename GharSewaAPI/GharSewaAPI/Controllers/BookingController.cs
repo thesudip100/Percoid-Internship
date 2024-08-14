@@ -40,6 +40,13 @@ namespace GharSewaAPI.Controllers
             return Ok(result);
         }
 
+        [HttpGet, Authorize(Roles = "Admin")]
+        public async Task<IActionResult> GetUnapprovedBookings()
+        {
+            var result = await _bookservice.GetAllUnapprovedBookingsAsync();
+            return Ok(result);
+        }
+
 
         [HttpGet("{id}")]
         public async Task<IActionResult> GetBookingsbyUserId(int id)
@@ -59,6 +66,20 @@ namespace GharSewaAPI.Controllers
         public async Task<IActionResult> DeleteBookingDetailsAsync(int bookid)
         {
             var result = await _bookservice.DeletebookingAsync(bookid);
+            return Ok(new { message = $"{result}" });
+        }
+
+        [HttpGet("{bookid}"), Authorize(Roles = "Admin")]
+        public async Task<IActionResult> ApproveBookingsAsync(int bookid)
+        {
+            var result= await _bookservice.ApproveBookingsAsync(bookid);
+            return Ok(new { message = $"{result}" });
+        }
+
+        [HttpGet("{bookid}")]
+        public async Task<IActionResult> GetBookingStatusAsync(int bookid)
+        {
+            var result= await _bookservice.GetBookingStatusAsync(bookid);
             return Ok(new { message = $"{result}" });
         }
 

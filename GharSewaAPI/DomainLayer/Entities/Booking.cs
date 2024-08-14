@@ -14,5 +14,6 @@ namespace DomainLayer.Entities
         public int BookingId { get; set; }
         public string? ServiceName { get; set; }
         public string? BookingDate { get; set; }
+        public bool? BookingApproval { get; set; }
     }
 }
