@@ -90,23 +90,35 @@ namespace FHIR_API.Controllers
    }
 }
 */
+using Dapper;
 using FHIR_API.Data_Access;
+using FHIR_API.DataAccess;
 using Hl7.Fhir.Model;
 using Hl7.Fhir.Rest;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Data.SqlClient;
+using Microsoft.Identity.Client;
+using Npgsql;
+using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.Reflection;
 
 namespace YourNamespace.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("api/[controller]/[action]")]
     public class PatientController : ControllerBase
     {
         private const string FhirServer = "https://server.fire.ly";
+        /*private const string FhirServer = "http://hapi.fhir.org/baseR4";*/
         private readonly ApplicationDbContext appDbContext;
+        private readonly string connectionstring;
 
-        public PatientController(ApplicationDbContext _appDbContext)
+        public PatientController(ApplicationDbContext _appDbContext, IConfiguration _configuration)
         {
             appDbContext = _appDbContext;
+            connectionstring = _configuration.GetConnectionString("DefaultConnection");
         }
 
         [HttpGet]
@@ -201,7 +213,7 @@ namespace YourNamespace.Controllers
                             }*/
 
                             //CORRECT WAY 
-                            List<string> telecom = new List<string>();
+                            List<string> telecom = new List<string>(["Not Provided"]);
                             if (patient.Telecom != null)
                             {
                                 if (patient.Telecom is List<ContactPoint> telecomdetail)
@@ -246,7 +258,7 @@ namespace YourNamespace.Controllers
                             //FOR DECEASED
                             string deceasedDate = "NOT SPECIFIED";
                             string deceasedTrue = "";
-                            List<string> deceased = new List<string>();
+                            List<string> deceased = new List<string>(["NOT SPECIFIED"]);
 
                             if (patient.Deceased != null)
                             {
@@ -276,7 +288,7 @@ namespace YourNamespace.Controllers
                             //MARITAL STATUS
                             string marital = "NOT SPECIFIED";
                             string divorceDate = "";
-                            List<string> maritalStatus = new List<string>();
+                            List<string> maritalStatus = new List<string>(["NOT SPECIFIED"]);
                             if (patient.MaritalStatus != null)
                             {
 
@@ -567,6 +579,33 @@ namespace YourNamespace.Controllers
                             appDbContext.Patients.Add(patientsdata);
                             appDbContext.SaveChanges();
 
+                            /*using(var connection = new NpgsqlConnection(connectionstring))
+                            {
+                                var query = "INSERT INTO Patients(Id,Active,Name,Address,Gender,DoB,Deceased,MaritalStatus,MultipleBirth,Telecom,ContactRelationship,ContactName,ContactPhone,ContactEmail,ContactAddress,ContactGender,ContactPeriod,Communication,PreferredLanguage) VALUES (@Id,@Active,@Name,@Address,@Gender,@DoB,@Deceased,@MaritalStatus,@MultipleBirth,@Telecom,@ContactRelationship,@ContactName,@ContactPhone,@ContactEmail,@ContactAddress,@ContactGender,@ContactPeriod,@Communication,@PreferredLanguage)";
+                                connection.Execute(query, new
+                                {
+                                    @Id = patient.Id,
+                                    @Active = patient.Active ?? false,
+                                    @Name = patient.Name.FirstOrDefault()?.ToString() ?? "Not specified",
+                                    @Address = address,
+                                    @Gender = gender,
+                                    @DoB = patient.BirthDate ?? "NOT SPECIFIED",
+                                    @Deceased = deceased,
+                                    @MaritalStatus = maritalStatus,
+                                    @MultipleBirth = multipleBirth,
+                                    @Telecom = telecom,
+                                    @ContactRelationship = contactRelationship,
+                                    @ContactName = contactName,
+                                    @ContactPhone = contactPhone,
+                                    @ContactEmail = contactEmail,
+                                    @ContactAddress = contactAddress,
+                                    @ContactGender = contactGender,
+                                    @ContactPeriod = contactPeriod,
+                                    @Communication = language,
+                                    @PreferredLanguage = preferredLang
+                                });
+                            }*/
+
                             /*patients.Add(new
                             {
                                 Id = patient.Id,
@@ -612,6 +651,275 @@ namespace YourNamespace.Controllers
             catch (Exception ex)
             {
                 return StatusCode(500, new { Message = ex.Message });
+            }
+        }
+
+
+        [HttpGet()]
+        public IActionResult GetPractitioner(int maxCount)
+        {
+            try
+            {
+                FhirClient fhirClient = new FhirClient(FhirServer);
+                Bundle practitionerBundle = fhirClient.Search<Practitioner>(new string[] { });
+                var total = practitionerBundle.Total;
+
+                var practitioners = new List<object>();
+
+                while (practitionerBundle != null && practitionerBundle.Entry != null && practitionerBundle.Entry.Count > 0)
+                {
+                    foreach (Bundle.EntryComponent practitionerEntry in practitionerBundle.Entry)
+                    {
+                        if (practitioners.Count() >= maxCount)
+                        {
+                            break;
+                        }
+
+                        if (practitionerEntry.Resource != null)
+                        {
+                            Practitioner practitioner = (Practitioner)practitionerEntry.Resource;
+
+                            //for prefix of Name
+
+                            string prefix = "";
+                            if (practitioner.Name != null)
+                            {
+                                var prefixList = practitioner.Name.FirstOrDefault()?.Prefix;
+                                if (prefixList != null)
+                                {
+                                    foreach (var p in prefixList)
+                                    {
+                                        prefix = p.ToString();
+                                    }
+                                }
+
+
+                            }
+
+
+                            //for telecom
+
+                            string email = "";
+                            string phone = "";
+                            string fax = "";
+                            if (practitioner.Telecom != null)
+                            {
+
+                                if (practitioner.Telecom is List<ContactPoint> telecomdetail)
+                                {
+                                    if (telecomdetail.Count > 0 && telecomdetail != null)
+                                    {
+                                        foreach (var a in telecomdetail)
+                                        {
+                                            if (a.System != null)
+                                            {
+                                                if (a.System.ToString() == "Email")
+                                                {
+                                                    email += a.Value.ToString() + " ";
+                                                }
+                                                if (a.System.ToString() == "Phone")
+                                                {
+                                                    phone += a.Value.ToString() + " ";
+                                                }
+
+                                                if (a.System.ToString() == "Fax")
+                                                {
+                                                    fax += a.Value.ToString() + " ";
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+
+                            //FOR GENDER
+
+                            string gender = "NOT SPECIFIED";
+                            if (practitioner.Gender != null)
+                            {
+                                if (practitioner.Gender == AdministrativeGender.Female)
+                                {
+                                    gender = "Female";
+                                }
+                                else if (practitioner.Gender == AdministrativeGender.Male)
+                                {
+                                    gender = "Male";
+                                }
+                                else if (practitioner.Gender == AdministrativeGender.Unknown)
+                                {
+                                    gender = "Unknown";
+                                }
+                                else if (practitioner.Gender == AdministrativeGender.Other)
+                                {
+                                    gender = "Other";
+                                }
+                                else
+                                {
+                                    gender = "NOT SPECIFIED";
+                                }
+
+                            }
+
+                            //FOR ADDRESS
+
+                            string address = "";
+                            string line = "";
+                            if (practitioner.Address != null && practitioner.Address.Count > 0)
+                            {
+                                if (practitioner.Address is List<Address> addressvalues)
+                                {
+                                    var postalcode = addressvalues.FirstOrDefault()?.PostalCode;
+                                    var district = addressvalues.FirstOrDefault()?.District;
+                                    var period = addressvalues.FirstOrDefault()?.Period;
+                                    var lineList = addressvalues.FirstOrDefault()?.Line;
+                                    if (lineList != null)
+                                    {
+                                        foreach (var l in lineList)
+                                        {
+                                            line = l.ToString();
+                                        }
+                                    }
+                                    var cityname = addressvalues.FirstOrDefault()?.City;
+                                    var statename = addressvalues.FirstOrDefault()?.State;
+                                    var countryname = addressvalues.FirstOrDefault()?.Country;
+                                    address = $"{postalcode}, {district}, {period}, {line}, {cityname}, {statename}, {countryname}";
+                                }
+                            }
+
+
+                            //FOR QUALIFICATION
+
+                            List<string> qualification = new List<string>();
+                            if (practitioner.Qualification != null)
+                            {
+                                var qualificationList = practitioner.Qualification;
+                                if (qualificationList.Count > 0 && qualificationList != null)
+                                {
+                                    string? id = "";
+                                    string? degree = "";
+                                    string? period = "";
+                                    string? university = "";
+                                    foreach (var i in qualificationList)
+                                    {
+                                        if (i.Identifier != null)
+                                        {
+                                            var idList = i.Identifier;
+                                            foreach (var j in idList)
+                                            {
+                                                id = j.Value.ToString();
+                                            }
+                                            qualification.Add(id);
+                                        }
+
+                                        if (i.Code is CodeableConcept code)
+                                        {
+                                            var codingList = code.Coding;
+                                            foreach (var k in codingList)
+                                            {
+                                                degree = k.Display.ToString();
+                                            }
+                                            qualification.Add(degree);
+                                        }
+
+                                        if (i.Period != null)
+                                        {
+                                            period = i.Period.Start.ToString();
+                                            qualification.Add(period);
+                                        }
+
+                                        if (i.Issuer != null)
+                                        {
+                                            university = i.Issuer.Display.ToString();
+                                            qualification.Add(university);
+                                        }
+                                    }
+                                }
+                            }
+
+                            /*//COMMUNICATION
+                            string? language = "";
+                            string? preferredLang = "";
+
+                            if (practitioner.Communication != null && practitioner.Communication.Count > 0)
+                            {
+                                if (practitioner.Communication is List<CodeableConcept> commList)
+                                {
+                                    foreach (var comm in commList)
+                                    {
+                                        var lang = comm.Language;
+                                        foreach (var coding in lang)
+                                        {
+                                            Language = coding.Key;
+                                            Language.FirstOrDefault()?.
+                                         }
+                                        if (lang != null && lang.Coding != null)
+                                        {
+                                            var coding = lang.Coding;
+                                            foreach (var value in coding)
+                                            {
+                                                if (value.Display != null)
+                                                {
+                                                    language += value.Display + " ";
+                                                }
+                                                else
+                                                {
+                                                    language += value.Code + " ";
+                                                }
+
+                                            }
+                                        }
+
+                                        var preferred = comm.Preferred;
+                                        if (preferred is Boolean pre)
+                                        {
+                                            preferredLang = pre.ToString();
+                                        }
+                                        else
+                                        {
+                                            preferredLang = "Not Specified";
+                                        }
+
+                                    }
+                                }
+                            }*/
+
+
+                            practitioners.Add(new
+                            {
+                                Id = practitioner.Id,
+                                Active = practitioner.Active ?? false,
+                                Name = prefix + " " + practitioner.Name.FirstOrDefault()?.ToString() ?? "Not specified",
+                                /* Email = email,
+                                 Phone = phone,
+                                 Fax = fax,*/
+                                Gender = gender,
+                                Address = address,
+                                Qualification = qualification,
+                                stdQual = practitioner.Qualification,
+                                Language = practitioner.Language
+                            });
+
+                        }
+                    }
+
+                    if (practitioners.Count >= maxCount)
+                    {
+                        break;
+                    }
+
+                    practitionerBundle = fhirClient.Continue(practitionerBundle);
+                }
+
+                return Ok(new
+                {
+                    Practitioner = practitioners,
+                    Total = total
+                });
+            }
+
+            catch (Exception e)
+            {
+                return BadRequest(e.Message);
             }
         }
     }
