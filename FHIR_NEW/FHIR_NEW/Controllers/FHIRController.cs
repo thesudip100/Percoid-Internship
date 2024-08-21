@@ -244,25 +244,28 @@ namespace FHIR_NEW.Controllers
                             {
                                 if (patient.MultipleBirth is FhirBoolean multipleBirth)
                                 {
-                                    multipleBirthStatus = multipleBirth.Value?.ToString() ?? "False";
-                                    mul_birth.Add(multipleBirthStatus);
+                                    multipleBirthStatus = multipleBirth.Value?.ToString();
+                                    mul_birth.Add(multipleBirthStatus ?? "Unknown");
                                 }
                                 else if (patient.MultipleBirth is Integer birth_number)
                                 {
+                                    multipleBirthStatus = "True";  
+
                                     if (birth_number.Value == 0)
                                     {
-                                        multipleBirthStatus = "True";
                                         birth_Order = "Birth order not specified";
                                     }
                                     else if (birth_number.Value == 1)
                                     {
-                                        multipleBirthStatus = "True";
                                         birth_Order = "First child";
                                     }
                                     else if (birth_number.Value == 2)
                                     {
-                                        multipleBirthStatus = "True";
                                         birth_Order = "Second child";
+                                    }
+                                    else
+                                    {
+                                        birth_Order = $"Child number {birth_number.Value}";
                                     }
 
                                     mul_birth.Add(multipleBirthStatus);
@@ -270,7 +273,219 @@ namespace FHIR_NEW.Controllers
                                 }
                             }
 
-                            patients.Add(mul_birth);
+
+                            //COMMUNICATION
+                            string langg;
+                            if (patient.Communication!=null && patient.Communication.Count > 0)
+                            {
+                                if(patient.Communication is List<Patient.CommunicationComponent> commList)
+                                {
+                                    foreach(var comm in commList)
+                                        if (comm.Language != null && comm.Language.Coding != null && comm.Language.Coding.Count > 0)
+                                        {
+                                            foreach (var coding in comm.Language.Coding)
+                                            {
+                                                
+                                                
+                                                if(coding.Code=="en")
+                                                {
+                                                    langg = "English";
+                                                }
+
+                                                else if(coding.Code=="es")
+                                                {
+                                                    langg = "Spanish";
+                                                }
+
+                                                else if (coding.Code == "ca")
+                                                {
+                                                    langg = "English(Canada)";
+                                                }
+
+                                                else if (coding.Code == "fr")
+                                                {
+                                                    langg = "French";
+                                                }
+
+                                                else
+                                                {
+                                                    //checks if coding.Code is not null, if not null assigns value of coding.Code else "Unknown Code"
+                                                    langg = coding.Code ?? "Unknown Code";
+                                                }
+
+                                                if (!string.IsNullOrWhiteSpace(coding.Display))
+                                                {
+                                                     langg= coding.Display;
+                                                }
+                                                
+                                               
+                                            }
+                                        }
+                                }
+                            }
+
+
+                            //CONTACT
+                            string relationship;
+                            string contactName;
+                            string contactEmail;
+                            string contactPhone;
+                            string contactGender;
+                            string contactAddress = String.Empty;
+                            List<string> contactList= new List<string>();
+                            if(patient.Contact!=null)
+                            {
+                                //FOR CONTACT RELATIONSHIP
+                                var relationshipContainer = patient.Contact.FirstOrDefault()?.Relationship;
+                                if(relationshipContainer!=null)
+                                {
+                                    var relationshipCode = relationshipContainer.FirstOrDefault()?.Coding;
+                                    if(relationshipCode!=null)
+                                    {
+                                        var relationshipValue = relationshipCode.FirstOrDefault()?.Code;
+
+                                        relationship = relationshipValue switch
+                                        {
+                                            "BP" => "Billing Contact Person",
+                                            "CP" => "Contact Person",
+                                            "EP" => "Emergency Contact Person",
+                                            "PR" => "Person Preparing Referral",
+                                            "E" => "Employer",
+                                            "C" => "Emergency Contact",
+                                            "F" => "Federal Agency",
+                                            "I" => "Insurance Company",
+                                            "N" => "Next-of-Kin",
+                                            "S" => "State Agency",
+                                            "U" => "Unknown",
+                                            _ => "NOT SPECIFIED"
+                                        };
+                                        contactList.Add(relationship);
+                                    }
+                                }
+
+                                //FOR CONTACT NAME
+                                var name = patient.Contact.FirstOrDefault()?.Name;
+                                if (name is HumanName contactname)
+                                {
+                                    var contactLastName = contactname.Family;
+                                    var givenNamesList = new List<string>();
+                                    foreach (var g in contactname.Given)
+                                    {
+                                        givenNamesList.Add(g.ToString());
+                                    }
+                                    var contactGivenName = string.Join(" ", givenNamesList);
+                                    contactName = contactGivenName + " " + Convert.ToString(contactLastName);
+                                    contactList.Add(contactName);
+                                }
+
+                                //FOR CONTACT TELECOM
+                                var contactTelecom = patient.Contact.FirstOrDefault()?.Telecom;
+                                if (contactTelecom is List<ContactPoint> contactTel)
+                                {
+                                    if (contactTel.FirstOrDefault()?.System.ToString().ToLower() == "phone")
+                                    {
+                                        contactPhone = contactTel.FirstOrDefault()?.Value;
+                                        contactList.Add(contactPhone);
+                                    }
+                                   
+
+                                    if (contactTel.LastOrDefault()?.System.ToString().ToLower() == "email")
+                                    {
+                                        contactEmail = contactTel.LastOrDefault()?.Value;
+                                        contactList.Add(contactEmail);
+                                    }
+                                    
+
+                                }
+
+                                //FOR CONTACT GENDER
+                                contactGender = patient.Contact.FirstOrDefault()?.Gender.ToString();
+                                if(contactGender!=null)
+                                {
+                                    contactList.Add(contactGender);
+                                }
+                                
+
+                                //FOR CONTACT ADDRESS
+                                var addressValue = patient.Address.FirstOrDefault();
+                                if (addressValue != null)
+                                {
+                                    // Loop through the lines if they exist
+                                    if (addressValue.Line != null)
+                                    {
+                                        foreach (var l in addressValue.Line)
+                                        {
+                                            if (!string.IsNullOrEmpty(l))
+                                            {
+                                                var line = l;
+                                                contactAddress += line;
+                                            }
+
+                                        }
+                                    }
+
+                                    if (!string.IsNullOrEmpty(addressValue.City))
+                                    {
+                                        var city = addressValue.City;
+                                        contactAddress += city + ",";
+                                    }
+
+                                    if (!string.IsNullOrEmpty(addressValue.District))
+                                    {
+                                        var district = addressValue.District;
+                                        contactAddress += district + ",";
+                                    }
+
+                                    if (!string.IsNullOrEmpty(addressValue.State))
+                                    {
+                                        var state = addressValue.State;
+                                        contactAddress += state + ",";
+                                    }
+
+                                    if (!string.IsNullOrEmpty(addressValue.Country))
+                                    {
+                                        var state = addressValue.Country;
+                                        contactAddress += state + ",";
+                                    }
+
+                                    if (!string.IsNullOrEmpty(addressValue.PostalCode))
+                                    {
+                                        var postalcode = addressValue.PostalCode;
+                                        contactAddress += postalcode + ",";
+
+                                    }
+
+                                    if (!string.IsNullOrEmpty(addressValue.Text))
+                                    {
+                                        var text = addressValue.Text;
+                                    }
+
+                                    //since Use in enum, HasValue is used
+                                    if (addressValue.Use.HasValue)
+                                    {
+                                        var use = addressValue.Use.ToString();
+                                    }
+
+
+                                    if (addressValue.Type.HasValue)
+                                    {
+                                        var type = addressValue.Type.ToString();
+                                    }
+
+                                    //removing last comma and space
+                                    if (address.EndsWith(","))
+                                    {
+                                        contactAddress = address.Substring(0, address.Length - 1);
+                                    }
+
+                                    contactList.Add(contactAddress);
+                                    
+                                }
+
+                                patients.Add(contactList);
+                                
+                            }
+                            
                         }
 
                     }
@@ -297,3 +512,5 @@ namespace FHIR_NEW.Controllers
 
     }
 }
+
+

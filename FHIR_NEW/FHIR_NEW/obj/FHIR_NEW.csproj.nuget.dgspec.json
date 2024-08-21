@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PERCOIDITT\\source\\repos\\FHIR_NEW\\FHIR_NEW\\FHIR_NEW.csproj": {}
+    "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\FHIR_NEW\\FHIR_NEW\\FHIR_NEW.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PERCOIDITT\\source\\repos\\FHIR_NEW\\FHIR_NEW\\FHIR_NEW.csproj": {
+    "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\FHIR_NEW\\FHIR_NEW\\FHIR_NEW.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PERCOIDITT\\source\\repos\\FHIR_NEW\\FHIR_NEW\\FHIR_NEW.csproj",
+        "projectUniqueName": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\FHIR_NEW\\FHIR_NEW\\FHIR_NEW.csproj",
         "projectName": "FHIR_NEW",
-        "projectPath": "C:\\Users\\PERCOIDITT\\source\\repos\\FHIR_NEW\\FHIR_NEW\\FHIR_NEW.csproj",
+        "projectPath": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\FHIR_NEW\\FHIR_NEW\\FHIR_NEW.csproj",
         "packagesPath": "C:\\Users\\PERCOIDITT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PERCOIDITT\\source\\repos\\FHIR_NEW\\FHIR_NEW\\obj\\",
+        "outputPath": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\FHIR_NEW\\FHIR_NEW\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
