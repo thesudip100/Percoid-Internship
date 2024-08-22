@@ -1,7 +1,9 @@
-﻿using Hl7.Fhir.Model;
+﻿using FHIR_NEW.Data_Access;
+using Hl7.Fhir.Model;
 using Hl7.Fhir.Rest;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System;
 
 namespace FHIR_NEW.Controllers
 {
@@ -10,6 +12,15 @@ namespace FHIR_NEW.Controllers
     public class FHIRController : ControllerBase
     {
         private const string FhirServer = "https://server.fire.ly";
+        private readonly ApplicationDbContext _context;
+        private readonly string connectionString;
+       
+
+        public FHIRController(ApplicationDbContext context, IConfiguration configuration)
+        {
+            _context = context;
+            connectionString = configuration.GetConnectionString("DefaultConnection");
+        }
 
 
         [HttpGet]
@@ -275,7 +286,7 @@ namespace FHIR_NEW.Controllers
 
 
                             //COMMUNICATION
-                            string langg;
+                            string langg = String.Empty;
                             if (patient.Communication!=null && patient.Communication.Count > 0)
                             {
                                 if(patient.Communication is List<Patient.CommunicationComponent> commList)
@@ -482,10 +493,44 @@ namespace FHIR_NEW.Controllers
                                     
                                 }
 
-                                patients.Add(contactList);
-                                
                             }
-                            
+
+                            patients.Add(new
+                            {
+                                Id = patient.Id,
+                                Name = patient.Name,
+                                active = patient.Active,
+                                Telecom = patient.Telecom,
+                                Gender = patient.Gender,
+                                DoB = patient.BirthDate,
+                                Deceased = patient.Deceased,
+                                Address = patient.Address,
+                                marritalStatus = patient.MaritalStatus,
+                                multipleBirth = patient.MultipleBirth,
+                                contactDetails = patient.Contact,
+                                Communication = patient.Communication
+                            });
+
+
+                            var patientsdata = new PatientModel()
+                            {
+                                Id = patient.Id,
+                                Active = patient.Active ?? false,
+                                Name = patient.Name.FirstOrDefault()?.ToString() ?? "Not specified",
+                                Telecom = telecom,
+                                Gender = gender,
+                                DoB = patient.BirthDate ?? "NOT SPECIFIED",
+                                Deceased = deceased,
+                                Address = address,
+                                MaritalStatus = maritalStatus,
+                                MultipleBirth = mul_birth,
+                                Family_ContactDetails = contactList,
+                                Communication = langg
+                            };
+
+                            _context.PatientsDetail.AddAsync(patientsdata);
+                            _context.SaveChangesAsync();
+
                         }
 
                     }
@@ -499,6 +544,7 @@ namespace FHIR_NEW.Controllers
                 }
                 return Ok(new
                 {
+                    Total =total,
                     Patient = patients
                 });
 
