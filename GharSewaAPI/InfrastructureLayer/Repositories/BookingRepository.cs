@@ -177,6 +177,28 @@ namespace InfrastructureLayer.Repositories
                 return entities.ToList();
             }
         }
+
+        public async Task<AdminStatsDTO> AdminStatsAsync()
+        {
+            using(var connection = new SqlConnection(connectionString))
+            {
+                var query1 = "SELECT COUNT(*) from Bookings where BookingApproval=@status";
+                var approvedBookingsCount=await connection.ExecuteScalarAsync<int>(query1, new {status=true});
+
+                var query2 = "SELECT COUNT(*) from Bookings where BookingApproval=@status";
+                var UnapprovedBookingsCount = await connection.ExecuteScalarAsync<int>(query2, new { status = false });
+
+                var query3 = "SELECT COUNT(*) from Categories";
+                var CategoryCount = await connection.ExecuteScalarAsync<int>(query3);
+
+                return new AdminStatsDTO
+                {
+                    ApprovedBookingsCount = approvedBookingsCount,
+                    UnapprovedBookingsCount = UnapprovedBookingsCount,
+                    CategoryCount = CategoryCount
+                };
+            }
+        }
     }
 }
 

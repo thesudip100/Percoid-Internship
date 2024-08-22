@@ -34,6 +34,13 @@ namespace GharSewaAPI.Controllers
         }
 
         [HttpGet]
+        public async Task<IActionResult> getAdminStats()
+        {
+            var result = await _bookservice.AdminStatsAsync();
+            return Ok(result);
+        }
+
+        [HttpGet]
         public async Task<IActionResult> GetBookingsbyBookingId(int bookid)
         {
             var result = await _bookservice.GetBookingbyBookingIdAsync(bookid);

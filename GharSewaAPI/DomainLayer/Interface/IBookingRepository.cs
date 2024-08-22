@@ -20,5 +20,6 @@ namespace DomainLayer.Interface
         public Task<string> ApproveBookingsAsync(int bookid);
         public Task<string> GetBookingStatusAsync(int bookid);
         public Task<IEnumerable<BookingDTO>> GetAllUnapprovedBookingsAsync();
+        public Task<AdminStatsDTO> AdminStatsAsync();
     }
 }

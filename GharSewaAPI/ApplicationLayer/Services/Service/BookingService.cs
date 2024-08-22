@@ -20,6 +20,11 @@ namespace ApplicationLayer.Services.Service
             _bookrepo = bookrepo;
         }
 
+        public Task<AdminStatsDTO> AdminStatsAsync()
+        {
+            return _bookrepo.AdminStatsAsync();
+        }
+
         public Task<string> ApproveBookingsAsync(int bookid)
         {
             return _bookrepo.ApproveBookingsAsync(bookid);
