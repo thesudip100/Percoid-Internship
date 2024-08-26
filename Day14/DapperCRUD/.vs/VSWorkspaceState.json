@@ -6,8 +6,10 @@
     "\\DapperCRUD",
     "\\DapperCRUD\\Controllers",
     "\\DomainLayer",
-    "\\DomainLayer\\Entities"
+    "\\DomainLayer\\Entities",
+    "\\InfrastructureLayer",
+    "\\InfrastructureLayer\\Repository"
   ],
-  "SelectedNode": "\\DapperCRUD.sln",
+  "SelectedNode": "\\InfrastructureLayer\\Repository\\CustomerRepository.cs",
   "PreviewInSolutionExplorer": false
 }

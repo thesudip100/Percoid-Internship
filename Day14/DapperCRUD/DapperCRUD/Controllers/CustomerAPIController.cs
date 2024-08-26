@@ -16,7 +16,7 @@ namespace DapperCRUD.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetAllCustomer()
+        public async Task<IActionResult> GetAllAsync()
         {
             var customers = await customer.GetAllDataAsync();
             return Ok(customers);
