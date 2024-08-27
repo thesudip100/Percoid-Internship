@@ -6,6 +6,7 @@ using InfrastructureLayer.Repository;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
 using Moq;
+using System.Runtime.CompilerServices;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace UnitTests
@@ -90,35 +91,66 @@ namespace UnitTests
             Assert.IsType<Customer[]>(result.Value); // You verify that the result is of type Customer[]. This checks that the result is an array of customers
         }
 
+
+        
+
         [Theory]
-        [InlineData(1)]
+        [InlineData(1, true)]  // Customer found
+        [InlineData(2, false)] // Customer not found
+        public async Task Test_GetSingleCustomer(int id, bool customerExists)
+        {
+            // Arrange
+            Customer? customer = customerExists ? new Customer { Id = id } : null;
+            CustomerServiceMock.Setup(service => service.GetByIdDataAsync(id)).ReturnsAsync(customer);
+            var customerController = new CustomerAPIController(CustomerServiceMock.Object);
 
-        /* public async Task<IActionResult> GetSingleCustomer(int id)
-         {
-             var data = await customer.GetByIdDataAsync(id);
-             if (data == null) return NotFound();
-             return Ok(data);
-         }*/
+            // Act
+            var result = await customerController.GetSingleCustomer(id);
 
-        /* public Task<Customer> GetByIdDataAsync(int id)
-         {
-             return repository.GetByIdAsync(id);
-         }*/
+            // Assert
+            if (customerExists)
+            {
+                // when customerExists is false, the controller returns a NotFoundResult,
+                // but your test is attempting to cast it to an OkObjectResult, which causes the InvalidCastException.(if done like previous way)
+                //To fix this, you should only cast the result to OkObjectResult when you expect it to be of that type.
 
-        /* public async Task<Customer> GetByIdAsync(int id)
-         {
-             using (var connection = new SqlConnection(_connectionString))
-             {
-                 var query = "select * from Customer WHERE Id = @Id";
-                 var entity = await connection.QuerySingleOrDefaultAsync<Customer>(query, new { @Id = id });
-                 if (entity != null)
-                     return entity;
-                 else
-                     throw new Exception("Entity not Found");
-             }
-
-         }*/
+                var okResult = Assert.IsType<OkObjectResult>(result);
+                Assert.Equal(200, okResult.StatusCode);
+                Assert.IsType<Customer>(okResult.Value);
+            }
+            else
+            {
+                Assert.IsType<NotFoundResult>(result);
+            }
+        }
 
 
+
+        [Fact]
+        public async Task Test_AddCustomer()
+        {
+            //Arrange
+            var customer = new Customer
+            {
+                Id = 1,
+                Name = "Sudip",
+                Email = "sudippaudel944@gmail.com",
+                Phone = "9868207566",
+                Address = "Shankhamul"
+            };
+            CustomerServiceMock.Setup(service => service.AddDataAsync(customer)).ReturnsAsync("added");
+            var customerController = new CustomerAPIController(CustomerServiceMock.Object);
+
+
+            //Act
+            //here, since the controller is of type Ok() and doesnt return any object or values, this is of (OkResult) type only
+            var result= (OkResult)await customerController.AddCustomer(customer);
+
+            //assert
+            Assert.Equal(200, result.StatusCode);
+            Assert.IsType<OkResult>(result);
+        }
+     
     }
 }
+
