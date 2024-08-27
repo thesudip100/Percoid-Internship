@@ -3,6 +3,7 @@ using Castle.Core.Resource;
 using DapperCRUD.Controllers;
 using DomainLayer.Entities;
 using InfrastructureLayer.Repository;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
 using Moq;
@@ -150,7 +151,42 @@ namespace UnitTests
             Assert.Equal(200, result.StatusCode);
             Assert.IsType<OkResult>(result);
         }
-     
+
+
+
+        [Fact]
+        public async Task Test_UpdateCustomer_ReturnsUpdatedCustomer()
+        {
+            //Arrange
+            var customer = new Customer
+            {
+                Id = 1,
+                Name = "Sudip Paudel",
+                Email = "sudippaudel944@gmail.com",
+                Phone = "9868207566",
+                Address = "Shankhamul"
+            };
+
+            // Setup the mock to simply complete the task when UpdateDataAsync is called
+            CustomerServiceMock.Setup(service => service.UpdateDataAsync(customer)).Returns(Task.CompletedTask);
+            var customerController = new CustomerAPIController(CustomerServiceMock.Object);
+
+            // Act
+            var result = (OkObjectResult)await customerController.UpdateEmployee(customer);
+
+            //Assert
+            //checking for generic return pattern
+            Assert.Equal(200,result.StatusCode);
+            Assert.IsType<Customer>(result.Value);
+
+            //now checking if it returns updated values
+            var returnedCustomer = result.Value as Customer;
+            Assert.Equal(customer.Id, returnedCustomer?.Id);
+            Assert.Equal(customer.Name, returnedCustomer?.Name);
+            Assert.Equal(customer.Email, returnedCustomer?.Email);
+            Assert.Equal(customer.Phone, returnedCustomer?.Phone);
+            Assert.Equal(customer.Address, returnedCustomer?.Address);
+        }
     }
 }
 

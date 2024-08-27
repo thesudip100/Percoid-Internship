@@ -11,12 +11,12 @@
       "RelativeMoniker": "D:0:0:{E0D8EE98-7399-4741-9936-8220063F880A}|InfrastructureLayer\\InfrastructureLayer.csproj|solutionrelative:infrastructurelayer\\repository\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F4A50838-7478-4FAA-8AEF-8A835718EC0A}|DapperCRUD\\DapperCRUD.csproj|c:\\users\\percoiditt\\source\\repos\\internship\\day14\\dappercrud\\dappercrud\\controllers\\customerapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4A50838-7478-4FAA-8AEF-8A835718EC0A}|DapperCRUD\\DapperCRUD.csproj|solutionrelative:dappercrud\\controllers\\customerapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B6463474-CFD9-4262-85F5-C9B50979267D}|ApplicationLayer\\ApplicationLayer.csproj|c:\\users\\percoiditt\\source\\repos\\internship\\day14\\dappercrud\\applicationlayer\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B6463474-CFD9-4262-85F5-C9B50979267D}|ApplicationLayer\\ApplicationLayer.csproj|solutionrelative:applicationlayer\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4A50838-7478-4FAA-8AEF-8A835718EC0A}|DapperCRUD\\DapperCRUD.csproj|c:\\users\\percoiditt\\source\\repos\\internship\\day14\\dappercrud\\dappercrud\\controllers\\customerapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4A50838-7478-4FAA-8AEF-8A835718EC0A}|DapperCRUD\\DapperCRUD.csproj|solutionrelative:dappercrud\\controllers\\customerapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A15606AC-4398-490D-BADB-B664E80CBF11}|DomainLayer\\DomainLayer.csproj|c:\\users\\percoiditt\\source\\repos\\internship\\day14\\dappercrud\\domainlayer\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,21 +46,19 @@
               "RelativeToolTip": "DomainLayer\\Entities\\Customer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T10:55:13.841Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-26T10:55:13.841Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "CustomerAPIController.cs",
               "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day14\\DapperCRUD\\DapperCRUD\\Controllers\\CustomerAPIController.cs",
               "RelativeDocumentMoniker": "DapperCRUD\\Controllers\\CustomerAPIController.cs",
               "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day14\\DapperCRUD\\DapperCRUD\\Controllers\\CustomerAPIController.cs",
               "RelativeToolTip": "DapperCRUD\\Controllers\\CustomerAPIController.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAACAAAAAAAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAADMAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T09:08:37.229Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-26T09:08:37.229Z"
             },
             {
               "$type": "Document",
@@ -70,23 +68,21 @@
               "RelativeDocumentMoniker": "InfrastructureLayer\\Repository\\CustomerRepository.cs",
               "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day14\\DapperCRUD\\InfrastructureLayer\\Repository\\CustomerRepository.cs",
               "RelativeToolTip": "InfrastructureLayer\\Repository\\CustomerRepository.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAACEAAAAJAAAA",
+              "ViewState": "AQIAAAEAAAAAAAAAAAApwBUAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T08:41:49.726Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-26T08:41:49.726Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "CustomerService.cs",
               "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day14\\DapperCRUD\\ApplicationLayer\\Services\\CustomerService.cs",
               "RelativeDocumentMoniker": "ApplicationLayer\\Services\\CustomerService.cs",
               "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day14\\DapperCRUD\\ApplicationLayer\\Services\\CustomerService.cs",
               "RelativeToolTip": "ApplicationLayer\\Services\\CustomerService.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAAJAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACsAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T08:41:39.021Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-26T08:41:39.021Z"
             },
             {
               "$type": "Document",
@@ -96,7 +92,7 @@
               "RelativeDocumentMoniker": "UnitTests\\CustomerControllerTest.cs",
               "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\Day14\\DapperCRUD\\UnitTests\\CustomerControllerTest.cs",
               "RelativeToolTip": "UnitTests\\CustomerControllerTest.cs",
-              "ViewState": "AQIAADAAAAAAAAAAAAAAAIAAAAAOAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAKUAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-26T08:40:17.517Z",
               "EditorCaption": ""
