@@ -1,0 +1,6 @@
+@SHGAPI_HostAddress = http://localhost:5145
+
+GET {{SHGAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
