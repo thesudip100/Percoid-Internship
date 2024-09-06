@@ -32,5 +32,39 @@ namespace SHGAPI.Controllers
             // Serialize to JSON in FHIR-compliant format
             return Content(fhirPatient.ToJson(), "application/fhir+json");
         }
+
+        [HttpGet]
+        public async Task<IActionResult> GetAllFhirPatients()
+        {
+            var allPatientData = await _context.Patients.ToListAsync();
+
+            if (allPatientData == null || allPatientData.Count == 0)
+            {
+                return NotFound();
+            }
+
+            // Convert all patient records to FHIR-compliant patients
+            var fhirPatients = new List<Hl7.Fhir.Model.Patient>();
+            foreach (var patientData in allPatientData)
+            {
+                var fhirPatient = FhirConverter.ConvertToFhirPatient(patientData);
+                fhirPatients.Add(fhirPatient);
+            }
+
+            // Serialize the list of FHIR patients using FHIR JSON serializer
+            var fhirJsonSerializer = new FhirJsonSerializer();
+            var serializedPatients = new List<string>();
+
+            foreach (var patient in fhirPatients)
+            {
+                var serializedPatient = fhirJsonSerializer.SerializeToString(patient);
+                serializedPatients.Add(serializedPatient);
+            }
+
+            // Combine all serialized FHIR patients into a single JSON array
+            string jsonArray = "[" + string.Join(",", serializedPatients) + "]";
+
+            return Content(jsonArray, "application/fhir+json");
+        }
     }
 }

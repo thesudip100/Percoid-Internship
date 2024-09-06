@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PERCOIDITT\\source\\repos\\SHGAPI\\SHGAPI\\SHGAPI.csproj": {}
+    "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\SHGAPI\\SHGAPI\\SHGAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PERCOIDITT\\source\\repos\\SHGAPI\\SHGAPI\\SHGAPI.csproj": {
+    "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\SHGAPI\\SHGAPI\\SHGAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PERCOIDITT\\source\\repos\\SHGAPI\\SHGAPI\\SHGAPI.csproj",
+        "projectUniqueName": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\SHGAPI\\SHGAPI\\SHGAPI.csproj",
         "projectName": "SHGAPI",
-        "projectPath": "C:\\Users\\PERCOIDITT\\source\\repos\\SHGAPI\\SHGAPI\\SHGAPI.csproj",
+        "projectPath": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\SHGAPI\\SHGAPI\\SHGAPI.csproj",
         "packagesPath": "C:\\Users\\PERCOIDITT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PERCOIDITT\\source\\repos\\SHGAPI\\SHGAPI\\obj\\",
+        "outputPath": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\SHGAPI\\SHGAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
