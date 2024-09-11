@@ -3,36 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\SHGAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\SHGAPI\\SHGAPI\\Models\\NewFile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SHGAPI\\Models\\NewFile||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{BB802C60-FEC7-4E17-9CCF-1FAF936992C9}|SHGAPI\\SHGAPI.csproj|c:\\users\\percoiditt\\source\\repos\\internship\\shgapi\\shgapi\\fhirconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB802C60-FEC7-4E17-9CCF-1FAF936992C9}|SHGAPI\\SHGAPI.csproj|solutionrelative:shgapi\\fhirconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\SHGAPI\\SHGAPI\\FhirConverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SHGAPI\\FhirConverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BB802C60-FEC7-4E17-9CCF-1FAF936992C9}|SHGAPI\\SHGAPI.csproj|c:\\users\\percoiditt\\source\\repos\\internship\\shgapi\\shgapi\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB802C60-FEC7-4E17-9CCF-1FAF936992C9}|SHGAPI\\SHGAPI.csproj|solutionrelative:shgapi\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\SHGAPI\\SHGAPI\\Controllers\\PatientController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SHGAPI\\Controllers\\PatientController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BB802C60-FEC7-4E17-9CCF-1FAF936992C9}|SHGAPI\\SHGAPI.csproj|c:\\users\\percoiditt\\source\\repos\\internship\\shgapi\\shgapi\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB802C60-FEC7-4E17-9CCF-1FAF936992C9}|SHGAPI\\SHGAPI.csproj|solutionrelative:shgapi\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\SHGAPI\\SHGAPI\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SHGAPI\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{BB802C60-FEC7-4E17-9CCF-1FAF936992C9}|SHGAPI\\SHGAPI.csproj|c:\\users\\percoiditt\\source\\repos\\internship\\shgapi\\shgapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BB802C60-FEC7-4E17-9CCF-1FAF936992C9}|SHGAPI\\SHGAPI.csproj|solutionrelative:shgapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\SHGAPI\\SHGAPI\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SHGAPI\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BB802C60-FEC7-4E17-9CCF-1FAF936992C9}|SHGAPI\\SHGAPI.csproj|c:\\users\\percoiditt\\source\\repos\\internship\\shgapi\\shgapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB802C60-FEC7-4E17-9CCF-1FAF936992C9}|SHGAPI\\SHGAPI.csproj|solutionrelative:shgapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\SHGAPI\\SHGAPI\\Models\\PatientData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SHGAPI\\Models\\PatientData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BB802C60-FEC7-4E17-9CCF-1FAF936992C9}|SHGAPI\\SHGAPI.csproj|c:\\users\\percoiditt\\source\\repos\\internship\\shgapi\\shgapi\\models\\patientdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB802C60-FEC7-4E17-9CCF-1FAF936992C9}|SHGAPI\\SHGAPI.csproj|solutionrelative:shgapi\\models\\patientdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\SHGAPI\\SHGAPI\\SHGAPI.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SHGAPI\\SHGAPI.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{BB802C60-FEC7-4E17-9CCF-1FAF936992C9}|SHGAPI\\SHGAPI.csproj|c:\\users\\percoiditt\\source\\repos\\internship\\shgapi\\shgapi\\shgapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BB802C60-FEC7-4E17-9CCF-1FAF936992C9}|SHGAPI\\SHGAPI.csproj|solutionrelative:shgapi\\shgapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\SHGAPI\\SHGAPI\\WeatherForecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SHGAPI\\WeatherForecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BB802C60-FEC7-4E17-9CCF-1FAF936992C9}|SHGAPI\\SHGAPI.csproj|c:\\users\\percoiditt\\source\\repos\\internship\\shgapi\\shgapi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB802C60-FEC7-4E17-9CCF-1FAF936992C9}|SHGAPI\\SHGAPI.csproj|solutionrelative:shgapi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,39 +50,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "NewFile",
-              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\SHGAPI\\SHGAPI\\Models\\NewFile",
-              "RelativeDocumentMoniker": "SHGAPI\\Models\\NewFile",
-              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\SHGAPI\\SHGAPI\\Models\\NewFile",
-              "RelativeToolTip": "SHGAPI\\Models\\NewFile",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-09-10T05:25:12.722Z",
+              "DocumentIndex": 2,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\SHGAPI\\SHGAPI\\Models\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "SHGAPI\\Models\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\SHGAPI\\SHGAPI\\Models\\ApplicationDbContext.cs",
+              "RelativeToolTip": "SHGAPI\\Models\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAawGYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T05:08:24.78Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "FhirConverter.cs",
               "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\SHGAPI\\SHGAPI\\FhirConverter.cs",
               "RelativeDocumentMoniker": "SHGAPI\\FhirConverter.cs",
               "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\SHGAPI\\SHGAPI\\FhirConverter.cs",
               "RelativeToolTip": "SHGAPI\\FhirConverter.cs",
-              "ViewState": "AQIAADsAAAAAAAAAAAAgwHkAAAAFAAAA",
+              "ViewState": "AQIAAGsAAAAAAAAAAAAuwGcAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-05T09:08:38.678Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "PatientController.cs",
               "DocumentMoniker": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\SHGAPI\\SHGAPI\\Controllers\\PatientController.cs",
               "RelativeDocumentMoniker": "SHGAPI\\Controllers\\PatientController.cs",
               "ToolTip": "C:\\Users\\PERCOIDITT\\source\\repos\\Internship\\SHGAPI\\SHGAPI\\Controllers\\PatientController.cs",
               "RelativeToolTip": "SHGAPI\\Controllers\\PatientController.cs",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAAADMAAAAuAAAA",
+              "ViewState": "AQIAAGQAAAAAAAAAAAAuwGkAAABWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-05T09:06:14.331Z",
               "EditorCaption": ""
@@ -97,8 +97,7 @@
               "RelativeToolTip": "SHGAPI\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-05T09:04:23.101Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-05T09:04:23.101Z"
             },
             {
               "$type": "Document",
@@ -110,8 +109,7 @@
               "RelativeToolTip": "SHGAPI\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T09:02:30.633Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-05T09:02:30.633Z"
             },
             {
               "$type": "Document",
@@ -123,8 +121,7 @@
               "RelativeToolTip": "SHGAPI\\Models\\PatientData.cs",
               "ViewState": "AQIAABIAAAAAAAAAAAAAAC0AAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T09:02:03.292Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-05T09:02:03.292Z"
             },
             {
               "$type": "Document",
@@ -136,8 +133,7 @@
               "RelativeToolTip": "SHGAPI\\SHGAPI.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-05T08:57:43.292Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-05T08:57:43.292Z"
             },
             {
               "$type": "Document",
@@ -149,8 +145,7 @@
               "RelativeToolTip": "SHGAPI\\WeatherForecast.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T08:56:49.491Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-05T08:56:49.491Z"
             }
           ]
         }

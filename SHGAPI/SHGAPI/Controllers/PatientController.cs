@@ -31,9 +31,9 @@ namespace SHGAPI.Controllers
             var fhirPatient = FhirConverter.ConvertToFhirPatient(patientData);
 
             // Serialize to JSON in FHIR-compliant format
-            return Content(fhirPatient.ToJson(), "application/fhir+json");
+            /*return Content(fhirPatient.ToJson(), "application/fhir+json");*/
+            return Content(fhirPatient.ToString(Newtonsoft.Json.Formatting.None), "application/fhir+json");
         }
-
 
         [HttpGet]
         public async Task<IActionResult> GetAllFhirPatients()
@@ -45,31 +45,55 @@ namespace SHGAPI.Controllers
                 return NotFound();
             }
 
-            // Convert all patient records to FHIR-compliant patients
-            var fhirPatients = new List<Hl7.Fhir.Model.Patient>();
+            // Convert all patient records to FHIR-compliant JObject patients
+            var fhirPatients = new JArray();
             foreach (var patientData in allPatientData)
             {
                 var fhirPatient = FhirConverter.ConvertToFhirPatient(patientData);
                 fhirPatients.Add(fhirPatient);
             }
 
-            // Serialize the list of FHIR patients using FHIR JSON serializer
-            var fhirJsonSerializer = new FhirJsonSerializer();
-            var serializedPatients = new List<string>();
-
-            foreach (var patient in fhirPatients)
-            {
-                var serializedPatient = fhirJsonSerializer.SerializeToString(patient);
-                serializedPatients.Add(serializedPatient);
-            }
-
-            // Combine all serialized FHIR patients into a single JSON array
-            string jsonArray = "[" + string.Join(",", serializedPatients) + "]";
-
-            return Content(jsonArray, "application/fhir+json");
+            // Return the JArray as a single JSON array
+            return Content(fhirPatients.ToString(Newtonsoft.Json.Formatting.None), "application/fhir+json");
         }
 
-        /*[HttpGet("practitioners")]
+
+
+        /* [HttpGet]
+         public async Task<IActionResult> GetAllFhirPatients()
+         {
+             var allPatientData = await _context.Patients.ToListAsync();
+
+             if (allPatientData == null || allPatientData.Count == 0)
+             {
+                 return NotFound();
+             }
+
+             // Convert all patient records to FHIR-compliant patients
+             var fhirPatients = new List<Hl7.Fhir.Model.Patient>();
+             foreach (var patientData in allPatientData)
+             {
+                 var fhirPatient = FhirConverter.ConvertToFhirPatient(patientData);
+                 fhirPatients.Add(fhirPatient);
+             }
+
+             // Serialize the list of FHIR patients using FHIR JSON serializer
+             var fhirJsonSerializer = new FhirJsonSerializer();
+             var serializedPatients = new List<string>();
+
+             foreach (var patient in fhirPatients)
+             {
+                 var serializedPatient = fhirJsonSerializer.SerializeToString(patient);
+                 serializedPatients.Add(serializedPatient);
+             }
+
+             // Combine all serialized FHIR patients into a single JSON array
+             string jsonArray = "[" + string.Join(",", serializedPatients) + "]";
+
+             return Content(jsonArray, "application/fhir+json");
+         }*/
+
+        [HttpGet("practitioners")]
         public async Task<IActionResult> GetAllFhirPractitioners()
         {
             var allPractitionerData = await _context.Users.ToListAsync();
@@ -79,28 +103,31 @@ namespace SHGAPI.Controllers
                 return NotFound();
             }
 
-            // Convert all patient records to FHIR-compliant patients
-            var fhirPractitioners = new List<Hl7.Fhir.Model.Practitioner>();
+            // Convert all practitioner records to FHIR-compliant JObject practitioner
+            /* var fhirPractitioners = new List<Hl7.Fhir.Model.Practitioner>();*/
+            var fhirPractitioners = new JArray();
             foreach (var practitionerData in allPractitionerData)
             {
                 var fhirPatient = FhirConverter.ConvertToFhirPractitioner(practitionerData);
                 fhirPractitioners.Add(fhirPatient);
             }
+            /*
+                        // Serialize the list of FHIR patients using FHIR JSON serializer
+                        var fhirJsonSerializer = new FhirJsonSerializer();
+                        var serializedPractitioners = new List<string>();
 
-            // Serialize the list of FHIR patients using FHIR JSON serializer
-            var fhirJsonSerializer = new FhirJsonSerializer();
-            var serializedPractitioners = new List<string>();
-
-            foreach (var practitioner in fhirPractitioners)
-            {
-                var serializedPractitioner = fhirJsonSerializer.SerializeToString(practitioner);
-                serializedPractitioners.Add(serializedPractitioner);
-            }
+                        foreach (var practitioner in fhirPractitioners)
+                        {
+                            var serializedPractitioner = fhirJsonSerializer.SerializeToString(practitioner);
+                            serializedPractitioners.Add(serializedPractitioner);
+                        }
+           
 
             // Combine all serialized FHIR patients into a single JSON array
-            string jsonArray = "[" + string.Join(",", serializedPractitioners) + "]";
+            string jsonArray = "[" + string.Join(",", serializedPractitioners) + "]"; 
+            */
 
-            return Content(jsonArray, "application/fhir+json");
-        }*/
+            return Content(fhirPractitioners.ToString(Newtonsoft.Json.Formatting.None), "application/fhir+json");
+        }
     }
 }

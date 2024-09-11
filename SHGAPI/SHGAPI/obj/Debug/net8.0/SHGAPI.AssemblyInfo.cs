@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SHGAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0b79b86062c462ed7cc9b6981e95aeedcc15ce20")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e1ee0a4c3dca0ef206ee9480567e84b3147a20f2")]
 [assembly: System.Reflection.AssemblyProductAttribute("SHGAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SHGAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
